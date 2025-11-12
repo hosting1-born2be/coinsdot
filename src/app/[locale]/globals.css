@@ -1,0 +1,24 @@
+@import 'tailwindcss';
+
+:root {
+  --color-background: #000000;
+  --color-grey-95: #f0f2f7;
+}
+
+@theme inline {
+  --color-grey-95: var(--color-grey-95);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-background);
+  color: var(--color-grey-95);
+  font-family: Manrope, sans-serif;
+}
+
+.container {
+  @apply mx-auto w-[1240px] max-[1240px]:w-full max-[1024px]:px-2;
+}
