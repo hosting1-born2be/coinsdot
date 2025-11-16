@@ -3,10 +3,20 @@
 :root {
   --color-background: #000000;
   --color-grey-95: #f0f2f7;
+  --color-azure-6: #070d19;
+  --color-azure-10: #293656;
+  --color-grey-95: #f0f2f7;
+  --color-azure-25: #293656;
+  --color-danger: #fb4b4e;
 }
 
 @theme inline {
   --color-grey-95: var(--color-grey-95);
+  --color-azure-6: var(--color-azure-6);
+  --color-azure-10: var(--color-azure-10);
+  --color-grey-95: var(--color-grey-95);
+  --color-azure-25: var(--color-azure-25);
+  --color-danger: var(--color-danger);
 }
 
 html {
@@ -20,5 +30,18 @@ body {
 }
 
 .container {
-  @apply mx-auto w-[1240px] max-[1240px]:w-full max-[1024px]:px-2;
+  @apply mx-auto w-[1360px] max-[1360px]:w-[1240px] max-[1292px]:w-full max-[1024px]:px-2;
+}
+
+@keyframes slide-progress {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.animate-slide-progress {
+  animation: slide-progress 4s linear forwards;
 }

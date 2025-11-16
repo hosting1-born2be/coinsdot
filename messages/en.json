@@ -1,1 +1,154 @@
-{}
+{
+  "home": {
+    "hero": {
+      "title": {
+        "0": "Coinsdot.",
+        "1": "Where Crypto Meets Fiat."
+      },
+      "button": "Start Now"
+    },
+    "meetCoinsdot": {
+      "title": "Meet Coinsdot!",
+      "text": {
+        "0": "Coinsdot functions as a cryptocurrency exchange, built on clear and regulated processes. Our platform enables the conversion between digital assets and fiat currencies in a transparent environment supported by robust technology.",
+        "1": "Coinsdot applies a comprehensive safeguard framework designed to counter internal risks and protect data, funds, and transactions. Each transaction undergoes thorough screening and review to maintain the security of the platform and its users."
+      }
+    },
+    "howGetStarted": {
+      "title": "How to get started",
+      "steps": {
+        "0": "Create your account in minutes",
+        "1": "Confirm your identity with quick verification",
+        "2": "Choose currency, crypto and go!"
+      },
+      "tip": {
+        "title": "Tip",
+        "text": "For a smoother start, check our User Essentials section – it explains the requirements and helps you complete registration and verification faster.",
+        "button": "Check"
+      },
+      "importantNotice": {
+        "title": "Important notice on processing time!",
+        "text": "Most transactions are processed instantly, but timing can depend on the blockchain network and required compliance checks. Coinsdot ensures your transaction is processed in the most reliable way, so you get funds without unnecessary delays."
+      },
+      "button": "Register"
+    },
+    "whyCoinsdot": {
+      "title": {
+        "0": "Why",
+        "1": "Coinsdot"
+      },
+      "button": "Get Started",
+      "slides": {
+        "0": {
+          "title": "Simple by Design",
+          "text": "From sign-up to exchange – everything is clear, minimal, and easy to follow."
+        },
+        "1": {
+          "title": "Fast Results",
+          "text": "Transactions are processed quickly, with no unnecessary steps in between."
+        },
+        "2": {
+          "title": "Support That Cares",
+          "text": "Our team is here to answer, guide, and resolve – whenever you need us."
+        }
+      }
+    },
+    "trustedBy": {
+      "title": "Trusted by",
+      "text": "by authoritative crypto media worldwide!"
+    },
+    "complianceAndProtection": {
+      "title": {
+        "0": "Compliance & Protection at",
+        "1": "Coinsdot"
+      },
+      "cards": {
+        "0": {
+          "title": "Data Kept Private",
+          "text": "Your documents and personal details are stored securely and encrypted — never exposed or shared outside regulated checks."
+        },
+        "1": {
+          "title": "Helpful Support",
+          "text": "If you have questions during verification or payment, our team is here to guide you step by step."
+        },
+        "2": {
+          "title": "Verified Users Only",
+          "text": "Document verification is required for all clients. This is a strict requirement for any licensed financial service, and it helps keep the platform compliant and trustworthy."
+        },
+        "3": {
+          "title": "Safe Transactions",
+          "text": "Every payment passes through regulated banking channels, giving you clarity and peace of mind with every exchange."
+        }
+      }
+    },
+    "assistanceHub": {
+      "title": "Our assistance hub",
+      "text": "We know crypto feels frustrating — that’s why we’ve prepared resources to make things easier.",
+      "button": {
+        "0": "Q&A",
+        "1": "News & Insights"
+      }
+    },
+    "contactForm": {
+      "heading": "Our team is one form away!"
+    }
+  },
+  "footer": {
+    "customer": {
+      "title": "Customer",
+      "items": {
+        "0": "User Essentials",
+        "1": "Q&A",
+        "2": "Crypto Insights"
+      }
+    },
+    "company": {
+      "title": "Company",
+      "items": {
+        "0": "Inside Coinsdot",
+        "1": "Partnership",
+        "2": "Contact Us"
+      }
+    },
+    "legal": {
+      "title": "Legal",
+      "items": {
+        "0": "Terms & Conditions",
+        "1": "AML Policy",
+        "2": "Privacy Policy",
+        "3": "Return and Cancellation Policy",
+        "4": "Complains Procedure",
+        "5": "Cookie Policy",
+        "6": "Risk Disclosure"
+      }
+    },
+    "copyright": "Crypto. Fiat. Exchanged.",
+    "importantNotice": {
+      "title": "Important Notice",
+      "text": "This website and its content are intended only for users outside the United Kingdom. The information presented here is not directed to, or intended for use by, individuals or entities based in the UK. The services offered on Coinsdot.io are not available to UK retail clients. Please note that in the UK, cryptoassets are classified as Restricted Mass Market Investments — a high-risk category that may not be appropriate for most retail investors."
+    },
+    "banner": {
+      "title": "Coinsdot",
+      "text": "Coinsdot: Your Gateway to Crypto and Fiat.",
+      "description": "Coinsdot is owned and operated by Company Name, identification number Registration Number, authorised to provide virtual currency service, with registered and operational address at Registered Address."
+    }
+  },
+  "contactForm": {
+    "contactPerson": "Contact Person",
+    "company": "Company",
+    "phone": "Phone",
+    "email": "Email",
+    "request": "Your request",
+    "send": "Send",
+    "sending": "Sending..."
+  },
+  "thankYou": {
+    "title": "Thank you!",
+    "text": {
+      "0": "Your request has been submitted successfully.",
+      "1": "Our team is on the way",
+      "2": "to assist you and will get back to you shortly."
+    },
+    "button": "Return to home page"
+  }
+}

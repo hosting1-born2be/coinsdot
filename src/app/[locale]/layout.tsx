@@ -2,6 +2,8 @@ import { Manrope } from 'next/font/google';
 import { NextIntlClientProvider } from 'next-intl';
 
 import { cn } from '@/shared/lib/utils/cn';
+import { Footer } from '@/shared/ui/components/footer';
+import { Header } from '@/shared/ui/components/header';
 
 import './globals.css';
 
@@ -18,7 +20,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={cn(manrope.variable, 'antialiased')}>
-        <NextIntlClientProvider>{children}</NextIntlClientProvider>
+        <NextIntlClientProvider>
+          <Header />
+          {children}
+          <Footer />
+        </NextIntlClientProvider>
       </body>
     </html>
   );
