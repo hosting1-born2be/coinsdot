@@ -1,0 +1,10 @@
+.primary {
+  border: 1px solid var(--color-white-12, rgba(255, 255, 255, 0.15));
+  background:
+    linear-gradient(
+      228deg,
+      var(--color-azure-6, #070d19) 36.49%,
+      rgba(30, 89, 235, 0.2) 105.03%
+    ),
+    var(--color-azure-6, #070d19);
+}
