@@ -150,5 +150,17 @@
       "2": "to assist you and will get back to you shortly."
     },
     "button": "Return to home page"
+  },
+  "importantNotice": {
+    "title": "Important Notice",
+    "text": {
+      "0": "By using",
+      "1": "you confirm that you understand the risks linked to buying or selling cryptocurrency. Digital asset transactions can be volatile, and it’s important to be fully aware before proceeding. For details, please review our risk disclosure.",
+      "2": "Once an order is confirmed, it cannot be changed or reversed. Please make sure your personal details and wallet address are entered correctly before completing your transaction."
+    },
+    "buttons": {
+      "rejectAll": "Reject All",
+      "acceptAll": "Accept All"
+    }
   }
 }

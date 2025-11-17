@@ -4,6 +4,7 @@ import { NextIntlClientProvider } from 'next-intl';
 import { cn } from '@/shared/lib/utils/cn';
 import { Footer } from '@/shared/ui/components/footer';
 import { Header } from '@/shared/ui/components/header';
+import { ImportantNotice } from '@/shared/ui/components/important-notice';
 
 import './globals.css';
 
@@ -23,6 +24,7 @@ export default function RootLayout({
         <NextIntlClientProvider>
           <Header />
           {children}
+          <ImportantNotice />
           <Footer />
         </NextIntlClientProvider>
       </body>
