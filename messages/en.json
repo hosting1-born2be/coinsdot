@@ -162,5 +162,9 @@
       "rejectAll": "Reject All",
       "acceptAll": "Accept All"
     }
+  },
+  "contacts": {
+    "heading": "Always Here to Help",
+    "description": "Have questions or issues? Reach out. We’re just a message away!"
   }
 }

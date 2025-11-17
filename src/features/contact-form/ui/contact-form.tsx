@@ -1,11 +1,13 @@
 'use client';
 
-import { useState } from 'react';
+import { Activity, useState } from 'react';
 import dynamic from 'next/dynamic';
 import { useTranslations } from 'next-intl';
 import { useForm } from '@tanstack/react-form';
 
+import { cn } from '@/shared/lib/utils/cn';
 import { Button } from '@/shared/ui/kit/button';
+import { Text } from '@/shared/ui/kit/text';
 import { TextArea } from '@/shared/ui/kit/text-area';
 import { TextField } from '@/shared/ui/kit/text-field';
 import { Title } from '@/shared/ui/kit/title';
@@ -19,7 +21,15 @@ const ThankYou = dynamic(
   },
 );
 
-export const ContactForm = ({ heading }: { heading: string }) => {
+export const ContactForm = ({
+  heading,
+  description,
+  noAlignHeading = false,
+}: {
+  heading: string;
+  description?: string;
+  noAlignHeading?: boolean;
+}) => {
   const [isOpen, setIsOpen] = useState(false);
 
   const t = useTranslations('contactForm');
@@ -44,10 +54,18 @@ export const ContactForm = ({ heading }: { heading: string }) => {
 
   return (
     <section className="container flex rounded-3xl bg-[#120A34] p-2 max-lg:flex-col">
-      <div className="ml-auto flex w-1/2 flex-col p-10 max-lg:w-full">
-        <Title className="text-[96px] leading-[100%] tracking-[-0.09em] max-lg:text-[60px] max-lg:leading-[100%] max-lg:tracking-[-0.06em]">
+      <div
+        className={cn(
+          'flex w-1/2 flex-col justify-between p-10 max-lg:w-full max-lg:gap-[50px]',
+          !noAlignHeading && 'ml-auto',
+        )}
+      >
+        <Title className="text-[96px] leading-[100%] tracking-[-1.44px] max-lg:text-[40px] max-lg:leading-[100%] max-lg:tracking-[-0.06em]">
           {heading}
         </Title>
+        <Activity mode={description ? 'visible' : 'hidden'}>
+          <Text size="2xl">{description}</Text>
+        </Activity>
       </div>
       <form
         onSubmit={e => {
