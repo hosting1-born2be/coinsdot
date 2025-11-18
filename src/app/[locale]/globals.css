@@ -45,3 +45,41 @@ body {
 .animate-slide-progress {
   animation: slide-progress 4s linear forwards;
 }
+
+.ghost-large,
+.ghost-small {
+  transition: width 0.28s ease-in-out;
+  will-change: width;
+}
+
+.ghost-large {
+  width: calc(var(--btn-width, 0px) + 90px);
+
+  @media (max-width: 768px) {
+    width: calc(var(--btn-width, 0px) + 76px);
+  }
+}
+
+.ghost-small {
+  width: calc(var(--btn-width, 0px) + 44px);
+
+  @media (max-width: 768px) {
+    width: calc(var(--btn-width, 0px) + 36px);
+  }
+}
+
+.group:hover .ghost-large {
+  width: calc(var(--btn-width, 0px) + 44px);
+
+  @media (max-width: 768px) {
+    width: calc(var(--btn-width, 0px) + 36px);
+  }
+}
+
+.group:hover .ghost-small {
+  width: calc(var(--btn-width, 0px) + 20px);
+
+  @media (max-width: 768px) {
+    width: calc(var(--btn-width, 0px) + 16px);
+  }
+}

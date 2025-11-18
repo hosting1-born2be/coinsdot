@@ -191,5 +191,30 @@
       },
       "button": "Join Us"
     }
+  },
+  "cryptoInsights": {
+    "hero": {
+      "title": "Crypto Insights",
+      "text": "Essentials you need to know."
+    },
+    "banner": {
+      "title": "Myth: Crypto Is Only for Developers and Tech Geeks",
+      "text": "Think cryptocurrency is only for developers and tech enthusiasts? Think again. From Starbucks to real estate, crypto is becoming part of everyday financial life. Discover how Coinsdot makes exchanging Bitcoin, Ethereum with fiat secure and fully under your control.",
+      "button": "Read"
+    },
+    "articles": {
+      "0": {
+        "title": "Understanding How Crypto Wallets Work",
+        "description": "Think your crypto wallet “stores” your Bitcoin or Ethereum? The truth is more fascinating. Learn how wallets manage keys, how transactions are verified on the blockchain, and how Coinsdot ensures your transactions stay secure and under your control."
+      },
+      "1": {
+        "title": "Why KYC Matters in Crypto Exchange",
+        "description": "Understanding why KYC is essential in crypto exchange is key to building trust and confidence in the digital asset market. Learn how KYC protects both users and the platform, ensuring a secure and compliant environment."
+      },
+      "2": {
+        "title": "MiCA: Reshaping Europe’s Financial and Crypto Landscape",
+        "description": "MiCA is transforming crypto in Europe. From unified rules to stronger user protections, discover how this regulation is reshaping the financial landscape and what it means for crypto exchanges like Coinsdot."
+      }
+    }
   }
 }
