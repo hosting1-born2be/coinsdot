@@ -30,7 +30,7 @@ const btnVariants = cva(
       },
       size: {
         sm: 'h-10 pl-3 pr-2 gap-2 text-sm font-extralight',
-        md: 'h-[50px] px-8',
+        md: 'h-[52px] px-8',
         lg: 'h-[96px] max-md:h-[68px] text-lg font-extralight gap-2.5 justify-center pl-5 pr-0.5',
         xl: 'h-[100px] px-8 justify-center',
       },
@@ -46,6 +46,7 @@ const btnVariants = cva(
 export type ButtonVariants = VariantProps<typeof btnVariants>;
 
 export const Button = ({
+  ref,
   children,
   className,
   variant,
@@ -57,6 +58,7 @@ export const Button = ({
   type = 'button',
   as = 'button',
 }: {
+  ref?: React.RefObject<HTMLButtonElement | null>;
   children: ReactNode;
   className?: string;
   fullWidth?: boolean;
@@ -69,6 +71,7 @@ export const Button = ({
 
   return (
     <Tag
+      ref={ref}
       className={cn(
         btnVariants({ variant, size, rounded }),
         variant === 'primary' && st.primary,

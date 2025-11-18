@@ -1,6 +1,6 @@
 'use client';
 
-export const PlusIcon = ({ className }: { className?: string }) => (
+export const ArrowRightIcon = ({ className }: { className?: string }) => (
   <svg
     xmlns="http://www.w3.org/2000/svg"
     width="24"
@@ -10,16 +10,18 @@ export const PlusIcon = ({ className }: { className?: string }) => (
     className={className}
   >
     <path
-      d="M6 12H18"
-      stroke="black"
+      d="M14.4297 5.93018L20.4997 12.0002L14.4297 18.0702"
+      stroke="#060606"
       strokeWidth="1.5"
+      strokeMiterlimit="10"
       strokeLinecap="round"
       strokeLinejoin="round"
     />
     <path
-      d="M12 18V6"
-      stroke="black"
+      d="M3.5 12H20.33"
+      stroke="#060606"
       strokeWidth="1.5"
+      strokeMiterlimit="10"
       strokeLinecap="round"
       strokeLinejoin="round"
     />

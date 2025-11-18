@@ -35,8 +35,14 @@ export const ImportantNotice = () => {
         >
           <DialogTitle />
           <Description asChild>
-            <section className="relative flex w-full flex-col gap-3 overflow-hidden p-5 max-lg:min-h-[94vh] max-lg:overflow-y-auto">
-              <Title as="h4" size="lg" color="azure">
+            <section className="relative flex w-full flex-col gap-10 overflow-hidden p-10 max-lg:h-max max-lg:overflow-y-auto max-md:gap-4">
+              <Title
+                as="h4"
+                size="3xl"
+                weight={600}
+                color="azure"
+                className="text-[36px] leading-[40px] tracking-[-0.72px] max-md:text-[24px] max-md:leading-[28px] max-md:tracking-[-0.48px]"
+              >
                 {t('title', { fallback: 'Important Notice' })}
               </Title>
               <Text color="azure">
@@ -58,20 +64,10 @@ export const ImportantNotice = () => {
               </Text>
               <div className="flex items-center gap-1 pt-3">
                 <Button
-                  variant="outline"
+                  variant="primary"
                   size="md"
-                  rounded="xl"
                   onClick={() => setIsOpen(false)}
-                  fullWidth
-                >
-                  {t('buttons.rejectAll', { fallback: 'Reject All' })}
-                </Button>
-                <Button
-                  variant="fill"
-                  size="md"
-                  rounded="xl"
-                  onClick={() => setIsOpen(false)}
-                  fullWidth
+                  className="ml-auto"
                 >
                   {t('buttons.acceptAll', { fallback: 'Accept All' })}
                 </Button>
