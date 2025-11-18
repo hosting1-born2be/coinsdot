@@ -166,5 +166,30 @@
   "contacts": {
     "heading": "Always Here to Help",
     "description": "Have questions or issues? Reach out. We’re just a message away!"
+  },
+  "insideCoinsdot": {
+    "hero": {
+      "title": {
+        "0": "Welcome to"
+      },
+      "text": "We’re glad you’re here to learn more about who we are, what we stand for, and how we see the future of crypto exchange."
+    },
+    "whoWeAre": {
+      "title": "Who We Are",
+      "text": {
+        "0": "Coinsdot is built by a team of crypto and technology professionals united by a single vision: to make digital assets practical in everyday life.",
+        "1": "With backgrounds across finance, compliance, and technology, we bring expertise that ensures every transaction is fast, transparent, and aligned with global standards."
+      },
+      "focus": "Our focus:",
+      "focusText": "Delivering a straightforward platform for converting Bitcoin and Ethereum to fiat currencies, and back again."
+    },
+    "exchangeWithExperts": {
+      "title": "Exchange with Experts",
+      "steps": {
+        "0": "Coinsdot is operated by a licensed company supported by a qualified team with solid experience in the financial and digital asset sectors.",
+        "1": "We provide a reliable exchange service for both newcomers to cryptocurrency and those already familiar with the market."
+      },
+      "button": "Join Us"
+    }
   }
 }
