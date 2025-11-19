@@ -216,5 +216,94 @@
         "description": "MiCA is transforming crypto in Europe. From unified rules to stronger user protections, discover how this regulation is reshaping the financial landscape and what it means for crypto exchanges like Coinsdot."
       }
     }
+  },
+  "userEssentials": {
+    "hero": {
+      "title": "User Essentials",
+      "text": "Everything you need to start using Coinsdot is gathered here."
+    },
+    "howToExchange": {
+      "title": "How to Exchange with Coinsdot",
+      "button": "Exchange  with Coinsdot",
+      "steps": {
+        "0": {
+          "title": "Register and create your profile",
+          "text": "Sign up with Coinsdot in a few minutes. Registration is free and straightforward, simply complete the form and confirm your account."
+        },
+        "1": {
+          "title": "Complete verification",
+          "text": "Depending on the transaction amount, verification may vary. Submitting the required documents ensures compliance with regulations and keeps your exchanges secure."
+        },
+        "2": {
+          "title": "Link your crypto wallet",
+          "text": "Coinsdot does not hold your funds. To exchange cryptocurrency, connect your personal wallet, we recommend using official Bitcoin or Ethereum wallets, or a trusted multi-currency wallet of your choice."
+        },
+        "3": {
+          "title": "Choose necessary coins you want to buy or sell",
+          "text": "Choose what you need: buy or sell crypto, the coin and exchange."
+        },
+        "4": {
+          "title": "Confirm and track your transaction",
+          "text": "Once confirmed, the transaction will be processed securely. You can monitor its status in real time."
+        }
+      }
+    },
+    "documentsCannotAccept": {
+      "title": "Documents We Cannot Accept",
+      "button": "Join Us",
+      "text": {
+        "0": "For compliance reasons, Coinsdot can only process valid and verifiable documentation.",
+        "1": "Submissions will be rejected if they fall into any of the following categories."
+      },
+      "cards": {
+        "0": {
+          "title": "Invalid or unverified",
+          "text": "Documents that are not valid or have not been verified by the platform."
+        },
+        "1": {
+          "title": "Low quality",
+          "text": "Scans or photos that are blurred, cropped, poorly lit, or otherwise unclear."
+        },
+        "2": {
+          "title": "Outdated or duplicated",
+          "text": "Expired IDs, or copies of copies instead of original documents."
+        }
+      }
+    },
+    "verificationPackage": {
+      "title": "Verification Package",
+      "text": "To ensure every transaction complies with international standards, Coinsdot requires a full KYC package before payments can be processed:",
+      "packages": {
+        "0": {
+          "title": "Personal Identification",
+          "text": "Government-issued photo identification such as a passport, ID card, driver’s licence, or official residence permit."
+        },
+        "1": {
+          "title": "Residential Proof",
+          "text": "Recent documentation confirming your place of residence, e.g. utility statement, bank record, or telecom bill (issued within the past three months)."
+        },
+        "2": {
+          "title": "Financial Background",
+          "text": "A completed Source of Funds declaration together with supporting evidence to validate the origin of the assets used."
+        },
+        "3": {
+          "title": "Verification Procedures",
+          "text": "All identity checks are carried out through accredited third-party providers. In some cases, enhanced due diligence may require an additional questionnaire or a brief video interview."
+        },
+        "4": {
+          "title": "Supporting Forms",
+          "text": "Depending on the payment volume, Coinsdot may request short compliance forms related to purchase details or customer experience."
+        }
+      }
+    },
+    "importantMessage": {
+      "title": "Important Message on Wallets",
+      "text": {
+        "0": "Please note:",
+        "1": "Coinsdot does not provide custody of crypto or fiat.",
+        "2": "We operate solely as an exchange service.",
+        "3": "To manage your assets securely, you may consider creating personal wallets via:"
+      }
+    }
   }
 }
