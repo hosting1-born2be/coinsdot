@@ -305,5 +305,17 @@
         "3": "To manage your assets securely, you may consider creating personal wallets via:"
       }
     }
+  },
+  "header": {
+    "signUp": "sign up",
+    "logIn": "log in",
+    "menu": "menu",
+    "close": "close",
+    "insideCoinsdot": "Inside Coinsdot",
+    "userEssentials": "User Essentials",
+    "partnerships": "Partnerships",
+    "qa": "Q&A",
+    "cryptoInsights": "Crypto Insights",
+    "contactUs": "Contact Us"
   }
 }
