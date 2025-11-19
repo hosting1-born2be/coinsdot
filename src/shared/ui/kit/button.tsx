@@ -8,7 +8,7 @@ import { cn } from '@/shared/lib/utils/cn';
 import st from './button.module.css';
 
 const btnVariants = cva(
-  'flex items-center disabled:cursor-not-allowed outline-0 disabled:opacity-50 transition duration-300 ease-in-out cursor-pointer',
+  'flex items-center gap-2 disabled:cursor-not-allowed outline-0 disabled:opacity-50 transition duration-300 ease-in-out cursor-pointer',
   {
     variants: {
       variant: {
