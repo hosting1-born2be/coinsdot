@@ -3,6 +3,8 @@
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 
+import { articlesSlugs } from '@/features/articles/model/articles';
+
 import { cn } from '@/shared/lib/utils/cn';
 import { NavigateButton } from '@/shared/ui/components/navigate-button';
 import { ArrowRightIcon } from '@/shared/ui/icons/arrow-right';
@@ -16,7 +18,7 @@ const getArticles = (t: ReturnType<typeof useTranslations>) => [
       fallback:
         'Think your crypto wallet “stores” your Bitcoin or Ethereum? The truth is more fascinating. Learn how wallets manage keys, how transactions are verified on the blockchain, and how Coinsdot ensures your transactions stay secure and under your control.',
     }),
-    href: '/understanding-how-crypto-wallets-work',
+    href: `/crypto-insights/${articlesSlugs.understanding}`,
     imgUrl: '/images/crypto-insights/article-1.jpg',
   },
   {
@@ -25,7 +27,7 @@ const getArticles = (t: ReturnType<typeof useTranslations>) => [
       fallback:
         'Understanding why KYC is essential in crypto exchange is key to building trust and confidence in the digital asset market. Learn how KYC protects both users and the platform, ensuring a secure and compliant environment.',
     }),
-    href: '/why-kyc-matters-in-crypto-exchange',
+    href: `/crypto-insights/${articlesSlugs.whyKyc}`,
     imgUrl: '/images/crypto-insights/article-2.jpg',
     reverse: true,
   },
@@ -37,7 +39,7 @@ const getArticles = (t: ReturnType<typeof useTranslations>) => [
       fallback:
         'MiCA is transforming crypto in Europe. From unified rules to stronger user protections, discover how this regulation is reshaping the financial landscape and what it means for crypto exchanges like Coinsdot.',
     }),
-    href: '/mica-reshaping-europe-financial-and-crypto-landscape',
+    href: `/crypto-insights/${articlesSlugs.mica}`,
     imgUrl: '/images/crypto-insights/article-3.jpg',
   },
 ];

@@ -3,6 +3,10 @@
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 
+import { articlesSlugs } from '@/features/articles/model/articles';
+
+import { Link } from '@/i18n/navigation';
+
 import { GhostButton } from '@/shared/ui/kit/ghost-button';
 import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
@@ -37,9 +41,11 @@ export const Banner = () => {
             })}
           </Text>
         </div>
-        <GhostButton className="pl-9 max-md:ml-16">
-          {t('button', { fallback: 'Read' })}
-        </GhostButton>
+        <Link href={`/crypto-insights/${articlesSlugs.myth}`}>
+          <GhostButton className="pl-9 max-md:ml-16">
+            {t('button', { fallback: 'Read' })}
+          </GhostButton>
+        </Link>
       </section>
     </section>
   );

@@ -424,5 +424,215 @@
         }
       }
     }
+  },
+  "articles": {
+    "buttons": {
+      "joinNow": "Join Now",
+      "contactUs": "Contact Us"
+    }
+  },
+  "mythArticle": {
+    "hero": {
+      "title": "Myth: Crypto Is Only for Developers and Tech Geeks",
+      "description": "Cryptocurrency often carries an image of being a niche interest for developers, miners, or tech enthusiasts. However, this perception doesn't align with the current landscape. In reality, crypto is becoming an integral part of everyday life, accessible to a broader audience than ever before."
+    },
+    "content": {
+      "0": {
+        "title": "Global Retailers Engaging with Crypto",
+        "text": "Contrary to the belief that cryptocurrency is confined to online platforms, numerous global retailers are now engaging with crypto by integrating exchange options and accepting digital assets as a method of settlement. Major brands, including Microsoft, PayPal, Starbucks, and McDonald's, have enabled cryptocurrency payments, showing the growing recognition of digital assets in mainstream commerce."
+      },
+      "1": {
+        "title": "Online Services Supporting Crypto",
+        "text": "The use of cryptocurrency extends beyond physical stores. Various online services now accept digital assets, further broadening their utility. Platforms such as Overstock, ExpressVPN, and AT&T already accommodate crypto in transactions, highlighting the expanding role of digital currencies in online activities."
+      },
+      "2": {
+        "title": "Crypto in Real Estate: Bitcoin-Backed Mortgages",
+        "text": "In a groundbreaking development, Australia has introduced its first Bitcoin-backed mortgage. This product allows borrowers to use Bitcoin as collateral for home loans, offering an alternative avenue for property ownership. Such advancements underline the ongoing integration of cryptocurrency into traditional financial systems."
+      },
+      "3": {
+        "title": "The Future of Crypto Alongside Fiats",
+        "text": "The trajectory of cryptocurrency adoption suggests a future in which digital currencies coexist with traditional fiat currencies. As more businesses and services integrate crypto, and with innovations such as Bitcoin-backed mortgages, the relevance of cryptocurrency in everyday financial systems continues to grow. While challenges remain, the overall direction points toward a landscape where crypto and fiat work side by side."
+      },
+      "4": {
+        "title": "Coinsdot: Your Gateway to Crypto Exchange",
+        "text": {
+          "0": "At Coinsdot, we make cryptocurrency practical by providing a clear way to exchange Bitcoin and Ethereum with fiat currencies. Our platform is designed for both newcomers and experienced users who want to convert between digital and traditional assets. By focusing on compliance and structured processes, Coinsdot enables crypto to become part of everyday financial activity.",
+          "1": "With this article, we aim to debunk the myth that cryptocurrency is only for developers and enthusiasts, showing instead how it is steadily entering mainstream use. If you'd like to learn more about how to exchange crypto into fiat, or fiat into crypto, the Coinsdot team is here to help."
+        }
+      }
+    }
+  },
+  "understandingArticle": {
+    "hero": {
+      "title": "Understanding How Crypto Wallets Work",
+      "description": "Most people see a crypto wallet as “an app that holds your Bitcoin or Ethereum.” But the truth is more interesting: wallets don’t actually store coins. Instead, they store the keys that prove ownership of your funds on the blockchain. Understanding how a wallet functions will give you confidence in every transaction you make."
+    },
+    "content": {
+      "0": {
+        "title": "Inside the Wallet: What Really Happens",
+        "text": {
+          "0": "When you open your wallet, you are essentially looking at an interface that manages two key components: your public address (where funds can be sent) and your private key (which serves as your proof of ownership). The private key never leaves the wallet, but it’s what signs every transaction you approve.",
+          "1": "So, what happens when you decide to send crypto?",
+          "2": "At this stage, the coins don’t “move” from one digital pocket to another. Instead, the blockchain updates its ledger: your balance decreases, and the recipient’s balance increases. Think of it as updating rows in a giant public spreadsheet that everyone can see."
+        },
+        "list": {
+          "0": "You enter the recipient’s address and the amount.",
+          "1": "Your wallet creates a digital message and signs it with your private key.",
+          "2": "The signed transaction is sent to the blockchain network, where nodes verify its validity."
+        }
+      },
+      "1": {
+        "title": "Outside the Wallet: Following the Transaction",
+        "text": {
+          "0": "Once your wallet sends the transaction, it is picked up by the blockchain network. Validators or miners confirm it, add it to a block, and the payment becomes permanent. That’s when the recipient sees the funds in their wallet.",
+          "1": "If you want to check where your transaction stands, you don’t have to trust the app alone. By entering the transaction ID on a public explorer, such as blockchain.com, you can view when it was received, confirmed, and recorded in the blockchain. This transparency is what makes crypto unique compared to traditional banking."
+        }
+      },
+      "2": {
+        "title": "Coinsdot and Non-Custodial Exchange",
+        "text": {
+          "0": "At Coinsdot, we work on a non-custodial model. That means we never hold your crypto or fiat funds. We only facilitate the exchange between cryptocurrency and fiat. The coins always move directly from your wallet into the exchange process, with fiat transferred straight to your account — without detours, and without us keeping anything in between.",
+          "1": "For you, this means peace of mind: your assets remain under your control, and every transaction can be tracked on the blockchain. Our role is to ensure that converting crypto to fiat, or fiat to crypto, is handled in a compliant and transparent way."
+        }
+      }
+    }
+  },
+  "whyKycArticle": {
+    "hero": {
+      "title": "Why KYC Matters in Crypto Exchange",
+      "description": "If you’ve ever signed up for a financial service, chances are you’ve gone through KYC — “Know Your Customer.” In the cryptocurrency world, some users view it as an obstacle, but in reality, it’s a safeguard that ensures exchanges operate securely and in compliance with international regulations. At Coinsdot, KYC is integral to making cryptocurrency exchange work smoothly and reliably."
+    },
+    "content": {
+      "0": {
+        "title": "Why KYC Is Required",
+        "text": {
+          "0": "Unlike cash, crypto transactions cross borders instantly and without intermediaries. This freedom also makes it important to verify who is sending and receiving funds. KYC helps prevent money laundering, fraud, and misuse of digital assets. It also gives you confidence that the platform you are working with is compliant and trusted.",
+          "1": "For you as a user, completing KYC means your exchange transactions are processed without unnecessary holds or questions. It ensures that conversions between crypto and fiat are handled efficiently and accepted in line with global standards."
+        }
+      },
+      "1": {
+        "title": "What You Will Be Asked to Provide",
+        "text": {
+          "0": "The KYC process is straightforward, but it does require a few documents to confirm your identity and source of funds. Typically, you will be asked for: A valid government-issued ID such as a passport, national identity card, or residence permit. Proof of address — for example, a recent utility bill or bank statement with your name on it. A signed declaration of your source of funds, sometimes with supporting evidence.",
+          "1": "The Coinsdot process may also include a brief verification call, along with simple questionnaires to confirm the purpose of exchange transactions and ensure compliance. These steps don’t take long, but they are essential for regulatory standards."
+        },
+        "list": {
+          "0": "A valid government-issued ID such as a passport, national identity card, or residence permit.",
+          "1": "Proof of address — for example, a recent utility bill or bank statement with your name on it.",
+          "2": "A signed declaration of your source of funds, sometimes with supporting evidence."
+        }
+      },
+      "2": {
+        "title": "The Result: Smooth, Compliant Exchange",
+        "text": {
+          "0": "Once your KYC is approved, you can exchange crypto and fiat without interruptions. Each transaction is directly recorded on the blockchain, while Coinsdot ensures that everything aligns with compliance requirements.",
+          "1": "Importantly, Coinsdot works as a non-custodial service: we never hold your funds. KYC doesn’t change that — it simply gives you verified access to an exchange channel where crypto moves directly from your wallet through the conversion process and back to your chosen account."
+        }
+      },
+      "3": {
+        "title": "In Short",
+        "text": {
+          "0": "KYC might seem like paperwork, but in practice, it’s your entry ticket to reliable crypto exchange. By confirming your identity once, you open the door to a system where conversions between Bitcoin, Ethereum, and fiat can be completed efficiently, transparently, and in compliance with all relevant regulations.",
+          "1": "The Coinsdot process is designed to be clear and effective: provide your documents, complete verification, and start exchanging crypto with confidence."
+        }
+      }
+    }
+  },
+  "micaArticle": {
+    "hero": {
+      "title": "MiCA: Reshaping Europe’s Financial and Crypto Landscape",
+      "description": "The European Union has now lived under the Markets in Crypto-Assets Regulation (MiCA) for several months, and its impact is becoming clear. Far from being just another regulatory framework, MiCA has transformed the way crypto operates across Europe, reshaping both the financial sector and the user experience."
+    },
+    "content": {
+      "0": {
+        "title": "A Single Rulebook for All of Europe",
+        "text": {
+          "0": "Before MiCA, Europe’s crypto environment was fragmented. Each country had its own rules, licensing models, or, in some cases, little oversight at all. This patchwork created uncertainty for companies and limited protection for users.",
+          "1": {
+            "0": "MiCA changed that. For the first time, Europe has a",
+            "1": "harmonized regulatory framework",
+            "2": "that applies to all 27 member states. Licensed providers can now operate seamlessly across the EU, bringing a",
+            "3": "level of clarity, consistency, and trust",
+            "4": "that didn’t exist before."
+          }
+        }
+      },
+      "1": {
+        "title": "Raising the Bar for Service Providers",
+        "text": {
+          "0": "Crypto exchanges, custodians, and other service providers are now required to meet clear standards on:",
+          "1": "This shift has elevated the industry, forcing out under-regulated players and setting a higher bar for professionalism."
+        },
+        "list": {
+          "0": {
+            "0": "Governance and transparency",
+            "1": "ensuring responsible operations"
+          },
+          "1": {
+            "0": "Consumer protection",
+            "1": "prioritizing fairness and clarity in all services"
+          },
+          "2": {
+            "0": "Market integrity",
+            "1": "rules against manipulation, insider trading, and misleading promotions"
+          },
+          "3": {
+            "0": "Stablecoin safeguards",
+            "1": "issuers must hold reserves and disclose risks in regulator-approved whitepapers"
+          }
+        }
+      },
+      "2": {
+        "title": "Benefits for Users",
+        "text": {
+          "0": "For users, MiCA’s changes are already visible:",
+          "1": "Crypto is no longer a “grey area” in Europe — it is part of a regulated, transparent financial system."
+        },
+        "list": {
+          "0": {
+            "0": "Trust",
+            "1": "Licensed platforms must act in the client’s best interests"
+          },
+          "1": {
+            "0": "Clarity",
+            "1": "Whitepapers now explain features and risks in plain language"
+          },
+          "2": {
+            "0": "Protection",
+            "1": "Stronger rules around transparency and asset handling"
+          },
+          "3": {
+            "0": "Access",
+            "1": "One license across the EU means users can rely on consistent standards everywhere"
+          }
+        }
+      },
+      "3": {
+        "title": "Strengthening Europe’s Financial Position",
+        "text": {
+          "0": "By establishing MiCA, Europe has positioned itself as a global leader in crypto regulation. While other regions still debate frameworks, the EU now offers",
+          "1": "legal certainty",
+          "2": "and a clear path for innovation within a regulated space. This not only protects users but also attracts businesses seeking stability and growth opportunities."
+        }
+      },
+      "4": {
+        "title": "Coinsdot’s Perspective",
+        "text": {
+          "0": "At Coinsdot, we view MiCA as an enabler, not a limitation. It gives our users confidence that they are trading on a licensed, compliant, and transparent exchange. For us as a provider, it creates a level playing field where the focus is on service quality, innovation, and user experience — not regulatory uncertainty."
+        }
+      },
+      "5": {
+        "title": "In Summary",
+        "text": "MiCA has reshaped the financial and crypto landscape of Europe. It has unified fragmented markets, improved protections, and strengthened Europe’s reputation as a safe and innovative hub for digital assets.",
+        "list": {
+          "0": "For users, it means confidence and transparency.",
+          "1": "For providers, it means accountability and opportunity.",
+          "2": {
+            "0": "For Europe, it signals the arrival of a",
+            "1": "mature, regulated crypto era"
+          }
+        }
+      }
+    }
   }
 }
