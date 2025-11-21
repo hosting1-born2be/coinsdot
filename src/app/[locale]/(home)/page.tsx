@@ -1,7 +1,3 @@
-import { getTranslations } from 'next-intl/server';
-
-import { ContactForm } from '@/features/contact-form/ui/contact-form';
-
 import {
   AssistanceHub,
   ComplianceAndProtection,
@@ -12,9 +8,7 @@ import {
   WhyCoinsdot,
 } from './components';
 
-export default async function Home() {
-  const t = await getTranslations('home.contactForm');
-
+export default function Home() {
   return (
     <main>
       <Hero />
@@ -24,9 +18,9 @@ export default async function Home() {
       <TrustedBy />
       <ComplianceAndProtection />
       <AssistanceHub />
-      <ContactForm
+      {/* <ContactForm
         heading={t('heading', { fallback: 'Our team is one form away!' })}
-      />
+      /> */}
     </main>
   );
 }

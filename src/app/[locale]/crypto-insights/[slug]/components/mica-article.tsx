@@ -125,7 +125,11 @@ export const MicaArticle = () => {
             })}
           </ArticleText>
         </ArticleSection>
-        <ArticleSection title="Benefits for Users">
+        <ArticleSection
+          title={t('content.2.title', {
+            fallback: 'Benefits for Users',
+          })}
+        >
           <ArticleText>
             {t('content.2.text.0', {
               fallback: 'For users, MiCA’s changes are already visible:',

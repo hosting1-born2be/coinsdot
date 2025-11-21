@@ -1,0 +1,729 @@
+{
+  "articles": {
+    "buttons": {
+      "contactUs": "Kontaktujte nás",
+      "joinNow": "Pridajte sa teraz"
+    }
+  },
+  "contactForm": {
+    "company": "Spoločnosť",
+    "contactPerson": "Kontaktná osoba",
+    "email": "E-mail",
+    "phone": "Telefón",
+    "request": "Vaša žiadosť",
+    "send": "Odoslať",
+    "sending": "Odoslanie..."
+  },
+  "contacts": {
+    "description": "Máte otázky alebo problémy? Obráťte sa na nás. Sme vám k dispozícii len na jednu správu!",
+    "heading": "Vždy tu na pomoc"
+  },
+  "cryptoInsights": {
+    "articles": {
+      "0": {
+        "description": "Väčšina ľudí vníma kryptopeňaženku ako \"aplikáciu, ktorá uchováva vaše Bitcoiny alebo Ethereum\". Pravda je však zaujímavejšia: peňaženky v skutočnosti neukladajú mince. Namiesto toho uchovávajú kľúče, ktoré dokazujú vlastníctvo vašich finančných prostriedkov v blockchaine. Pochopenie fungovania peňaženky vám dodá istotu pri každej transakcii, ktorú uskutočníte.",
+        "title": "Pochopenie fungovania kryptopeňaženiek"
+      },
+      "1": {
+        "description": "Ak ste si niekedy zaregistrovali finančnú službu, je pravdepodobné, že ste prešli procedúrou KYC „Poznaj svojho klienta“. Vo svete kryptomien ho niektorí používatelia vnímajú ako prekážku, ale v skutočnosti ide o ochranný prvok, ktorý zabezpečuje, aby burzy fungovali bezpečne a v súlade s medzinárodnými predpismi. V spoločnosti Coinsdot je KYC neoddeliteľnou súčasťou hladkého a spoľahlivého fungovania výmeny kryptomien.",
+        "title": "Prečo je KYC dôležité na krypto burze"
+      },
+      "2": {
+        "description": "Európska únia už niekoľko mesiacov žije pod vplyvom nariadenia o trhoch s kryptoaktívami (MiCA) a jeho vplyv sa stáva jasným. MiCA zďaleka nie je len ďalším regulačným rámcom, ale zmenila spôsob fungovania kryptomien v Európe a pretvára finančný sektor aj používateľské skúsenosti.",
+        "title": "MiCA: Pretváranie európskeho finančného a kryptografického prostredia"
+      }
+    },
+    "banner": {
+      "button": "Prečítajte si",
+      "text": "Kryptomeny majú často imidž hobby pre ítečkárov, minerov alebo technologických nadšencov. Toto vnímanie však nezodpovedá súčasnému stavu. V skutočnosti sa kryptomeny stávajú neoddeliteľnou súčasťou každodenného života a sú prístupné širšiemu publiku viac ako kedykoľvek predtým.",
+      "title": "Mýtus: Kryptomeny sú len pre ítečkárov technických fajnšmekrov"
+    },
+    "hero": {
+      "text": "Základné informácie, ktoré potrebujete vedieť.",
+      "title": "Crypto Insights"
+    }
+  },
+  "footer": {
+    "banner": {
+      "description": "Coinsdot vlastní a prevádzkuje spoločnosť s názvom, identifikačným číslom, registračným číslom, ktorá je oprávnená poskytovať služby virtuálnej meny, so sídlom a prevádzkovou adresou na adrese sídla.",
+      "text": "Coinsdot: Brána ku kryptomenám a platidlám.",
+      "title": "Coinsdot"
+    },
+    "company": {
+      "items": {
+        "0": "Vnútri Coinsdot",
+        "1": "Partnerstvo",
+        "2": "Kontaktujte nás"
+      },
+      "title": "KOMPANIJA"
+    },
+    "copyright": "Krypto. Fiat. Vymenené.",
+    "customer": {
+      "items": {
+        "0": "Spoločnosť",
+        "1": "OTÁZKY A ODPOVEDE",
+        "2": "Prehľad o kryptomenách"
+      },
+      "title": "Zákazník"
+    },
+    "importantNotice": {
+      "text": "Táto webová stránka a jej obsah sú určené len pre používateľov mimo Spojeného kráľovstva. Informácie, ktoré sú tu uvedené, nie sú určené jednotlivcom alebo subjektom so sídlom v Spojenom kráľovstve, ani nie sú určené na ich používanie. Služby ponúkané na stránke Coinsdot.io nie sú k dispozícii maloobchodným klientom zo Spojeného kráľovstva. Upozorňujeme, že v Spojenom kráľovstve sú kryptoaktíva klasifikované ako obmedzené investície na masovom trhu - vysoko riziková kategória, ktorá nemusí byť vhodná pre väčšinu retailových investorov.",
+      "title": "Dôležité upozornenie"
+    },
+    "legal": {
+      "items": {
+        "0": "Zmluvné podmienky",
+        "1": "AML Politika",
+        "2": "Zásady ochrany osobných údajov",
+        "3": "Zásady vrátenia a zrušenia objednávky",
+        "4": "Postup pri podávaní sťažností",
+        "5": "Zásady používania súborov cookie",
+        "6": "Zverejňovanie rizík"
+      },
+      "title": "Právne informácie"
+    }
+  },
+  "header": {
+    "close": "zavrieť",
+    "contactUs": "Kontaktujte nás",
+    "cryptoInsights": "Vpogledi v kriptovalute",
+    "insideCoinsdot": "Vnútri Coinsdotu",
+    "logIn": "prihlásiť sa",
+    "menu": "menu",
+    "partnerships": "Partnerstvo",
+    "qa": "OTÁZKY A ODPOVEDE",
+    "signUp": "zaregistrovať sa",
+    "userEssentials": "Základné informácie pre používateľa"
+  },
+  "home": {
+    "assistanceHub": {
+      "button": {
+        "0": "OTÁZKY A ODPOVEDE",
+        "1": "Novinky a postrehy"
+      },
+      "text": "Vieme, že krypto obchod je frustrujúci - preto sme pripravili zdroje, ktoré vám uľahčia prácu.",
+      "title": "Naše centrum pomoci"
+    },
+    "complianceAndProtection": {
+      "cards": {
+        "0": {
+          "text": "Vaše dokumenty a osobné údaje sú bezpečne uložené a zašifrované - nikdy nie sú vystavené ani zdieľané mimo regulovaných kontrol.",
+          "title": "Súkromné údaje"
+        },
+        "1": {
+          "text": "Ak máte otázky počas overovania alebo platby, náš tím je tu, aby vám pomohol krok za krokom.",
+          "title": "Užitočné informácie"
+        },
+        "2": {
+          "text": "Overenie dokumentov sa vyžaduje od všetkých klientov. Je to prísna požiadavka pre každú licencovanú finančnú službu a pomáha udržiavať platformu v súlade s predpismi a dôveryhodnú.",
+          "title": "Len overení používatelia"
+        },
+        "3": {
+          "text": "Každá platba prechádza cez regulované bankové kanály, čo vám dáva jasnosť a pokoj pri každej výmene.",
+          "title": "Bezpečné transakcie"
+        }
+      },
+      "title": {
+        "0": "Compliance a ochrana zakaznika v",
+        "1": "Coinsdote"
+      }
+    },
+    "contactForm": {
+      "heading": "Náš tím je o jeden formulár ďalej!"
+    },
+    "hero": {
+      "button": "Začať teraz",
+      "title": {
+        "0": "Coinsdot.",
+        "1": "Kde sa stretáva krypto s fiatom."
+      }
+    },
+    "howGetStarted": {
+      "button": "Registrácia",
+      "importantNotice": {
+        "text": "Väčšina transakcií sa spracúva okamžite, ale načasovanie môže závisieť od siete blockchain a rôznych overení, ktoré sa od nás vyžadujú. Coinsdot zabezpečuje, že vaša transakcia bude spracovaná najspoľahlivejším spôsobom, takže získate finančné prostriedky bez zbytočných oneskorení.",
+        "title": "Dôležité upozornenie o rýchlosti spracovania objednavky!"
+      },
+      "steps": {
+        "0": "Vytvorte si konto za pár minút",
+        "1": "Potvrďte svoju totožnosť pomocou rýchleho overenia",
+        "2": "Vyberte si menu, krypto a idete!"
+      },
+      "tip": {
+        "button": "Prehlad stránky.",
+        "text": "Ak chcete začať hladšie, pozrite si našu časť Základné informácie pre používateľa - vysvetľuje požiadavky a pomáha vám rýchlejšie dokončiť registráciu a overenie.",
+        "title": "Tip"
+      },
+      "title": "Ako začať"
+    },
+    "meetCoinsdot": {
+      "text": {
+        "0": "Coinsdot funguje ako burza kryptomien postavená na jasných a regulovaných procesoch. Naša platforma umožňuje konverziu medzi digitálnymi aktívami a fiat menami v transparentnom prostredí podporovanom robustnou technológiou.",
+        "1": "Spoločnosť Coinsdot uplatňuje komplexný ochranný rámec určený na boj proti interným rizikám a ochranu údajov, finančných prostriedkov a transakcií. Každá transakcia prechádza dôkladným preverovaním a kontrolou, aby sa zachovala bezpečnosť platformy a jej používateľov."
+      },
+      "title": "Zoznámte sa s Coinsdotom!"
+    },
+    "trustedBy": {
+      "text": "dôveryhodné autoritatívne kryptografické médiá po celom svete!",
+      "title": "Dôveryhodnosť"
+    },
+    "whyCoinsdot": {
+      "button": "Začnite",
+      "slides": {
+        "0": {
+          "text": "Od registrácie po výmenu – všetko je jasné, minimálne a ľahko sa sleduje.",
+          "title": "Jednoduché podľa dizajnu"
+        },
+        "1": {
+          "text": "Transakcie sa spracúvajú rýchlo, bez zbytočných krokov medzi nimi.",
+          "title": "Rýchle výsledky"
+        },
+        "2": {
+          "text": "Náš tím zákazníckej podpory je tu, aby vám pomohol na každom kroku, pričom sa zameriava na bezpečnosť a transparentnosť.",
+          "title": "Podpora, ktorej na Vás záleží"
+        }
+      },
+      "title": {
+        "0": "Prečo",
+        "1": "Coinsdot"
+      }
+    }
+  },
+  "importantNotice": {
+    "buttons": {
+      "acceptAll": "Prijať všetko",
+      "rejectAll": "Odmietnuť všetko"
+    },
+    "text": {
+      "0": "Pomocou",
+      "1": "potvrdzujete, že rozumiete rizikám spojeným s nákupom alebo predajom kryptomien. Transakcie s digitálnymi aktívami môžu byť volatilné a je dôležité, aby ste si ich pred pokračovaním plne uvedomili. Podrobné informácie nájdete v našich informáciách o rizikách.",
+      "2": "Po potvrdení objednávky ju nemožno zmeniť ani zrušiť. Pred dokončením transakcie sa uistite, že sú vaše osobné údaje a adresa peňaženky zadané správne."
+    },
+    "title": "Dôležité upozornenie"
+  },
+  "insideCoinsdot": {
+    "exchangeWithExperts": {
+      "button": "Pridajte sa k nám",
+      "steps": {
+        "0": "Spoločnosť Coinsdot prevádzkuje licencovaná spoločnosť, ktorú podporuje kvalifikovaný tím so solídnymi skúsenosťami v oblasti finančných a digitálnych aktív.",
+        "1": "Poskytujeme spoľahlivú službu výmeny pre nováčikov v oblasti kryptomien aj pre tých, ktorí už trh poznajú."
+      },
+      "title": "Diskusia s odborníkmi"
+    },
+    "hero": {
+      "text": "Kto sme, za čím si stojíme a ako vidíme budúcnosť výmeny kryptomien.",
+      "title": {
+        "0": "Vitajte na stránke",
+        "1": "Coinsdotu"
+      }
+    },
+    "whoWeAre": {
+      "focus": "Naše zameranie",
+      "focusText": "Poskytujeme jednoduchú platformu na konverziu Bitcoinov a Etherea na fiat meny a späť.",
+      "text": {
+        "0": "Spoločnosť Coinsdot tvorí tím odborníkov na kryptografiu a technológie, ktorých spája jediná vízia: urobiť digitálne aktíva praktickými v každodennom živote.",
+        "1": "Vďaka skúsenostiam v oblasti financií, dodržiavania predpisov a technológií prinášame odborné znalosti, ktoré zabezpečujú, že každá transakcia je rýchla, transparentná a v súlade s globálnymi normami."
+      },
+      "title": "Kto sme"
+    }
+  },
+  "micaArticle": {
+    "content": {
+      "0": {
+        "text": {
+          "0": "Pred MiCA bolo európske kryptografické prostredie roztrieštené. Každá krajina mala svoje vlastné pravidlá, licenčné modely alebo v niektorých prípadoch len malý dohľad. Táto mozaika vytvárala neistotu pre spoločnosti a obmedzenú ochranu pre používateľov.",
+          "1": {
+            "0": "MiCA to zmenila. Európa má po prvýkrát",
+            "1": "harmonizovaný regulačný rámec",
+            "2": "ktorá sa vzťahuje na všetkých 27 členských štátov. Licencovaní poskytovatelia môžu teraz bezproblémovo pôsobiť v celej EÚ, čo prináša",
+            "3": "úroveň zrozumiteľnosti, konzistentnosti a dôvery",
+            "4": "ktoré predtým neexistovali."
+          }
+        },
+        "title": "Jednotný súbor pravidiel pre celú Európu"
+      },
+      "1": {
+        "list": {
+          "0": {
+            "0": "Správa a transparentnosť",
+            "1": "zabezpečenie zodpovednej prevádzky"
+          },
+          "1": {
+            "0": "Ochrana spotrebiteľa",
+            "1": "uprednostňovanie spravodlivosti a zrozumiteľnosti vo všetkých službách."
+          },
+          "2": {
+            "0": "Integrita trhu",
+            "1": "pravidlá proti manipulácii, obchodovaniu s využitím dôverných informácií a zavádzajúcej propagácii"
+          },
+          "3": {
+            "0": "Ochranné opatrenia Stablecoin",
+            "1": "emitenti musia mať rezervy a zverejňovať riziká v dokumentoch schválených regulačným orgánom"
+          }
+        },
+        "text": {
+          "0": "Kryptoburzy, správcovia a ďalší poskytovatelia služieb musia teraz spĺňať jasné normy týkajúce sa:",
+          "1": "Tento posun pozdvihol toto odvetvie, vytlačil z neho nedostatočne regulované subjekty a stanovilvyššia latka profesionality."
+        },
+        "title": "Zvyšovanie latky pre poskytovateľov služieb"
+      },
+      "2": {
+        "list": {
+          "0": {
+            "0": "Trust",
+            "1": "Licencované platformy musia konať v najlepšom záujme klienta"
+          },
+          "1": {
+            "0": "Clarity",
+            "1": "Biele knihy teraz vysvetľujú funkcie a riziká zrozumiteľným jazykom"
+          },
+          "2": {
+            "0": "Ochrana",
+            "1": "prísnejšie pravidlá týkajúce sa transparentnosti a nakladania s majetkom"
+          },
+          "3": {
+            "0": "Prístup",
+            "1": "Jedna licencia v celej EÚ znamená, že používatelia sa môžu všade spoľahnúť na jednotné normy"
+          }
+        },
+        "text": {
+          "0": "Pre používateľov sú zmeny v systéme MiCA už viditeľné:",
+          "1": "Kryptomeny už v Európe nie sú \"šedou zónou\" - sú súčasťou regulovaného a transparentného finančného systému."
+        },
+        "title": "Výhody pre používateľov"
+      },
+      "3": {
+        "text": {
+          "0": "Zriadením MiCA sa Európa postavila do pozície globálneho lídra v oblasti regulácie kryptomien. Zatiaľ čo iné regióny stále diskutujú o rámcoch, EÚ teraz ponúka",
+          "1": "právna istota",
+          "2": "a jasnú cestu pre inovácie v rámci regulovaného priestoru. To nielen chráni používateľov, ale aj priťahuje podniky, ktoré hľadajú stabilitu a možnosti rastu."
+        },
+        "title": "Posilnenie finančnej pozície Európy"
+      },
+      "4": {
+        "text": {
+          "0": "V spoločnosti Coinsdot považujeme MiCA za nástroj, ktorý umožňuje, nie obmedzuje. Našim používateľom dáva istotu, že obchodujú na licencovanej, kompatibilnej a transparentnej burze. Pre nás ako poskytovateľa vytvára rovnaké podmienky, v ktorých sa sústreďujeme na kvalitu služieb, inovácie a skúsenosti používateľov - nie na regulačnú neistotu."
+        },
+        "title": "Perspektíva spoločnosti Coinsdot"
+      },
+      "5": {
+        "list": {
+          "0": "Pre používateľov to znamená dôveru a transparentnosť.",
+          "1": "Pre poskytovateľov to znamená zodpovednosť a príležitosť.",
+          "2": {
+            "0": "Pre Európu je to signál príchodu",
+            "1": "vyspelá, regulovaná éra kryptomien"
+          }
+        },
+        "text": "MiCA zmenila finančné a kryptografické prostredie v Európe. Zjednotila roztrieštené trhy, zlepšila ochranu a posilnila povesť Európy ako bezpečného a inovatívneho centra pre digitálne aktíva.",
+        "title": "Zhrnutie"
+      }
+    },
+    "hero": {
+      "description": "Európska únia už niekoľko mesiacov žije pod vplyvom nariadenia o trhoch s kryptoaktívami (MiCA) a jeho vplyv sa stáva jasným. MiCA zďaleka nie je len ďalším regulačným rámcom, ale zmenila spôsob fungovania kryptomien v Európe a pretvára finančný sektor aj používateľské skúsenosti.",
+      "title": "MiCA: Pretváranie európskeho finančného a kryptografického prostredia"
+    }
+  },
+  "mythArticle": {
+    "content": {
+      "0": {
+        "text": "Na rozdiel od presvedčenia, že kryptomeny sú obmedzené na online platformy, mnohí globálni maloobchodníci sa teraz zapájajú do kryptomien tým, že integrujú možnosti výmeny a akceptujú digitálne aktíva ako spôsob vyrovnania. Významné značky vrátane spoločností Microsoft, PayPal, Starbucks a McDonald's umožnili platby v kryptomenách, čo svedčí o rastúcom uznaní digitálnych aktív v bežnom obchode.",
+        "title": "Globálni maloobchodníci sa zaoberajú kryptomenami"
+      },
+      "1": {
+        "text": "Používanie kryptomien presahuje hranice fyzických obchodov. Rôzne online služby teraz akceptujú digitálne aktíva, čím sa ich využiteľnosť ďalej rozširuje. Platformy ako Overstock, ExpressVPN a AT&T už pri transakciách prijímajú kryptografické aktíva, čo poukazuje na rozširujúcu sa úlohu digitálnych mien v online aktivitách.",
+        "title": "Online služby podporujúce kryptografiu"
+      },
+      "2": {
+        "text": "V Austrálii bola zavedená prvá hypotéka krytá Bitcoinom. Tento produkt umožňuje dlžníkom použiť Bitcoin ako zábezpeku na úvery na bývanie, čím ponúka alternatívnu cestu k vlastníctvu nehnuteľností. Takýto pokrok podčiarkuje pokračujúcu integráciu kryptomien do tradičných finančných systémov.",
+        "title": "Krypto v nehnuteľnostiach: Hypotéky kryté bitcoinom"
+      },
+      "3": {
+        "text": "Trajektória prijímania kryptomien naznačuje budúcnosť, v ktorej budú digitálne meny koexistovať s tradičnými fiat menami. S pribúdajúcim počtom podnikov a služieb integrujúcich kryptomeny a s inováciami, ako sú hypotéky kryté bitcoinom, význam kryptomien v každodenných finančných systémoch naďalej rastie. Hoci výzvy pretrvávajú, celkové smerovanie ukazuje na prostredie, v ktorom krypto a fiat fungujú vedľa seba.",
+        "title": "Budúcnosť kryptografických peňazí popri fiatových"
+      },
+      "4": {
+        "text": {
+          "0": "V Coinsdot robíme kryptomeny praktickými tým, že poskytujeme jasný spôsob výmeny Bitcoinu a Etherea za fiat meny. Naša platforma je určená pre nováčikov aj skúsených používateľov, ktorí chcú konvertovať medzi digitálnymi a tradičnými aktívami. Zameraním sa na dodržiavanie predpisov a štruktúrované procesy Coinsdot umožňuje, aby sa kryptomeny stali súčasťou každodennej finančnej činnosti.",
+          "1": "V tomto článku sa snažíme vyvrátiť mýtus, že kryptomeny sú len pre vývojárov a nadšencov, a ukázať, ako sa postupne dostávajú do hlavného prúdu. Ak sa chcete dozvedieť viac o tom, ako vymeniť kryptomeny za fiat alebo fiat za kryptomeny, tím Coinsdot je tu pre vás."
+        },
+        "title": "Coinsdot: Vaša brána ku krypto burze"
+      }
+    },
+    "hero": {
+      "description": "Kryptomeny majú často imidž výklenku pre vývojárov, baníkov alebo technologických nadšencov. Toto vnímanie však nezodpovedá súčasnému stavu. V skutočnosti sa kryptomeny stávajú neoddeliteľnou súčasťou každodenného života a sú prístupné širšiemu publiku ako kedykoľvek predtým.",
+      "title": "Mýtus: Kryptomeny sú len pre ítečkárov technických fajnšmekrov"
+    }
+  },
+  "partnership": {
+    "hero": {
+      "text": "Zarábajte, keď rastiete spolu s nami.",
+      "title": {
+        "0": "Možnosti",
+        "1": "partnerstva so",
+        "2": "spoločnosťou"
+      }
+    },
+    "howToJoin": {
+      "cards": {
+        "0": {
+          "text": {
+            "0": "Vyplňte nižšie uvedený formulár žiadosti.",
+            "1": "Vašu žiadosť posúdime a zašleme vám zmluvu a požiadavky spoločnosti KYB."
+          },
+          "title": "Aplikovať"
+        },
+        "1": {
+          "text": {
+            "0": "Predložte požadované dokumenty.",
+            "1": "Po schválení dostanete svoje partnerské ID a prístup k zdrojom."
+          },
+          "title": "Overiť"
+        },
+        "2": {
+          "text": "Propagujte Coinsdot pomocou svojho jedinečného odkazu na svojich platformách a v komunitách.",
+          "title": "Zdieľať"
+        },
+        "3": {
+          "text": {
+            "0": "Získajte provízie za každú platbu faktúry od používateľov, ktorých privediete.",
+            "1": "Všetko môžete sledovať na svojom ovládacom paneli."
+          },
+          "title": "Získajte"
+        }
+      },
+      "title": "Ako sa pripojiť"
+    },
+    "ourOffer": {
+      "cards": {
+        "0": {
+          "text": {
+            "0": "Náš model je navrhnutý tak, aby vytváral",
+            "1": "vzájomný rast:"
+          },
+          "title": "Keď privediete ľudí na našu platformu, budete sa podieľať na hodnote, ktorú vytvoria."
+        },
+        "1": {
+          "text": "získajú prístup k čistej, kompatibilnej kryptografickej platforme.",
+          "title": "Hodnota pre používateľov"
+        },
+        "2": {
+          "text": "dostávate priebežné odmeny na základe aktivity komunity, ktorú pomáhate budovať.",
+          "title": "Hodnota pre vás"
+        }
+      },
+      "text": "Partnerský program Coinsdot je založený na jednoduchej myšlienke:",
+      "title": "Naša ponuka"
+    },
+    "whoCanJoin": {
+      "cards": {
+        "0": {
+          "text": "Váš hlas môže viesť vaše publikum k objaveniu, aké jednoduché je vymieňať kryptomeny.",
+          "title": "Názoroví Lídri"
+        },
+        "1": {
+          "text": "Vysvetľujete kryptomeny čitateľom. My ponúkame dôveryhodnú platformu, ktorú môžu používať.",
+          "title": "Odborové Médiá"
+        },
+        "2": {
+          "text": "Premeňte svoj dosah na príležitosť predstavením vášmu publiku službu navrhnutú pre kryptomenové platby.",
+          "title": "Affiliate Marketéri"
+        },
+        "3": {
+          "text": "Pomôžte študentom objaviť praktické krypto nástroje, ktoré zjednodušujú platby.",
+          "title": "Vzdelávacie platformy"
+        },
+        "4": {
+          "text": "Ak máte komunitu, ktorá skúma finančné technológie, poskytujeme krypto platobnú službu, ktorú môžu prakticky využiť.",
+          "title": "Vývojári a Fintech firmy"
+        }
+      },
+      "text": {
+        "0": "Spoločnosť Coinsdot je otvorená partnerom, ktorých nasledovníci, čitatelia",
+        "1": "alebo klienti skúmajú kryptografiu ako spôsob platby:"
+      },
+      "title": "Kto sa môže pripojiť"
+    }
+  },
+  "qa": {
+    "answers": {
+      "0": {
+        "items": {
+          "0": {
+            "answer": "Áno. Coinsdot umožňuje nákup Bitcoinu alebo Etherea pomocou kreditnej karty.",
+            "question": "Môžem na získanie kryptomeny použiť kreditnú kartu?"
+          },
+          "1": {
+            "answer": "Áno. Coinsdot podporuje výmenu Bitcoinu alebo Etherea bankovým prevodom.",
+            "question": "Môžem uskutočniť výmenu bankovým prevodom?"
+          }
+        },
+        "title": "Ako platiť"
+      },
+      "1": {
+        "items": {
+          "0": {
+            "answer": "V súčasnosti Coinsdot podporuje iba Bitcoin (BTC) a Ethereum (ETH).",
+            "question": "Ktoré digitálne meny si môžem vymeniť na Coinsdot?"
+          }
+        },
+        "title": "Kryptomeny"
+      },
+      "2": {
+        "items": {
+          "0": {
+            "answer": "Áno, na posielanie Bitcoinov alebo Etherea budete potrebovať vlastnú peňaženku. Coinsdot pre vás nevytvára ani neukladá peňaženky - my len spracúvame vaše výmenné transakcie.",
+            "question": "Potrebujem na používanie služby Coindot krypto peňaženku?"
+          },
+          "1": {
+            "answer": "Každá transakcia, ktorú vykonáte, sa zaznamená do blockchainu. Zadaním adresy peňaženky alebo ID transakcie do verejného prieskumníka blockchainu (napríklad blockchain.com) môžete zistiť, kedy bola vaša platba odoslaná, overená a prijatá.",
+            "question": "Ako môžem potvrdiť, že moja platba v kryptoch prebehla?"
+          }
+        },
+        "title": "Peňaženky a transakcie"
+      },
+      "3": {
+        "items": {
+          "0": {
+            "answer": "Áno. Coinsdot spracúva výmeny priamo medzi vašou peňaženkou a príjemcom, čo vám umožňuje prijímať fiat pri výmene Bitcoinu alebo Etherea.",
+            "question": "Môžem vymeniť Bitcoin alebo Ethereum za fiat?"
+          },
+          "1": {
+            "answer": "Coinsdot využíva trhové údaje v reálnom čase od popredných poskytovateľov likvidity, aby zabezpečil, že vaša kryptografická platba bude konvertovaná za spravodlivý a presný kurz.",
+            "question": "Ako sa vypočíta výmenný kurz pri výmene kryptomeny?"
+          },
+          "2": {
+            "answer": "Kurz je uzamknutý v čase prijatia platby a potvrdený v blockchaine, čím sa zabezpečí transparentnosť a konzistentnosť každej transakcie.",
+            "question": "V ktorom okamihu je výmenný kurz pevne stanovený?"
+          }
+        },
+        "title": "Výmenné kurzy"
+      },
+      "4": {
+        "items": {
+          "0": {
+            "answer": "Transakcia bude spracovaná po potvrdení vašej transakcie v blockchaine a dokončení overenia KYC (ak sa vyžaduje). Potom Coinsdot okamžite spracuje",
+            "question": "Kedy príde kryptomena do mojej peňaženky?"
+          },
+          "1": {
+            "answer": "Nie. V záujme dodržiavania medzinárodných predpisov musia všetci používatelia pred uskutočnením platieb vyplniť KYC. Pomáha to chrániť vaše transakcie a zabezpečuje, že faktúry sú platené bezpečne a bez oneskorenia.",
+            "question": "Môžem používať Coinsdot bez overenia svojej totožnosti?"
+          }
+        },
+        "title": "Spracovanie a overovanie platieb"
+      },
+      "5": {
+        "items": {
+          "0": {
+            "answer": "Poznaj svojho zákazníka je zákonná požiadavka pre finančné služby vrátane kryptografických platieb. V spoločnosti Coinsdot vyžadujeme KYC od všetkých používateľov, aby sme zabezpečili súlad s predpismi a zaistili bezpečnú a transparentnú výmenu.",
+            "question": "Prečo musím vyplniť KYC s Coinsdotom?"
+          },
+          "1": {
+            "answer": "Overenie chráni vás aj platobný proces. Potvrdením vašej totožnosti predchádzame podvodom, praniu špinavých peňazí a zneužitiu digitálnych aktív a zároveň zabezpečujeme, aby vaše transakcie prebehli bez problémov a boli akceptované všetkými stranami.",
+            "question": "Na aký účel je potrebné predložiť moje osobné údaje a overovacie dokumenty?"
+          },
+          "2": {
+            "answer": "Nie. Spoločnosť Coinsdot funguje na základe modelu, ktorý nie je založený na väzbe. Neuchovávame vašu kreditnú kartu, súkromné kľúče peňaženky ani finančné prostriedky. Vaše prostriedky zostávajú pod vašou kontrolou a každá platba sa presúva priamo z vašej peňaženky k príjemcovi.",
+            "question": "Ukladá Coinsdot moje údaje o platbe alebo peňaženke?"
+          }
+        },
+        "title": "KYC"
+      },
+      "6": {
+        "items": {
+          "0": {
+            "answer": "Spoločnosť Coinsdot spracúva žiadosti o výmenu po dokončení overenia KYC. Transakcia je zvyčajne dokončená v priebehu niekoľkých pracovných dní po potvrdení všetkých údajov.",
+            "question": "Ako dlho trvá, kým sa Bitcoin alebo Ethereum odošle do mojej peňaženky?"
+          },
+          "1": {
+            "answer": "Keď sa kryptografická transakcia potvrdí v blockchaine, nemožno ju zrušiť ani zmeniiť. Ak si všimnete problém pred spracovaním platby, okamžite kontaktujte náš tím podpory a požiadajte o pomoc.",
+            "question": "Môžem zrušiť platbu po jej odoslaní?"
+          },
+          "2": {
+            "answer": "Náš tím podpory je tu pre vás od pondelka do piatku, od 06:00 do 22:00 GMT / 01:00 do 17:00 EST. V týchto hodinách sa na nás môžete kedykoľvek obrátiť a požiadať o poradenstvo v oblasti platieb, overovania alebo pomoci s účtom.",
+            "question": "Kedy je k dispozícii tím podpory Coinsdot?"
+          }
+        },
+        "title": "Platby a zákaznícka podpora"
+      }
+    },
+    "hero": {
+      "text": "Odpovede na vaše kľúčové otázky.",
+      "title": "OTÁZKY A ODPOVEDE"
+    }
+  },
+  "thankYou": {
+    "button": "Návrat na domovskú stránku",
+    "text": {
+      "0": "Vaša žiadosť bola úspešne odoslaná.",
+      "1": "Náš tím je na ceste",
+      "2": "a čoskoro sa vám ozveme."
+    },
+    "title": "Ďakujeme!"
+  },
+  "understandingArticle": {
+    "content": {
+      "0": {
+        "list": {
+          "0": "Zadáte adresu príjemcu a sumu.",
+          "1": "Vaša peňaženka vytvorí digitálnu správu a podpíše ju vaším súkromným kľúčom.",
+          "2": "Podpísaná transakcia sa odošle do siete blockchain, kde uzly overia jej platnosť."
+        },
+        "text": {
+          "0": "Keď otvoríte peňaženku, v podstate sa pozeráte na rozhranie, ktoré spravuje dva kľúčové komponenty: vašu verejnú adresu (na ktorú možno posielať finančné prostriedky) a váš súkromný kľúč (ktorý slúži ako dôkaz vlastníctva). Súkromný kľúč nikdy neopúšťa peňaženku, ale práve ním je podpísaná každá transakcia, ktorú schválite.",
+          "1": "Čo sa stane, keď sa rozhodnete poslať kryptografiu?",
+          "2": "V tejto fáze sa mince \"nepresúvajú\" z jedného digitálneho vrecka do druhého. Namiesto toho blockchain aktualizuje svoju účtovnú knihu: váš zostatok sa znižuje a zostatok príjemcu sa zvyšuje. Predstavte si to ako aktualizáciu riadkov v obrovskej verejnej tabuľke, ktorú vidí každý."
+        },
+        "title": "Vnútri peňaženky: Čo sa naozaj deje?"
+      },
+      "1": {
+        "text": {
+          "0": "Keď vaša peňaženka odošle transakciu, zachytí ju sieť blockchain. Validátori alebo baníci ju potvrdia, pridajú do bloku a platba sa stane trvalou. Vtedy príjemca uvidí finančné prostriedky vo svojej peňaženke.",
+          "1": "Ak chcete skontrolovať, ako je na tom vaša transakcia, nemusíte dôverovať len aplikácii. Zadaním ID transakcie do verejného prieskumníka, napríklad na stránke blockchain.com, si môžete pozrieť, kedy bola prijatá, potvrdená a zaznamenaná v blockchaine. Práve táto transparentnosť robí kryptografiu jedinečnou v porovnaní s tradičným bankovníctvom."
+        },
+        "title": "Mimo peňaženky: Sledovanie transakcie"
+      },
+      "2": {
+        "text": {
+          "0": "V spoločnosti Coinsdot pracujeme na základe modelu, ktorý nie je založený na súdnych trovách. To znamená, že nikdy nedržíme vaše kryptografické alebo fiatové prostriedky. Iba uľahčujeme výmenu medzi kryptomenami a fiat. Mince vždy prechádzajú priamo z vašej peňaženky do procesu výmeny, pričom fiat sa prevedie priamo na váš účet - bez okľuk a bez toho, aby sme si niečo medzi tým nechávali.",
+          "1": "Pre vás to znamená pokoj: vaše aktíva zostávajú pod vašou kontrolou a každú transakciu možno sledovať v blockchaine. Našou úlohou je zabezpečiť, aby sa konverzia kryptomien na fiat alebo fiat na kryptomeny uskutočňovala v súlade s predpismi a transparentne."
+        },
+        "title": "Výmena mincí a neúradná výmena"
+      }
+    },
+    "hero": {
+      "description": "Väčšina ľudí vníma kryptopeňaženku ako \"aplikáciu, ktorá uchováva vaše Bitcoiny alebo Ethereum\". Pravda je však zaujímavejšia: peňaženky v skutočnosti neukladajú mince. Namiesto toho uchovávajú kľúče, ktoré dokazujú vlastníctvo vašich finančných prostriedkov v blockchaine. Pochopenie fungovania peňaženky vám dodá istotu pri každej transakcii, ktorú uskutočníte.",
+      "title": "Pochopenie fungovania kryptopeňaženiek"
+    }
+  },
+  "userEssentials": {
+    "documentsCannotAccept": {
+      "button": "Pridajte sa k nám",
+      "cards": {
+        "0": {
+          "text": "Falšované, ukradnuté alebo pozmenené doklady totožnosti.",
+          "title": "Neplatné alebo falšované"
+        },
+        "1": {
+          "text": "Skeny alebo fotografie, ktoré sú rozmazané, orezané, zle osvetlené alebo inak nejasné.",
+          "title": "Nízka kvalita"
+        },
+        "2": {
+          "text": "Občianske preukazy s uplynutou platnosťou alebo kópie kópií namiesto originálnych dokladov.",
+          "title": "Zastarané alebo duplicitné"
+        }
+      },
+      "text": {
+        "0": "Spoločnosť Coinsdot môže z dôvodu dodržiavania predpisov spracovať len platný a overiteľný dokument.",
+        "1": "Príspevky budú zamietnuté, ak budú patriť do niektorej z týchto kategórií."
+      },
+      "title": "Dokumenty, ktoré nemôžeme prijať"
+    },
+    "hero": {
+      "text": "Všetko, čo potrebujete na to, aby ste mohli začať používať Coinsdot, nájdete tu.",
+      "title": "Základné informácie pre používateľa"
+    },
+    "howToExchange": {
+      "button": "Výmena s Coinsdot",
+      "steps": {
+        "0": {
+          "text": "Zaregistrujte sa na Coinsdote za pár minút. Registrácia je bezplatná a jednoduchá, stačí vyplniť formulár a potvrdiť svoj účet.",
+          "title": "Zaregistrujte sa a vytvorte si profil"
+        },
+        "1": {
+          "text": "Rámec overenia sa môže líšiť v závislosti od výšky transakcie. Predloženie požadovaných dokumentov zabezpečuje súlad s predpismi a udržuje vaše výmeny v bezpečí.",
+          "title": "Overenie"
+        },
+        "2": {
+          "text": "Spoločnosť Coinsdot nedrží vaše finančné prostriedky. Na výmenu kryptomien pripojte svoju osobnú peňaženku, odporúčame používať oficiálne peňaženky Bitcoin alebo Ethereum alebo dôveryhodnú peňaženku pre viacero mien podľa vlastného výberu.",
+          "title": "Prepojenie krypto peňaženky"
+        },
+        "3": {
+          "text": "Vyberte si, čo potrebujete: kúpiť alebo predať krypto, mince a burzu.",
+          "title": "Vyberte si potrebné mince, ktoré chcete kúpiť alebo predať"
+        },
+        "4": {
+          "text": "Po potvrdení sa transakcia bezpečne spracuje. Jej stav môžete sledovať v reálnom čase.",
+          "title": "Potvrdenie a sledovanie transakcie"
+        }
+      },
+      "title": "Zámena s Coinsdotom"
+    },
+    "importantMessage": {
+      "text": {
+        "0": "Upozorňujeme:",
+        "1": "Spoločnosť Coinsdot neposkytuje úschovu kryptografických ani fiat peňazí.",
+        "2": "Fungujeme výlučne ako výmenná služba.",
+        "3": "Ak chcete bezpečne spravovať svoj majetok, môžete zvážiť vytvorenie osobných peňaženiek prostredníctvom:"
+      },
+      "title": "Dôležitá správa o peňaženkách"
+    },
+    "verificationPackage": {
+      "packages": {
+        "0": {
+          "text": "Vládou vydaný preukaz totožnosti s fotografiou, ako je cestovný pas, občiansky preukaz, vodičský preukaz alebo úradné povolenie na pobyt.",
+          "title": "Osobná identifikácia"
+        },
+        "1": {
+          "text": "Nedávne doklady potvrdzujúce vaše bydlisko, napr. výpis z účtu za komunálne služby, bankový záznam alebo účet za telekomunikačné služby (vystavený za posledné tri mesiace).",
+          "title": "Dôkaz o adrese pobytu"
+        },
+        "2": {
+          "text": "Vyplnené vyhlásenie o zdroji finančných prostriedkov spolu s podpornými dôkazmi na potvrdenie pôvodu použitých aktív.",
+          "title": "Finančné pozadie"
+        },
+        "3": {
+          "text": "Všetky kontroly totožnosti sa vykonávajú prostredníctvom akreditovaných poskytovateľov tretích strán. V niektorých prípadoch si rozšírená hĺbková kontrola môže vyžadovať dodatočný dotazník alebo krátky videohovor.",
+          "title": "Postupy overovania"
+        },
+        "4": {
+          "text": "V závislosti od objemu platieb môže spoločnosť Coinsdot požadovať krátke formuláre o zhode týkajúce sa údajov o nákupe alebo skúseností zákazníkov.",
+          "title": "Podporné formuláre"
+        }
+      },
+      "text": "Aby sa zabezpečilo, že každá transakcia je v súlade s medzinárodnými normami, spoločnosť Coinsdot vyžaduje pred spracovaním platieb úplný balík KYC:",
+      "title": "Overovací balík"
+    }
+  },
+  "whyKycArticle": {
+    "content": {
+      "0": {
+        "text": {
+          "0": "Na rozdiel od hotovosti kryptografické transakcie prekračujú hranice okamžite a bez sprostredkovateľov. Vďaka tejto slobode je tiež dôležité overiť, kto finančné prostriedky posiela a prijíma. KYC pomáha predchádzať praniu špinavých peňazí, podvodom a zneužitiu digitálnych aktív. Zároveň vám dáva istotu, že platforma, s ktorou spolupracujete, je v súlade s predpismi a je dôveryhodná.",
+          "1": "Pre vás ako používateľa dokončenie KYC znamená, že vaše výmenné transakcie budú spracované bez zbytočných zdržaní alebo otázok. Zabezpečuje, že konverzie medzi kryptomenami a fiatmi sú spracované efektívne a akceptované v súlade s globálnymi štandardmi."
+        },
+        "title": "Prečo sa vyžaduje KYC"
+      },
+      "1": {
+        "list": {
+          "0": "Platný preukaz totožnosti vydaný vládou, ako je cestovný pas, občiansky preukaz alebo povolenie na pobyt.",
+          "1": "Doklad o adrese - napríklad posledný účet za komunálne služby alebo výpis z účtu s vaším menom.",
+          "2": "Podpísané vyhlásenie o zdroji finančných prostriedkov, niekedy aj s podpornými dokladmi."
+        },
+        "text": {
+          "0": "Proces KYC je jednoduchý, ale vyžaduje si niekoľko dokumentov na potvrdenie vašej totožnosti a zdroja finančných prostriedkov. Zvyčajne sa od vás budú vyžadovať:",
+          "1": "Proces Coinsdot môže zahŕňať aj krátky overovací telefonát spolu s jednoduchými dotazníkmi na potvrdenie účelu výmenných transakcií a zabezpečenie súladu. Tieto kroky netrvajú dlho, ale sú nevyhnutné z hľadiska regulačných noriem."
+        },
+        "title": "Čo budete musieť poskytnúť"
+      },
+      "2": {
+        "text": {
+          "0": "Po schválení vášho KYC môžete bez prerušenia vymieňať kryptografické a fiat meny. Každá transakcia je zaznamenaná priamo v blockchaine, pričom Coinsdot zabezpečuje, aby bolo všetko v súlade s požiadavkami na dodržiavanie predpisov.",
+          "1": "Dôležité je, že Coinsmax funguje ako služba bez zadržiavania: nikdy nedržíme vaše finančné prostriedky. KYC na tom nič nemení - jednoducho vám poskytuje overený prístup k výmennému kanálu, kde sa kryptopeňaženka presúva priamo z vašej peňaženky cez proces konverzie a späť na vami zvolený účet."
+        },
+        "title": "Výsledok: Hladká, kompatibilná výmena"
+      },
+      "3": {
+        "text": {
+          "0": "KYC sa môže zdať ako papierovačka ale v praxi je to vstupenka na spoľahlivú krypto burzu. Jednorazovým potvrdením svojej totožnosti si otvoríte dvere do systému, v ktorom sa konverzie medzi Bitcoinom, Ethereom a fiatom dajú realizovať efektívne, transparentne a v súlade so všetkými príslušnými predpismi.",
+          "1": "Proces Coinsdot je navrhnutý tak, aby bol jasný a efektívny: poskytnite svoje dokumenty, dokončite overenie a začnite s dôverou vymieňať kryptomeny."
+        },
+        "title": "V skratke"
+      }
+    },
+    "hero": {
+      "description": "Ak ste si niekedy zaregistrovali finančnú službu, je pravdepodobné, že ste prešli procedúrou KYC (Know Your Customer). Vo svete kryptomien ho niektorí používatelia vnímajú ako prekážku, ale v skutočnosti ide o ochranný prvok, ktorý zabezpečuje, aby burzy fungovali bezpečne a v súlade s medzinárodnými predpismi. V spoločnosti Coinsdot je KYC neoddeliteľnou súčasťou hladkého a spoľahlivého fungovania výmeny kryptomien.",
+      "title": "Prečo je KYC dôležité na krypto burze"
+    }
+  }
+}

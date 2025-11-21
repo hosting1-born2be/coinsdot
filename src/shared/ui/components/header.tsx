@@ -48,34 +48,34 @@ export const Header = () => {
           <div className="flex flex-col gap-9">
             <section className="flex max-md:flex-col max-md:gap-4">
               <div className="flex w-1/2 flex-col gap-4 max-md:w-full">
-                <Link href="/inside-coinsdot">
+                <Link href="/inside-coinsdot" onClick={() => setIsOpen(false)}>
                   <Text className="text-[36px] leading-[120%] tracking-[-0.54px]">
                     {t('insideCoinsdot', { fallback: 'Inside Coinsdot' })}
                   </Text>
                 </Link>
-                <Link href="/user-essentials">
+                <Link href="/user-essentials" onClick={() => setIsOpen(false)}>
                   <Text className="text-[36px] leading-[120%] tracking-[-0.54px]">
                     {t('userEssentials', { fallback: 'User Essentials' })}
                   </Text>
                 </Link>
-                <Link href="/partnerships">
+                <Link href="/partnership" onClick={() => setIsOpen(false)}>
                   <Text className="text-[36px] leading-[120%] tracking-[-0.54px]">
                     {t('partnerships', { fallback: 'Partnerships' })}
                   </Text>
                 </Link>
               </div>
               <div className="flex w-1/2 flex-col gap-4 max-md:w-full">
-                <Link href="/qa">
+                <Link href="/qa" onClick={() => setIsOpen(false)}>
                   <Text className="text-[36px] leading-[120%] tracking-[-0.54px]">
                     {t('qa', { fallback: 'Q&A' })}
                   </Text>
                 </Link>
-                <Link href="/crypto-insights">
+                <Link href="/crypto-insights" onClick={() => setIsOpen(false)}>
                   <Text className="text-[36px] leading-[120%] tracking-[-0.54px]">
                     {t('cryptoInsights', { fallback: 'Crypto Insights' })}
                   </Text>
                 </Link>
-                <Link href="/contact-us">
+                <Link href="/contacts" onClick={() => setIsOpen(false)}>
                   <Text className="text-[36px] leading-[120%] tracking-[-0.54px]">
                     {t('contactUs', { fallback: 'Contact Us' })}
                   </Text>
