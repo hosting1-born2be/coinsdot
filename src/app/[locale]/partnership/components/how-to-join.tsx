@@ -23,7 +23,7 @@ const getCards = (t: ReturnType<typeof useTranslations>) => [
     ),
   },
   {
-    title: 'Verify',
+    title: t('cards.1.title', { fallback: 'Verify' }),
     description: (
       <>
         {t('cards.1.text.0', {

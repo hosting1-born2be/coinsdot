@@ -31,7 +31,9 @@ export const Hero = () => {
             className="text-[96px] leading-[96px] tracking-[-1.44px] max-md:text-[36px] max-md:leading-[120%] max-md:tracking-[-0.749px]"
           >
             {t('title.0', { fallback: 'Welcome to' })} <br />{' '}
-            <span className="font-bold">Coinsdot</span>
+            <span className="font-bold">
+              {t('title.1', { fallback: 'Coinsdot' })}
+            </span>
           </Title>
           <Text size="lg">
             {t('text', {
