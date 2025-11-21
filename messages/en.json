@@ -634,5 +634,95 @@
         }
       }
     }
+  },
+  "partnership": {
+    "hero": {
+      "title": {
+        "0": "Partnership",
+        "1": "Opportunities",
+        "2": "with"
+      },
+      "text": "Earn as you grow with us."
+    },
+    "ourOffer": {
+      "title": "Our Offer",
+      "text": "The Coinsdot partnership program is built on a simple idea:",
+      "cards": {
+        "0": {
+          "title": "When you bring people to our platform, you share in the value they create.",
+          "text": {
+            "0": "Our model is designed to create",
+            "1": "mutual growth:"
+          }
+        },
+        "1": {
+          "title": "Value for users",
+          "text": "they gain access to a clean, compliant crypto platform."
+        },
+        "2": {
+          "title": "Value for you",
+          "text": "you receive ongoing rewards based on the activity of the community you help build."
+        }
+      }
+    },
+    "whoCanJoin": {
+      "title": "Who Can Join",
+      "text": {
+        "0": "Coinsdot is open to partners whose followers, readers",
+        "1": "or clients are exploring crypto as a payment method:"
+      },
+      "cards": {
+        "0": {
+          "title": "Influencers",
+          "text": "Your voice can guide your audience to discover how simple it is to exchange crypto."
+        },
+        "1": {
+          "title": "Industry Media",
+          "text": "You explain crypto to readers. We offer a trustworthy platform they can use."
+        },
+        "2": {
+          "title": "Affiliate Marketers",
+          "text": "Turn your reach into opportunity by introducing your audience to a service designed for crypto payments."
+        },
+        "3": {
+          "title": "Educational Platforms",
+          "text": "Help learners discover practical crypto tools that simplify payments."
+        },
+        "4": {
+          "title": "Developers & Fintechs",
+          "text": "If you have a community exploring financial technologies, we provide the crypto payment service that they can apply in practice."
+        }
+      }
+    },
+    "howToJoin": {
+      "title": "How to Join",
+      "cards": {
+        "0": {
+          "title": "Apply",
+          "text": {
+            "0": "Fill out the application form below. We’ll review your request and send you the agreement and KYB requirements.",
+            "1": "We’ll review your request and send you the agreement and KYB requirements."
+          }
+        },
+        "1": {
+          "title": "Verify",
+          "text": {
+            "0": "Submit the requested documents. Once approved, you’ll receive your partner ID and access to your resources.",
+            "1": "Once approved, you’ll receive your partner ID and access to your resources."
+          }
+        },
+        "2": {
+          "title": "Share",
+          "text": "Promote Coinsdot with your unique link across your platforms and communities."
+        },
+        "3": {
+          "title": "Earn",
+          "text": {
+            "0": "Receive commissions for every invoice payment made by users you bring in.",
+            "1": "Track everything from your dashboard."
+          }
+        }
+      }
+    }
   }
 }

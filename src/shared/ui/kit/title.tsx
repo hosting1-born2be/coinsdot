@@ -22,6 +22,7 @@ const titleVariants = cva('transition duration-300 ease-in-out', {
       black: 'text-black',
       grey: 'text-grey-95',
       azure: 'text-azure-6',
+      'light-azure': 'text-[#789BF3]',
     },
     weight: {
       200: 'font-extralight',
