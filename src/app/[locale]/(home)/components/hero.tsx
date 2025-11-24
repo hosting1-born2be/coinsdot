@@ -1,8 +1,9 @@
 'use client';
 
+import { useEffect, useRef, useState } from 'react';
 import { useTranslations } from 'next-intl';
 
-import { motion, type Transition } from '@/shared/lib/motion';
+import { cn } from '@/shared/lib/utils/cn';
 import { CircleEurIcon } from '@/shared/ui/icons/circle-eur';
 import { Button } from '@/shared/ui/kit/button';
 import { Title } from '@/shared/ui/kit/title';
@@ -46,37 +47,50 @@ export const Hero = () => {
   );
 };
 
-const pulseAnimation = {
-  scale: [1, 1.2, 1],
-  opacity: [0.6, 0, 0.6],
-};
-
-const pulseTransition: Transition = {
-  duration: 2,
-  repeat: Infinity,
-  ease: 'easeInOut',
-};
-
 const PulsingButton = () => {
   const t = useTranslations('home.hero');
+  const btnRef = useRef<HTMLButtonElement | null>(null);
+  const [btnWidth, setBtnWidth] = useState(0);
+
+  useEffect(() => {
+    if (!btnRef.current) return;
+
+    const handleResize = () => {
+      setBtnWidth(btnRef.current!.offsetWidth);
+    };
+
+    handleResize();
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   return (
-    <div className="relative flex items-center justify-center">
-      <motion.div
-        className="absolute h-[152px] w-[397px] rounded-full bg-[rgba(41,54,86,0.25)] max-md:h-[105px] max-md:w-[277px]"
-        animate={pulseAnimation}
-        transition={pulseTransition}
+    <div
+      className="group relative flex items-center justify-center"
+      style={
+        {
+          '--btn-width': `${btnWidth}px`,
+        } as React.CSSProperties
+      }
+    >
+      <span
+        className={cn(
+          'pulse-large pointer-events-none absolute rounded-full bg-[rgba(41,54,86,0.25)]',
+        )}
+        aria-hidden
       />
-      <motion.div
-        className="absolute h-[109px] w-[277px] rounded-full bg-[rgba(41,54,86,0.25)] max-md:h-[83px] max-md:w-[208px]"
-        animate={pulseAnimation}
-        transition={pulseTransition}
+
+      <span
+        className="pulse-small pointer-events-none absolute rounded-full bg-[rgba(41,54,86,0.25)]"
+        aria-hidden
       />
+
       <div className="relative">
         <Button
+          ref={btnRef}
           size="lg"
           variant="secondary"
-          className="flex items-center gap-2"
+          className="relative z-30 flex items-center gap-2"
         >
           {t('button', { fallback: 'Start Now' })}
           <CircleEurIcon className="max-md:h-[65px] max-md:w-[65px]" />

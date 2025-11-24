@@ -83,3 +83,53 @@ body {
     width: calc(var(--btn-width, 0px) + 16px);
   }
 }
+
+.pulse-large,
+.pulse-small {
+  transition:
+    width 0.28s ease-in-out,
+    height 0.28s ease-in-out;
+  will-change: width, height;
+}
+
+.pulse-large {
+  width: calc(var(--btn-width, 0px) + 150px);
+  height: calc(var(--btn-width, 0px) * 0.46 + 90px);
+}
+
+.pulse-small {
+  width: calc(var(--btn-width, 0px) + 50px);
+  height: calc(var(--btn-width, 0px) * 0.33 + 50px);
+}
+
+.group:hover .pulse-large {
+  width: calc(var(--btn-width, 0px) + 100px);
+  height: calc(var(--btn-width, 0px) * 0.43 + 70px);
+}
+
+.group:hover .pulse-small {
+  width: calc(var(--btn-width, 0px) + 30px);
+  height: calc(var(--btn-width, 0px) * 0.3 + 40px);
+}
+
+@media (max-width: 768px) {
+  .pulse-large {
+    width: calc(var(--btn-width, 0px) + 100px);
+    height: calc(var(--btn-width, 0px) * 0.46 + 50px);
+  }
+
+  .pulse-small {
+    width: calc(var(--btn-width, 0px) + 36px);
+    height: calc(var(--btn-width, 0px) * 0.33 + 30px);
+  }
+
+  .group:hover .pulse-large {
+    width: calc(var(--btn-width, 0px) + 70px);
+    height: calc(var(--btn-width, 0px) * 0.43 + 40px);
+  }
+
+  .group:hover .pulse-small {
+    width: calc(var(--btn-width, 0px) + 30px);
+    height: calc(var(--btn-width, 0px) * 0.3 + 24px);
+  }
+}

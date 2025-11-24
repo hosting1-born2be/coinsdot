@@ -1,6 +1,6 @@
 'use client';
 
-import { type ReactNode, useEffect, useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 
 import { cn } from '@/shared/lib/utils/cn';
 
@@ -38,7 +38,6 @@ export const GhostButton = ({
       className="group relative h-[96px] max-md:h-[68px]"
       style={
         {
-          // keep only one var: the raw button width (px)
           '--btn-width': `${btnWidth}px`,
         } as React.CSSProperties
       }
