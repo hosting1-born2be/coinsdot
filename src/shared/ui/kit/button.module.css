@@ -7,4 +7,14 @@
       rgba(30, 89, 235, 0.2) 105.03%
     ),
     var(--color-azure-6, #070d19);
+
+  &:hover {
+    background:
+      linear-gradient(
+        228deg,
+        rgba(30, 89, 235, 0.2) 36.49%,
+        var(--color-azure-6, #070d19) 105.03%
+      ),
+      var(--color-azure-6, #070d19);
+  }
 }
