@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
 
@@ -6,6 +7,20 @@ import { PolicyRender } from '@/features/policies/ui/policy-render';
 import { PolicyText } from '@/features/policies/ui/policy-text';
 
 import { Title } from '@/shared/ui/kit/title';
+
+export const metadata: Metadata = {
+  title: 'AML Policy | Coinsdot',
+  openGraph: {
+    title: 'AML Policy | Coinsdot',
+  },
+  twitter: {
+    title: 'AML Policy | Coinsdot',
+  },
+  robots: {
+    index: false,
+    follow: false,
+  },
+};
 
 export default async function RiskDisclosurePage() {
   const t = await getTranslations('riskDisclosure');

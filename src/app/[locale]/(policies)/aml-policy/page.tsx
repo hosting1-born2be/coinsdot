@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 
 import { PolicyHero } from '@/features/policies/ui/policy-hero';
@@ -6,6 +7,20 @@ import { PolicySectionLayout } from '@/features/policies/ui/policy-section-layou
 import { PolicyText } from '@/features/policies/ui/policy-text';
 
 import { List } from '@/shared/ui/kit/list';
+
+export const metadata: Metadata = {
+  title: 'AML Policy | Coinsdot',
+  openGraph: {
+    title: 'AML Policy | Coinsdot',
+  },
+  twitter: {
+    title: 'AML Policy | Coinsdot',
+  },
+  robots: {
+    index: false,
+    follow: false,
+  },
+};
 
 export default async function AMLPolicyPage() {
   const t = await getTranslations('amlPolicy');

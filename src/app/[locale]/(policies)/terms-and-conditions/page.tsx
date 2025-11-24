@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
 
@@ -6,6 +7,20 @@ import { PolicyHero } from '@/features/policies/ui/policy-hero';
 import { PolicyRender } from '@/features/policies/ui/policy-render';
 import { PolicySectionLayout } from '@/features/policies/ui/policy-section-layout';
 import { PolicyText } from '@/features/policies/ui/policy-text';
+
+export const metadata: Metadata = {
+  title: 'Terms and Conditions | Coinsdot',
+  openGraph: {
+    title: 'Terms and Conditions | Coinsdot',
+  },
+  twitter: {
+    title: 'Terms and Conditions | Coinsdot',
+  },
+  robots: {
+    index: false,
+    follow: false,
+  },
+};
 
 export default async function TermsAndConditionsPage() {
   const t = await getTranslations('termsAndConditions');
