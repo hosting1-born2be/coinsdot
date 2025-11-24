@@ -3,11 +3,8 @@
 import { useEffect, useState } from 'react';
 import { useTranslations } from 'next-intl';
 
-import type { Transition } from '@/shared/lib/motion';
-import { motion } from '@/shared/lib/motion';
 import { cn } from '@/shared/lib/utils/cn';
-import { NextCircleIcon } from '@/shared/ui/icons/next-circle';
-import { Button } from '@/shared/ui/kit/button';
+import { GhostButton } from '@/shared/ui/kit/ghost-button';
 import { Text } from '@/shared/ui/kit/text';
 import { Title } from '@/shared/ui/kit/title';
 
@@ -79,44 +76,14 @@ export const WhyCoinsdot = () => {
             muted
             loop
           />
-          <PulsingButton />
+          <div className="relative mt-auto">
+            <GhostButton className="ml-auto">
+              {t('button', { fallback: 'Get Started' })}
+            </GhostButton>
+          </div>
         </section>
       </div>
     </section>
-  );
-};
-
-const pulseAnimation = {
-  scale: [1, 1.2, 1],
-  opacity: [0.6, 0, 0.6],
-};
-
-const pulseTransition: Transition = {
-  duration: 2,
-  repeat: Infinity,
-  ease: 'easeInOut',
-};
-
-const PulsingButton = () => {
-  const t = useTranslations('home.whyCoinsdot');
-
-  return (
-    <div className="relative mt-auto ml-auto max-lg:hidden">
-      <motion.div
-        className="pointer-events-none absolute right-0 bottom-0 z-10 h-[96px] w-[318px] origin-right rounded-full bg-white/30"
-        animate={pulseAnimation}
-        transition={pulseTransition}
-      />
-      <motion.div
-        className="pointer-events-none absolute right-0 bottom-0 z-10 h-[96px] w-[263px] origin-right rounded-full bg-white/50"
-        animate={pulseAnimation}
-        transition={pulseTransition}
-      />
-      <Button size="lg" variant="ghost" className="relative z-20">
-        {t('button', { fallback: 'Get Started' })}
-        <NextCircleIcon />
-      </Button>
-    </div>
   );
 };
 

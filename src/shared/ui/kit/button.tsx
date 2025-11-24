@@ -18,7 +18,7 @@ const btnVariants = cva(
         solid: 'bg-white hover:bg-white/80 border border-white text-black',
         ghost: 'bg-white text-[#1E59EB] border border-white hover:bg-white/80',
         faded:
-          'text-black border-2 border-[rgba(17,18,18,0.20)] [background:linear-gradient(207deg,_var(--color-azure-90,_#DEE2EC)_16.8%,_var(--color-grey-9564,_rgba(240,_242,_247,_0.64))_91.44%)]',
+          'text-black border-2 border-[rgba(17,18,18,0.20)] [background:linear-gradient(207deg,_var(--color-azure-90,_#DEE2EC)_16.8%,_var(--color-grey-9564,_rgba(240,_242,_247,_0.64))_91.44%)] hover:[background:linear-gradient(207deg,_var(--color-grey-9564,_rgba(240,_242,_247,_0.64))_16.8%,_var(--color-azure-90,_#DEE2EC)_91.44%)]',
         outline:
           'border-2 text-[#070D19] border-[#070D19] bg-transparent hover:bg-[#070D19] hover:text-white',
         fill: 'border-2 text-white border-[#070D19] bg-[#070D19] hover:bg-transparent hover:text-[#070D19]',
