@@ -43,6 +43,7 @@ const titleVariants = cva('transition duration-300 ease-in-out', {
 export type TitleVariants = VariantProps<typeof titleVariants>;
 
 export const Title = ({
+  id,
   children,
   className,
   color,
@@ -53,6 +54,7 @@ export const Title = ({
   uppercase = false,
 }: PropsWithChildren<
   {
+    id?: string;
     className?: string;
     as?: ElementType;
     capitalize?: boolean;
@@ -69,6 +71,7 @@ export const Title = ({
         className,
         uppercase && 'uppercase',
       )}
+      id={id}
     >
       {children}
     </Tag>
