@@ -14,6 +14,7 @@ import { ThreeLinesIcon } from '@/shared/ui/icons/three-lines';
 import { Button } from '@/shared/ui/kit/button';
 import { Text } from '@/shared/ui/kit/text';
 
+import { LangSwitcher } from './lang-switcher';
 import { Notice } from './notice';
 
 export const Header = () => {
@@ -30,7 +31,7 @@ export const Header = () => {
             <Text size="lg">Logo</Text>
             <section className="flex items-center gap-5">
               <div className="flex items-center gap-10 max-md:hidden">
-                <NavButton>English</NavButton>
+                <LangSwitcher />
                 <div className="flex items-center gap-5 max-md:hidden">
                   <Text size="lg">{t('signUp', { fallback: 'sign up' })}</Text>
                   <Text size="lg">{t('logIn', { fallback: 'log in' })}</Text>
@@ -123,7 +124,7 @@ export const Header = () => {
                     </NavButton>
                   </div>
                   <div>
-                    <NavButton>English</NavButton>
+                    <LangSwitcher />
                   </div>
                 </div>
               </section>

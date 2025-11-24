@@ -739,7 +739,7 @@
   },
   "termsAndConditions": {
     "title": "Terms and Conditions",
-    "lastUpdate": "Last updated on September 9th, 2025",
+    "lastUpdated": "Last updated on September 9th, 2025",
     "0": {
       "title": "Table of Contents:",
       "0": "1. Summary",
@@ -1656,5 +1656,9 @@
     "8": "You represent that you have sufficient knowledge, market sophistication, and experience to evaluate the merits and threats of any transaction and that you received professional advice thereon. We give you no warranty as to the suitability of the Services and assume no fiduciary duty in our relations with you. We may provide information on the price, range, volatility of the digital currency and events that have affected the price of digital currency, but this is not considered investment advice and should not be construed as such. Any decision to purchase or sell digital currency is your entire decision at your own risk, and Coinsdot will not be liable for any loss suffered.",
     "9": "– To the full extent permitted by the applicable law, you, as a result of this agreement to indemnify Coinsdot and its partners against any action, liability, cost, claim, loss, damage, proceeding, or expense suffered or incurred if direct or not directly arising from your use of our website, your use of the service or your violation of our terms and conditions.",
     "10": "– Coinsdot is not liable for any price fluctuations in Cryptocurrency. In the event of a market disruption, Coinsdot may suspend the Services at its discretion and in addition to any other right and remedy. Coinsdot will not be liable for any loss you suffer resulting from such action. Following any such event, when Services resume, you acknowledge that prevailing market rates may differ significantly from those available before."
+  },
+  "langSwitcher": {
+    "english": "English",
+    "slovak": "Slovak"
   }
 }

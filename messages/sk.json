@@ -1981,5 +1981,9 @@
     },
     "categoriesOfCookies": "Kategórie súborov cookie",
     "title": "Zásady používania súborov cookie"
+  },
+  "langSwitcher": {
+    "english": "Angličtina",
+    "slovak": "Slovenská"
   }
 }
