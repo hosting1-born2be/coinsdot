@@ -732,5 +732,929 @@
       "0": "Coinsdot.io services are not available to users based in the United Kingdom. If you are accessing this website from the UK, please exit the site.",
       "1": "At this time, our services are not accessible to Retail Clients residing in the UK."
     }
+  },
+  "policies": {
+    "lastUpdated": "Last updated on September 9th, 2025",
+    "tableOfContents": "Table of Contents:"
+  },
+  "termsAndConditions": {
+    "title": "Terms and Conditions",
+    "lastUpdate": "Last updated on September 9th, 2025",
+    "0": {
+      "title": "Table of Contents:",
+      "0": "1. Summary",
+      "1": "2. Key Definitions",
+      "2": "3. Eligibility",
+      "3": "4. General Obligations and Restrictions",
+      "4": "5. Exchange Terms",
+      "5": "6. KYC and Reversal Transaction Policy",
+      "6": "7. Risk Disclosure Statement",
+      "7": "8. Intellectual Property",
+      "8": "9. Third-Party Content",
+      "9": "10. Customer Complaints Procedure",
+      "10": "11. Discontinuance of Service, Suspension and Termination",
+      "11": "12. Limitation of Liability, Disclaimer of Warranties",
+      "12": "13. Applicable Law",
+      "13": "14. Miscellaneous"
+    },
+    "1": {
+      "title": "1. Summary",
+      "0": "Introduction.",
+      "1": {
+        "0": "These Terms of Use and any terms expressly incorporated herein (hereinafter the",
+        "1": "“Terms”",
+        "2": ") apply to your (hereinafter",
+        "3": "“customer”, “client”, “you”",
+        "4": ") access to and use of the Services available within the website provided by Coinsdot.io (hereinafter the",
+        "5": "“Website”",
+        "6": "). Coinsdot.io is owned and operated by Limitless Technologies s.r.o. reg. number 55165451,with registered  address at Černyševského 1287/10, 851 01 Bratislava – Petržalka, Slovak Republic (hereinafter the",
+        "7": "“Coinsdot”",
+        "8": "the",
+        "9": "“Company”",
+        "10": "and",
+        "11": "“us”, “we”"
+      },
+      "2": "By clicking the “create profile” button or using the Services within the Website, you agree to be legally bound by these Terms and all terms incorporated by reference.",
+      "3": "By visiting or accessing the Website, you agree that you have read and accepted these Terms, as well as our Privacy Policy and other documents that may be related to the Service provision, published on the Website.",
+      "4": "We reserve the right to change, modify, or otherwise update the terms and conditions contained in these Terms, including but not limited to any policy or guideline of the Website that forms part of these Terms, at any time and at our sole discretion (hereinafter the “Updated Terms”). The Updated Terms will be effective upon actual, constructive, or inquiry notice (hereinafter the “Notice Date”). We will inform you of any upcoming amendments through the Website at least 30 (thirty) days in advance.",
+      "5": "If You do not agree to be bound by the Updated Terms, your sole and exclusive remedy will be to close your profile within 30 (thirty) days of the Notice Date and your access or use of the Services will be permitted only to the extent necessary to immediately close your profile. You acknowledge that you may close your profile without making any transactions using the Service, and that any such actions are not necessary to close your profile. Your non-termination or continued use of the Website or Service after such a 30 (thirty) days period will constitute your acceptance of the Updated Terms as of the Notice Date.",
+      "6": "Eligibility.",
+      "7": "You must meet eligibility criteria to use the Services of Coinsdot. You must be at least 18 (eighteen) years old. Some locations are not available. ",
+      "8": "You may not engage in illegal activities using our Service.",
+      "9": "Service.",
+      "10": "The Coinsdot facilitates exchange services (buy/sell) encompassing Fiat currencies (including EUR) and Crypto-assets (such as BTC or ETH) (the Services).",
+      "11": "The Coinsdot may suspend your profile temporarily or permanently if you are not eligible to use Service or breach these Terms.",
+      "12": "Risks.",
+      "13": "Engaging in any exchange operation in the Crypto-asset market can be risky and potentially have significant losses. By accepting these Terms you acknowledge that VALUE OF CRYTPO-ASSETS MAY FLUCTUATE SIGNIFICANTLY AND THERE IS A SUBSTANTIAL RISK OF ECONOMIC LOSSES RELATED WITH CRYTPO-ASSETS. BY MAKING USE OF THE SERVICES, YOU ACKNOWLEDGE AND AGREE THAT: (1) YOU ARE AWARE OF THE RISKS ASSOCIATED WITH TRANSACTIONS OF CRYTPO-ASSETS; (2) YOU SHALL ASSUME ALL RISKS RELATED TO THE USE OF THE THE SERVICES AND TRANSACTIONS OF CRYTPO-ASSETS; AND (3) WE SHALL NOT BE LIABLE FOR ANY SUCH RISKS ATTACHED THERETO OR ADVERSE OUTCOMES.",
+      "14": "You, therefore, should carefully consider whether using the Services is suitable for you, in view of your financial resources and other circumstances.",
+      "15": "The Crypto-assets are inherently unpredictable and unstable, will continue to be such for the foreseeable future, and entail an inherent risk with hacks, transfer errors and government sanctions out of control of Coinsdot.",
+      "16": "Do not exchange funds you cannot afford to lose.",
+      "17": "Coinsdot is not a trading site. Coinsdot does not endorse, support or recommend any trading platform. The Coinsdot is not liable for any loss or damage, including any loss of funds or profit of yours.",
+      "18": "Please do not use the Services if you do not understand these risks."
+    },
+    "2": {
+      "title": "2. Key Definitions",
+      "0": "Capitalised terms not otherwise defined in these Terms will have the following meaning:",
+      "1": "“Crypto-asset” shall mean BTC, ETH, and any digital assets that may be purchased, sold via the Service.",
+      "2": "“Coinsdot Profile” shall mean a personal, non-transferable account created by you through the Website for the purpose of accessing and utilizing the Services provided by us.",
+      "3": "“Exchange Fees” shall mean fees charged in connection with the Service at the applicable rates and computation methods specified in the Fee Schedule.",
+      "4": "“External Account” shall mean any financial and / or Crypto-asset account / wallet of which you are the beneficial owner and which is maintained by a third-party payment service of a financial institution (in the event of Fiat currency account) or by third-party crypto-asset service provider or by yourself (in the event of Crypto-asset account / wallet).",
+      "5": "“Force Majeure Event” shall mean an event beyond the Coinsdot`s reasonable control, including but not limited to blockchain network failure, equipment for software malfunction, communications or power failure, the action of government, labour dispute, accident, riot, insurrection, war, fire, an act of God such as extraordinary weather conditions, earthquake, flood, or any other cause beyond the Coinsdots’ reasonable control.",
+      "6": "“Funds” shall mean the Crypto-assets or Fiat currency.",
+      "7": "“Market Exchange Rate” shall mean the prevailing market exchange rate, as determined by our liquidity providers.",
+      "8": "“Actual Exchange Rate” shall mean the exchange rate at which an exchange order was executed.",
+      "9": "“Wallet” shall mean any Crypto-asset address or account owned, controlled by you only and operated outside of the Service.",
+      "10": "“Service” shall mean the exchange of Fiat currency to the Crypto-assets and the Crypto-assets to Fiat currency by executing your order on behalf of you with the liquidity provider we use."
+    },
+    "3": {
+      "title": "3. Eligibility",
+      "0": "Coinsdot may not make the Service available in all markets and jurisdictions. The list of such restricted or excluded jurisdictions may be amended by the Company from time to time, in accordance with applicable laws and regulations and at the Company’s sole discretion.",
+      "1": "You represent and warrant that you:",
+      "2": "are of legal age to form a binding contract; You are 18 (eighteen) years of age or older (and at least in the legal age in your jurisdiction);",
+      "3": "have full power and authority to enter into this agreement and, in doing so, will not violate any other agreement to which you are a party;",
+      "4": "will not use our Service if any applicable laws in your country prohibit you from doing so in accordance with these Terms;",
+      "5": "are not on any trade or economic, financial sanctions list, such as the European Union Consolidated Sanctions list, UN Security Council Sanctions list or the Office of Foreign Assets Control (OFAC) list or in breach of applicable law;",
+      "6": "have not previously been suspended or removed from using our Service;",
+      "7": "The Coinsdot may condition your access or continued access to Service by imposing eligibility requirements.",
+      "8": "The Coinsdot may require that you demonstrate that you continue to meet eligibility requirements."
+    },
+    "4": {
+      "title": "4. General Obligations and Restrictions",
+      "0": "Introduction.",
+      "1": "These Terms apply to users of the Website.",
+      "2": "By using any of the Services available via the Website, you acknowledge that you have read, understood, and agreed to these Terms, as updated and amended from time to time. If you disagree to be bound by these Terms, you may not access or use any of the Services.",
+      "3": "Only eligible Persons are permitted to use the Services. Any person that is not eligible to access the Website will be in breach of these Terms.",
+      "4": "The Coinsdot Profile.",
+      "5": "You may have only one Coinsdot Profile per user of Service.",
+      "6": "When you create the Coinsdot Profile, you agree to:",
+      "7": "Provide accurate, current and truthful information;",
+      "8": "Create a strong password that you do not use for other online services;",
+      "9": "Maintain the security of your Coinsdot Profile by not sharing your password with third parties;",
+      "10": "Promptly notify Coinsdot if you detect any suspicious activity on your Coinsdot Profile;",
+      "11": "Take responsibility for all activities that occur under your Coinsdot Profile.",
+      "12": "Transfer of the Funds.",
+      "13": "You may transfer Funds from an External Account of which you are the beneficial owner. This includes, but is not limited to, payment service accounts, deposit accounts by a financial institution, or Crypto-asset accounts / wallets.",
+      "14": "An External Account may be used to transfer funds for the services of exchanging fiat funds to crypto-assets by using the Company’s Profile or for receiving funds following the  exchanging  crypto-assets into  fiat currency.",
+      "15": "The External Account must comply with all regulatory AML/KYC requirements.",
+      "16": "You can transfer the Funds by credit card. Your transfer of the Fundsby credit card confirms that you have read, understood, and accepted these Terms. Your credit card payments may be delayed or rejected.",
+      "17": "Your credit card company or a third-party processor may reject your credit card payment. The Coinsdot will not be liable for any losses, fees, or charges connected to your credit card used.",
+      "18": "Using your credit card is subject to additional terms set forth by your credit card agreement, including additional fees.",
+      "19": "In case of a chargeback, you will be liable for any resulting costs and fees.",
+      "20": "When making a credit card transaction, please note that we initially place a temporary hold on funds (authorization) until all requirements, such as KYC/AML, are met. Only after successful completion of these requirements will we capture the transaction. If the capture fails, the order will be cancelled.",
+      "21": "By accepting these Terms you acknowledge that the Coinsdot Profile is not a payment nor electronic money account.",
+      "22": "Communications.",
+      "23": "You consent to receive electronically all communications, agreements, documents, invoices, notices, and disclosures the Coinsdot provides in connection with the Service.",
+      "24": "You consent that Coinsdot may provide these communications to you by posting such on the Website , emailing them to you at the email address you provide, and / or sending a text message to a mobile phone number you provide. In the latter case, the carrier’s messaging, data or other fees may apply.",
+      "25": "To access electronic communications, you must use a computer or mobile phone with an internet connection with a current web browser and software to read PDF files.",
+      "26": "You must keep a current and valid email address and mobile phone number on the Profile with Coinsdot. By doing so, you consent to receive electronic communications from Coinsdot. If a communication is sent but you do not receive it due to incorrect or outdated contact details, interference from your service provider, or any other issue preventing receipt, the communication will still be considered delivered by Coinsdot.",
+      "27": "If your email address or mobile phone number becomes invalid, such that electronic communications sent to you are returned, the Coinsdot may deem your profile  to be inactive.",
+      "28": {
+        "0": "You may withdraw your consent to receive electronic communications by sending a withdrawal notice to the Coinsdot support via e-mail",
+        "1": "In some cases the company will need to communicate with the client for additional KYC docs or other material communication. Please note that if such communications are essential for the provision of the Services, Coinsdot reserves the right to suspend or terminate your access to the Services upon withdrawal of consent."
+      },
+      "29": "Nature of Relationship.",
+      "30": "Nothing herein contained shall be deemed to create any other form of relationship. Coinsdot is not acting as your agent, advisor, broker, trader, intermediary, or in any fiduciary capacity.",
+      "31": "All communication provided to you shall not be construed as advice of any kind, to perform or refrain from performing any action.",
+      "32": "Taxes.",
+      "33": "It is your full responsibility to determine if any taxes apply in relation to the Services you utilize via the Website.",
+      "34": "It is your full responsibility to report and remit the correct tax to the appropriate tax authority.",
+      "35": "Coinsdot cannot be responsible for determining whether any taxes apply to your usage of the Services.",
+      "36": "Fair Use.",
+      "37": "By using the Services, you agree that you will not violate any law, contract, intellectual property or other third-party right or commit a wrongful act, a crime or a tort. You are solely responsible for your conduct while using our Service.",
+      "38": "Without limiting the generality of the foregoing, you agree that you will not use the Service in any manner that could interfere with, disrupt, negatively affect or inhibit other users from fully enjoying the Services or that could damage, disable, overburden or impair the functioning of Services.",
+      "39": "You agree that you will not use the Services to pay for, support or otherwise engage in any illegal gambling activities, money-laundering, financing terrorist activities, fraud, sanctions evasion or other illegal activities.",
+      "40": "You agree that you will not use any robot, spider, crawler, scraper or other automated means or interface not provided by Coinsdot to access the Services or extract data.",
+      "41": "You agree that you will not use or attempt to use another user’s profile or engage in any fraud-related activities.",
+      "42": "You agree that you will not attempt to circumvent any content-filtering techniques or attempt to access any service or area of the Services that you are not authorised to access.",
+      "43": "You agree that you will not develop any third-party applications that interact with the Services.",
+      "44": "You agree that you will not use the Services to provide false, inaccurate, or misleading information.",
+      "45": "You agree that you will not use the Services to encourage or induce any third party to engage in any of the activities above.",
+      "46": "Unclaimed Property.",
+      "47": "If Coinsdot is unable, for any reason, to return your Funds to your External Account after a reasonable period of inactivity, Coinsdot may report and remit such Funds in accordance with applicable unclaimed property laws."
+    },
+    "5": {
+      "title": "5. Exchange Terms.",
+      "0": "Definition of Service.",
+      "1": "By submitting an order via the Website, you authorise Coinsdot to execute an order on your behalf with the liquidity provider we use and to charge you all applicable fees.",
+      "2": "If we execute an order for You, we will be required to provide the best execution. We always aim at taking all steps necessary to obtain, while executing orders of yours, the best possible result considering factors of price, costs, speed, likelihood of execution and settlement, size, nature, or any other consideration relevant to the execution of the order.",
+      "3": "Accuracy of Information.",
+      "4": "You must provide all required information per the instructions presented on the Website.",
+      "5": "You represent and warrant that any information you provide is accurate and complete.",
+      "6": "Restrictions.",
+      "7": "Coinsdot may at any time and in its sole discretion refuse any order submitted, impose limits on the order amount or impose any other condition or restriction upon your use of the Services, unless otherwise required by applicable law. However, such restrictions must comply with the Civil Code of the Slovak Republic (Act No. 40/1964 Coll.), the Act No. 250/2007 Coll. on Consumer Protection, must not conflict with the MICA Regulation, the resolutions of the National Bank of Slovakia , the resolutions of the Financial Intelligence Unit (FIU) of the Slovak Republic, as well as the instructions of the Financial Administration of the Slovak Republic and applicable tax legislation. They must also comply with the Act No. 297/2008 Coll. on the Prevention of the Legalization of the Proceeds of Crime and the Financing of Terrorism, and the instructions of supervisory authorities of the Slovak Republic (and, where applicable, the instructions of supervisory authorities of other Member States), as well as any other applicable legal acts.",
+      "8": "Order Fees.",
+      "9": "By using the Services, you agree to pay Coinsdot the fees for the execution of your orders on your behalf and any orders completed using the Services, which we may change from time to time. For specific fees applied please find the table below.",
+      "10": "All applicable fees and exchange rates are disclosed to the Client on the purchase order form prior to the Client’s approval of the transaction. By submitting an Order, the Client is deemed to have provided explicit consent to the applicable fees and exchange rate.",
+      "11": "In addition to the order fees, your External Account operator may impose fees in connection with your use of your External Account. Any fees imposed by your External Account operator will not be reflected on the order information provided by Coinsdot. You are solely responsible for paying any fees imposed by the External Account operator.",
+      "12": "By using the Service, you authorise Coinsdot, or a designated payment processor, to charge or deduct your Funds for any applicable fees owed in connection with the orders you complete by using the Services.",
+      "13": "Upon your failure to make any payment of fees, commissions, charges or other expenses due to Coinsdot, Coinsdot may at any time and in its sole discretion refuse any execution of order submitted, impose limits on the order amount or impose any other condition or restriction upon your use of the Services.",
+      "14": "Exchange Rate.",
+      "15": "Coinsdot will attempt, on a commercially reasonable basis, to execute the order on or close to the prevailing market exchange rate, as determined by Coinsdot`s  liquidity providers.",
+      "16": "You acknowledge that the actual exchange rate may differ from prevailing exchange rates.",
+      "17": "You acknowledge that during periods of volatility in the marketplace for any Crypto-assets, the actual exchange rate may differ from your exchange order’s prevailing market exchange rate.",
+      "18": "Coinsdot will use commercially reasonable efforts to execute orders as soon as possible on a spot basis and up to two (2) days of the date upon which you completed all required KYC and AML procedures.",
+      "19": "Payment for an External Account.",
+      "20": "Only payment methods specified by Coinsdot may be used to purchase and sell Crypto-assets. By submitting an order, you represent and warrant that you are authorised to use the designated payment method and authorise Coinsdot or Coinsdot`s  payment processor to charge your designated payment method.",
+      "21": "If the payment method is invalid or unacceptable, your order may be suspended or cancelled.",
+      "22": "Disruption of Service.",
+      "23": "In the event of an error in providing the Service, in order confirmation, in executing the order, or otherwise, the Coinsdot reserves the right to correct such error and revise your order accordingly or to cancel the purchase and refund any amount received, after deduction of applicable fees.",
+      "24": "In a market disruption or Force Majeure event (see Key Definitions above), such as blockchain network failure, Coinsdot may suspend access to the Services.",
+      "25": "Following any such event, you acknowledge that prevailing market exchange rates may differ from the rates available prior to such event.",
+      "26": "Cancellation of order (buying/selling).",
+      "27": "You may cancel an order initiated via transaction order form only if such cancellation occurs before Coinsdot initiates execution of the order.",
+      "28": "Once your order has been executed, you may not change or cancel your authorization for Coinsdot to complete the order.",
+      "29": "If an order has been partially filled, you may cancel the unfilled remainder.",
+      "30": "If an order may not be completed due to insufficient Funds, Coinsdot may cancel the entire order.",
+      "31": "No Refunds",
+      "32": "All order execution operations, sales and purchases of the Crypto-assets via the Website are final and non-refundable.",
+      "33": "Coinsdot does not accept any returns and will not provide any refunds unless specifically provided in these Terms.",
+      "34": "Safeguarding of your FIAT funds",
+      "35": "In the event you initiate the order to buy Crypto-assets for FIAT funds, any FIAT funds received for order execution purposes will be placed within a separate client account opened with the payment service provider. Such a client FIAT funds account is used solely for segregating your FIAT funds and no FIAT funds of Coinsdot are commingled there.",
+      "36": "If your order for any reason is not executed within the next business day upon receipt of your FIAT funds in a client FIAT funds account with payment service provider as indicated above, then such FIAT funds of yours are transferred to a separate clients’ FIAT funds segregation account opened with a credit institution. That is, we have taken the appropriate steps of safeguarding your and other clients’ of our FIAT funds by segregating and placing them in protected clients’ funds bank account. You shall retain the ownership of the FIAT funds transferred to us for execution of orders until the order is fully executed. FIAT funds placed on our clients’ funds bank account are protected against any claims made by creditors of ours.",
+      "37": "When we execute the order on behalf of you, any Crypto-assets purchased on your behalf within the liquidity provider (execution venue) are placed within a separate wallet to ensure no commingle of your Crypto-assets and ours. Once the order is completed, the Crypto-assets are transferred to your Crypto-asset wallet upon the details of such provided by you.",
+      "38": "By accepting these Terms, you are aware that we do not provide Crypto-asset custody to any extent. It is your responsibility to indicate an accurate external wallet address, where purchased Crypto-assets as a result of order execution of yours shall be transferred.",
+      "39": "Whenever possible, when performing financial (fiat) transactions, using a payment card, or accessing our services, you should use multi-factor authentication and relevant strong customer authentication methods. We are not liable if you transfer funds (fiat) improperly without using secure methods as required by your payment service provider, or if you disclose your banking credentials or payment card details to third parties. More detailed information on how to protect yourself from fraud can be found in the Fraud Prevention section of our website. We regularly update this section in line with best market practices and applicable legal requirements, also taking into account the best practices outlined in the National Bank of Slovakia’s Fraud Prevention Guidelines. In all cases, we place particular emphasis on ensuring that clients use strong customer authentication methods and we also implement measures aimed at reducing fraud risk."
+    },
+    "6": {
+      "title": "6. KYC and Reversal Transaction",
+      "0": "Pursuant to Regulatory Guidance, a completion of a successful “Know Your Client” (“KYC”) procedure is a necessary condition to use Service. Documents and media files will be uploaded to your Coinsdot profile and stored per Coinsdot Privacy Policy.",
+      "1": "A successful KYC procedure allows a client to use Service and settle the client’s exchange order per clause V.5.4.",
+      "2": "You acknowledge that, as part of the verification process and background checks conducted in accordance with our KYC procedures and AML policies, the Company may carry out inquiries either directly or via authorized third-party providers. These checks are intended to prevent fraud, suspicious behavior, identity fraud, money laundering, or other unlawful activities.",
+      "3": "By using the Services, you agree and consent to the Company sharing your information as necessary for legitimate business purposes, including but not limited to fulfilling KYC and AML obligations.",
+      "4": "We implement internal procedures to carry out individual ML/TF risk assessments and assign You to risk groups (categories).",
+      "5": "Company’s Customers are classified with a risk level: low, medium, high risk. accordingly you may be subject to enhanced due diligence. We assess the customer's risk as high using our risk scoring matrix.",
+      "6": "You will be assigned to the risk group (category) based on various criteria, e.g., the country of registration, the type of activity, the actual place of business, Your place of residence, nationality, source of funds/wealth, the nature and size of the transactions performed. The foregoing list is not exhaustive.",
+      "7": "Based on your risk level we will require different KYC documents and procedures and we may also not accept you as our client and may not allow you to use the Services. The documents and media files requested may include, but are not limited to:",
+      "8": "Government-issued ID. The ID is subject to an automatic verification to confirm its validity and authenticity. A facial similarity analysis between the selfie and ID for You is conducted as well to ensure that You are who you claim to be.",
+      "9": "Selfie - real time photo when the facial image of the customer and the original of the identity document or an equivalent residence permit shown by the customer is recorded at the time of real time photo streaming.",
+      "10": "Proof of Address - KYC requirement where you must submit a valid document showing your current residential address. Acceptable documents include utility bills, bank statements, or official government correspondence dated within the last three months. The purpose is to confirm your declared residence to assess jurisdictional compliance and detect possible fraud. It also supports AML obligations and helps in accurate client risk profiling.",
+      "11": "Questionnaire/confirmation Form 101",
+      "12": "Questionnaire/confirmation Form 102",
+      "13": "Source of Funds",
+      "14": "Video Call",
+      "15": "We also act in accordance with the Act No. 297/2008 Coll. on the Prevention of the Legalization of the Proceeds of Crime and the Financing of Terrorism, Civil Code of the Slovak Republic (Act No. 40/1964 Coll.) , the Act No. 250/2007 Coll. on Consumer Protection, the MICA Regulation (where relevant), the resolutions of the National Bank of Slovakia, the resolutions of the Financial Intelligence Unit (FIU), as well as the instructions of the Financial Administration of the Slovak Republic and applicable tax legislation, and the instructions of supervisory authorities of the Slovak Republic (and, where applicable, the instructions of supervisory authorities of other EU Member States), as well as any other applicable legal acts that we, as a company engaged in crypto-asset activities, are obliged to comply with, and these Terms and Conditions, which we update regularly. In this context, we may request additional data, documents, evidence, or explanations from you, and you undertake to provide them within the reasonable time period specified by us, in accordance with prevailing market standards.",
+      "16": "If a user refuses to complete KYC process for any reason, the User shall:",
+      "17": "Inform Coinsdot of refusal to complete the KYC process in writing to Coinsdot customer service.",
+      "18": "Provide a valid personal account/wallet for reversal of the transaction. Coinsdot shall then initiate a transaction reversal. The user’s FIAT funds/cryptocurrency shall be returned to the user’s account/wallet five (5) days after the date upon which a user submitted a refusal to complete the KYC statement.",
+      "19": "If pursuant to a KYC process, Coinsdot will refuse to provide services to a user due to AML policy, compliance directive or any other reason, Coinsdot shall initiate a reversal of the transaction, and the user’s FIAT funds/cryptocurrency shall be returned to the user’s account/wallet up to five (5) days of the date upon which a user-submitted an exchange order.",
+      "20": "The Company reserves the right to take any measures it considers appropriate following the completion of its KYC/AML assessments including but not limited to comply with any relevant reporting obligations related to the prevention of money laundering and terrorist financing.",
+      "21": "We may disclose relevant findings and your personal data to the relevant  authorities as required by laws and regulations.",
+      "22": "You acknowledge that the Company has full discretion over these decisions and is not obligated to explain or disclose the specific reasons behind the outcome of such reviews."
+    },
+    "7": {
+      "title": "7. Risk Disclosure Statement.",
+      "0": "You agree that you shall access and use the Service at your own risk.",
+      "1": "Please note that this brief statement cannot disclose all the risks associated with the Crypto-asset market. The list outlined in these Terms is aimed to provide general information regarding the risks associated with the Services and the use of them. However, it is not intended to provide an exhaustive disclosure of all the risks associated with using the Services and there may be additional risk factors that are not disclosed in this section because they are either unknown or considered insignificant at the time of publication. Additionally, this information does not address how these risks may relate to the personal circumstances, financial status, or risk tolerance of yours. It should not be construed as a definitive evaluation of the risks associated with the Services, therefore, the decision to use our Services should not be made solely on the basis of the indicated risk factors.",
+      "2": "Any operation in Crypto-assets involves a high degree of risk and the potential for significant losses. You, therefore, should carefully consider whether using the Services is suitable for you, in view of your financial resources and other circumstances.",
+      "3": "The Coinsdot and none of its agents or employees are investment or trading advisors.",
+      "4": "Any communication between the Client and the Company shall not be considered investment advice.",
+      "5": "The Company makes no warranty as to the suitability of the Services to the Client and the Client is fully aware of the risk associated with the Crypto-assets market.",
+      "6": "By using the Services, you acknowledge that the Crypto-assets are inherently unpredictable and unstable and will continue to be for the foreseeable future.",
+      "7": "The Crypto-assets entail an inherent risk with hacks, transfer errors, and government sanctions out of the control of Coinsdot.",
+      "8": "The Coinsdot is not responsible for communicating, anticipating or detecting all known or unknown risks inherent in the Crypto-asset markets.",
+      "9": "You must carefully consider your capabilities, experience level and risk tolerance before performing any operations with the Crypto-assets.",
+      "10": "Do not exchange funds you cannot afford to lose.",
+      "11": "Coinsdot is not a trading site. Coinsdot does not endorse, support or recommend any trading platform. Furthermore, you acknowledge that risks are inherent to and associated with utilising Internet-based trading systems. Coinsdot is not liable for any loss or damage, including any loss of funds or profit.",
+      "12": "You acknowledge that there are inherent risks associated with utilising an Internet-based exchange service, such as hardware or software failure and Internet connection failure. You acknowledge that Coinsdot shall not be responsible for any disruptions, errors, delays or communication failures you may experience when using the Services, however, caused.",
+      "13": "The Crypto-assets constitute a rapidly changing and unpredictable environment with an endless number of variables and factors outside your or Coinsdot control. New risks emerge at every moment, which creates market risk and uncertainty. Coinsdot is not responsible for anticipating, detecting or communicating all known or unknown risks in the Crypto-asset market.",
+      "14": "Some factors that could cause negative performance on operations are market volatility, government policies and regulations, hacks and security breaches resulting in the theft of funds, price manipulation, and general economic or market conditions.",
+      "15": "Risk is the exposure to the chance of loss. You confirm that even though it seems unlikely, there is a real chance of realising risk that may result in the total loss of your Funds.",
+      "16": "In certain market conditions, the market can reach a daily price fluctuation limit or insufficient liquidity, in which case your exchange order execution might be impossible."
+    },
+    "8": {
+      "title": "8. Intellectual Property",
+      "0": "Intellectual Property Rights.",
+      "1": "Unless otherwise indicated, all copyright and other intellectual property rights in all content and other materials contained on our website or provided in connection with the Services, are the proprietary property of Coinsdot and are protected by international copyright laws and other intellectual property rights laws.",
+      "2": "Content and materials may include the Coinsdot logo, designs, text, graphics, pictures, information, data, software, files and the selection and arrangement.",
+      "3": "Coinsdot does not permit any use of the content and materials other than for their intended purposes.",
+      "4": "Coinsdot grants you a limited, non-exclusive and non-sublicensable licence to access and use the Coinsdot content and materials for your personal or internal business use.",
+      "5": "Such licence does not permit any resale of the content or materials. It forbids the distribution, public performance or public display, modifying or otherwise making any derivative use of content or materials.",
+      "6": "Any suggestions, feedback, ideas, proposals, or other materials that you submit or communicate to Coinsdot through support correspondence, use of the Services, or any other means—shall become the sole and exclusive property of Coinsdot. Coinsdot shall own all rights, title, and interest in such submissions without any obligation to compensate you.",
+      "7": "Coinsdot will own exclusive rights to any information submitted as suggestions, ideas or feedback to change or improve service. Such suggestions are non-confidential and shall become the sole property of Coinsdot.",
+      "8": "Coinsdot will be entitled to the unrestricted use and dissemination of the feedback for any purpose, commercial or otherwise, without acknowledgement or compensation to you. You waive any rights you may have to the suggestions, ideas or feedback, including copyright and moral rights.",
+      "9": "Coinsdot reserves the right to disclose your identity to any third party who is claiming that content posted by you constitutes a violation of their intellectual property privacy rights.",
+      "10": "Trademarks",
+      "11": "“Coinsdot” and Coinsdot logo are trademarks of Coinsdot, and may not be copied, imitated or used, in whole or in part, without Coinsdot’s prior written permission.",
+      "12": "You may not use any trademark, product or service name of Coinsdot without prior written permission.",
+      "13": "Use above includes meta tags or hidden text utilising any trademark, product or service name of Coinsdot.",
+      "14": "The look and feel of Coinsdot Site and Service, including all page headers, custom graphics, button icons and scripts, is the service mark, trademark and/or trade dress of Coinsdot and may not be copied, imitated or used, in whole or in part, without prior written permission.",
+      "15": "All other trademarks, registered trademarks, product names and company names or logos mentioned through the Service are the property of their respective owners. Reference to any products, services, processes or other information, by name, trademark or otherwise does not constitute or imply endorsement, sponsorship or recommendation by Coinsdot."
+    },
+    "9": {
+      "title": "9. Third-Party Content",
+      "1": "While using the Services, you may view content provided by third parties, including links to web pages of such parties, including but not limited to Facebook links.",
+      "2": "The Coinsdot does not control, endorse or adopt any such third-party content and shall have no responsibility for such content, including material that may be misleading, incomplete, erroneous, offensive, indecent or otherwise objectionable.",
+      "3": "The Coinsdot is not responsible or liable for any loss or damage of any sort incurred from any dealings with third parties.",
+      "4": "Interaction and use of third party content are at your own risk.",
+      "5": "Before using our services or any third-party services, please carefully review the applicable Terms and Conditions, as well as the risks associated with the use of such services and information. We kindly ask you to thoroughly compare our Terms and Conditions with those of any third party in order to clearly understand which services are provided by us and which are provided by the third party. As a company engaged in crypto-asset activities, we operate in accordance with the current and applicable laws and regulations of the Republic of Slovakia and the European Union, including restrictions related to sanctions, limitations on the provision of certain services in specific jurisdictions, restrictions applicable to specific client segments, and the current decisions of supervisory authorities. Therefore, when using third-party services, you assume the risks associated with such use."
+    },
+    "10": {
+      "title": "10. Customer Complaints Procedure",
+      "0": "General notes.",
+      "1": "Coinsdot is committed to the highest level of service and client satisfaction, and operates and resolves complaints in compliance with the Act No. 297/2008 Coll. on the Prevention of the Legalization of the Proceeds of Crime and the Financing of Terrorism, Civil Code of the Slovak Republic (Act No. 40/1964 Coll.) , the Act No. 250/2007 Coll. on Consumer Protection, the MICA Regulation (where relevant), the resolutions of the National Bank of Slovakia, the resolutions of the Financial Intelligence Unit (FIU), as well as the instructions of the Financial Administration of the Slovak Republic and applicable tax legislation, and the instructions of supervisory authorities of the Slovak Republic (and, where applicable, the instructions of supervisory authorities of other EU Member States), as well as any other applicable legal acts that we, as a company engaged in crypto-asset activities, are obliged to comply with. These Terms and Conditions are updated regularly in line with changes in applicable legislation or adjustments to the specifics of our service provision - in all cases providing prior and transparent public notice of such changes to our clients (and potential clients).",
+      "2": {
+        "0": "Any dissatisfaction with Services, irrespective of whether it is justified or not, related to our products / Services or the complaints handling process itself, feedback or voicing the client’s opinion can be registered as a complaint. See instructions below and our",
+        "1": "Complaints Procedure."
+      },
+      "3": "Coinsdot is committed to treating you with respect and transparency, handling the complaint fairly, and providing a timely response. An eligible complaint Complaint may be made by any person who is directly affected by the way we have provided our Services and who can make a complaint in respect thereof. Therefore, you may file the complaint respectively to us, if you are: i) individual client (natural person/consumer) that uses our Services, or ii) a legal representative of any individual client (of consumer) of ours.",
+      "4": "The response shall strive to be constructive, and include an explanation and reasoning.",
+      "5": "How to register a complaint?",
+      "6": "Prepare identifying information about yourself and the transaction in the subject of the complaint. The identifying information should include:",
+      "7": "Your Coinsdot profile number (if any).",
+      "8": "Full name and address, as provided when you have registered your",
+      "9": "Order number (if any).",
+      "10": "The completed Complaint Form, along with relevant additional information, can be found together with the Complaints Procedure on our website.",
+      "11": {
+        "0": "Send your complaint by email to:",
+        "1": "Please state “complaint” in the subject."
+      },
+      "12": "You can also send your complaint in paper form to our address at: Černyševského 1287/10, 851 01 Bratislava – Petržalka, Slovak Republic",
+      "13": "Via the Customer service portal on the web ticketing system.",
+      "14": "If You have questions or concerns regarding data protection or Privacy Policy or if you have a related Complaint, please contact us by our appointed Data Protection Officer (DPO) at dpo@coinsdot.io or via the standard contact methods listed above. For more information, please also refer to our Privacy Policy. When handling complaints related to data protection, we act in accordance with both the GDPR and the applicable national legal acts enforced by supervisory authorities in the field of data protection. Therefore, our handling of data protection-related complaints (including the outcomes of such reviews) may also change in line with best market practices and the requirements of supervisory authorities. Before launching products or providing services, as well as when data is transferred either within Slovakia or beyond its borders, we conduct a Data Protection Impact Assessment to ensure proper data protection and compliance with Slovakian legal requirements. To keep your data safe and secure, do not disclose it to unauthorized third parties and provide it only through our official systems or via the contact channels we specify. In cases of international data transfers, we may apply additional security measures and take supplementary actions.",
+      "15": {
+        "0": "For the detailed information on how you can file the complaint, how we handle your complaint and on other related matters, please refer to our",
+        "1": "Complaints Handling Procedure",
+        "2": "which can be accessed here."
+      },
+      "16": "Although a transitional period for obtaining a MICA-related license is currently in effect in Slovakia, in the interest of maximum transparency, we inform you that in certain cases the National Bank of Slovakia also provides opinions/answers on matters related to cryptocurrencies. You therefore have the right to contact the National Bank of Slovakia; however, during the transitional period, the National Bank of Slovakia, acting in accordance with applicable legislation, may determine that such a complaint does not meet its admissibility criteria. Please be informed, that Customers, who are not satisfied with the Company’s response, may report to the National Bank of Slovakia. The Complainant may submit a complaint to the National Bank of Slovakia, in Slovak or English language, by filling in the application form as specified in the website of the National Bank of Slovakia and sending it in writing or by electronic means to the National Bank of Slovakia to this address: Imricha Karvaša 1 813 25 Bratislava, Slovakia, or via email: info@nbs.sk."
+    },
+    "11": {
+      "title": "11. Discontinuance of Service, Suspension and Termination.",
+      "1": "Coinsdot may, in its sole discretion, without liability to you, at any time and without prior notice, discontinue, temporarily or permanently, access to any Coinsdot Services, unless otherwise required by applicable law.",
+      "2": "In the event of any breach of these Terms by you, the Force Majeure Event, or any other event that would make provision of the Services commercially unreasonable for the Coinsdot, the Coinsdot may, in its sole discretion and without liability to you, without prior notice, suspend your access to the Services.",
+      "3": "Following such an event, the Coinsdot may terminate your access to the Services, deactivate your Coinsdot Profile and delete all related information."
+    },
+    "12": {
+      "title": "12. Limitation of Liability, Disclaimer of Warranties",
+      "0": "Limitation of Liability.",
+      "1": "Except as otherwise required by law, in no event shall Coinsdot, its suppliers, service providers, directors, members, employees or agents be liable for any special, indirect or consequential damages, or any other damages of any kind, including but not limited to loss of use, loss of profits or loss of data, whether in an action in contract, tort, negligence or otherwise, arising out of or in any way connected with the use of or inability to use our services, including without limitation any damages caused by or resulting from reliance by any user on any information obtained from Coinsdot, or that result from mistakes, omissions, interruptions, deletion or loss of files or information, errors, defects, viruses, delays in operation or transmission or any failure of performance, whether or not resulting from a Force Majeure Event, communications failure, theft, destruction or unauthorised access to records, programs or services.",
+      "2": "Disclaimer of Warranties.",
+      "3": "Coinsdot provides services on an “as is” and “as available” basis.",
+      "4": "The Coinsdot expressly disclaim, and you waive, all warranties of any kind, whether express or implied, including, without limitation, implied warranties of merchantability, fitness for a particular purpose, title and non-infringement, including the information, content and materials contained therein.",
+      "5": "You are aware that information you store or transfer through the Coinsdot Services may become irretrievably lost, corrupted, or temporarily unavailable due to various causes, including but not limited to software failures, protocol changes, Force Majeure Events, denial-of-service attacks, maintenance, or other causes. You acknowledge the above-stated risk and confirm you are solely responsible for backing up any information you store or transfer through the Services."
+    },
+    "13": {
+      "title": "13. Applicable Law",
+      "0": "Jurisdiction.",
+      "1": "The Terms of Use shall be governed by, construed and enforced according to the laws of Slovakia, without giving effect to the principles of conflicts of law. These Terms and Conditions are governed by and shall be interpreted in accordance with the Act No. 297/2008 Coll. on the Prevention of the Legalization of the Proceeds of Crime and the Financing of Terrorism, Civil Code of the Slovak Republic (Act No. 40/1964 Coll.) , the Act No. 250/2007 Coll. on Consumer Protection, the MICA Regulation (where relevant), the resolutions of the National Bank of Slovakia, the resolutions of the Financial Intelligence Unit (FIU), as well as the instructions of the Financial Administration of the Slovak Republic and applicable tax legislation, and the instructions of supervisory authorities of the Slovak Republic (and, where applicable, the instructions of supervisory authorities of other EU Member States), as well as any other applicable legal acts, which are updated from time to time. For transparency purposes, we regularly publish both the current and previous versions of these Terms and Conditions on our website, enabling clients to properly exercise their rights and ensuring our compliance with applicable legal requirements, as well as the proper handling of complaints in accordance with the Terms and Conditions in force at the relevant time."
+    },
+    "14": {
+      "title": "14. Miscellaneous",
+      "0": "Entire Agreement.",
+      "1": "These Terms contain the entire agreement between you and Coinsdot, and supersede all prior and contemporaneous understandings between the parties regarding the Services.",
+      "2": "Amendment",
+      "3": "Coinsdot reserves the right to make changes or modifications to these Terms from time to time, in Coinsdot’s sole discretion, by posting the amended Terms of Use on the website, and by communicating these changes through any written or other contact methods, we have established with you. Additional information you can find in the clauses 1.4-1.5 of the Terms.",
+      "4": "Changes to the Terms and Conditions are communicated 30 days prior to their effective date. In such cases, you have the right to terminate your agreement with us before the changes take effect. However, if you do not terminate the agreement within this period, the updated Terms and Conditions will apply to you. 14.2.3 To ensure that consumers can effectively exercise their rights, we will publish both the current and previous versions of the Terms and Conditions on our website.",
+      "5": "Waiver",
+      "6": "Coinsdot’ failure or delay in exercising any right, power or privilege under these Terms shall not operate as a waiver.",
+      "7": "Severability",
+      "8": "The invalidity or unenforceability of any of these Terms shall not affect the validity or enforceability of any other Terms, all of which shall remain in full force and effect.",
+      "9": "Descriptive Headings",
+      "10": "The descriptive headings of the Terms are inserted for convenience only and do not constitute a part of the Terms",
+      "11": "Assignment",
+      "12": "You may not assign or transfer any of your rights or obligations under these Terms, including in connection with any change of control, unless otherwise required by applicable law.",
+      "13": "Coinsdot may assign or transfer any or all of its rights under these Terms, in whole or in part, without obtaining your consent or approval.",
+      "14": "Survival",
+      "15": "The following clauses shall survive termination or expiration of these Terms:",
+      "16": "(3) Eligibility",
+      "17": "(4) General Obligations and Restrictions: (2) Account, (4) Taxes, (5) Unclaimed Property",
+      "18": "(5) Exchange Terms",
+      "19": "(7) Risk disclosure statement",
+      "20": "(8) Intellectual Property",
+      "21": "(12) Limitation of liability",
+      "22": "(13) Applicable law, dispute resolution",
+      "23": "(14) Miscellaneous"
+    }
+  },
+  "feesTable": {
+    "feeType": "Fee type",
+    "fee": "Fee",
+    "additionalFees": "Additional fees",
+    "processingFee": "Processing fee for debit / credit cards and alternative payment methods",
+    "3percent": "3% from the transaction value",
+    "variable": "Variable and depends on network congestion, transaction complexity, and the blockchain used. The exact blockchain fee applicable to a transaction will be displayed to the client before confirming the transaction",
+    "blockchainFee": "Blockchain fee",
+    "otherFees": "Other fees",
+    "refundFee": "Refund fee",
+    "chargebackFee": "Chargeback fee",
+    "50Eur": "50 EUR + 4% from transaction value",
+    "100Eur": "100 EUR"
+  },
+  "privacyPolicy": {
+    "title": "Privacy Policy",
+    "0": {
+      "0": "Limitless Technologies s.r.o. (“Company” or “we”, “us” or “our”) is dedicated to protecting the privacy rights of our online users and customers (“users” or “you”). This Privacy and Cookie Policy (the “Policy”) applies to the on-line platform (including any applicable mobile applications used to access the same, if available) (collectively the “Platform”) and when you use or visit our website Coinsdot.io (the “Website”), or any of our products or services offered through the Platform and/or the Website (collectively, the “Service”).",
+      "1": "This Policy is incorporated by reference and forms an integral part of our Terms of Use.",
+      "2": "This Policy supplements the other notices and is not intended to override them. Terms used within it shall have the meaning(s) given in the Regulation (EU) 2016/679 (General Data Protection Regulation (GDPR)), as applicable.",
+      "3": "This Policy is designed to help you understand what kind of Personal Data we collect in connection with our services and how we will process and use this Personal Data. When you use our services, you are trusting us with your Personal Data. We understand this is a big responsibility and work hard to protect your Personal Data and put you in control.",
+      "4": "By accessing or using our Services, Website, or the Platform, or by creating a profile, you agree that you have read, understand the terms and conditions contained in this Policy. If you do not agree with or are not comfortable with any aspect of this Policy, you should immediately discontinue access or use of the Platform and our Services."
+    },
+    "1": {
+      "title": "Which Personal Data Do We Collect About You?",
+      "0": "Personal Data is any information which is related to an identified or identifiable natural person. This Policy covers all Personal Data that you voluntarily submit to us and that we obtain from our partners and service providers. This Policy does not apply to anonymized data, as it cannot be used to identify you. Personal Data means any information that is unique to you such as the following personal information and documentation we, our partners or service providers may collect from you",
+      "1": "biographical information and contact information such as full legal name, user ID, date of birth, birth place, age, nationality, citizenship, gender, signature, contact details (e.g. phone number and email address, etc.) and residential address;",
+      "2": "supplemental identification information such as government-issued identity documents (e.g. passport, driver’s license, or state identification card, etc.), selfies, photographs and/or videos, social security number, employment information (e.g. company name), proof of residency, including utility bills and visa information;",
+      "3": "Information collected in accordance with the requirements of the laws: Results from Politically Exposed Persons (PEP) screening & sanction screening, any additional Personal Data required for proving Source of Funds (e. g. employment contract, certificate of inheritance, etc.), AML screening, address, ID document, video and e-mail verification, Selfie check, data on the management structure and business activity, etc.",
+      "4": "financial information such as bank account information, payment card primary account number, credit card details, details about your source of funds, tax identification number, information about your income, assets and liabilities, and information relating to economic and trade sanctions lists;",
+      "5": "wallet information such as wallet addresses or multi-coin crypto wallet information, and information related to wallet integrations that you select, ownership information;",
+      "6": "transactional information made using our Services such as digital asset preferences, payment method, date, and/or timestamp, settings, and preferences you select, your inquiries and our responses;",
+      "7": "communication and referral information (including emails, text messages, correspondence sent through the “contact” section of the Platform and call recordings) or information obtained from events or public social networking platforms and your contacts’ phone or email addresses if you choose to refer people to us, along with our responses to you;",
+      "8": "employment information: includes your employment history, education background and income levels;",
+      "9": "marketing information includes your consent and preferences in receiving direct marketing from us and our third parties and your communication preferences;",
+      "10": "other Personal Data or commercial and/or identification information including Personal Data we, in our sole discretion, deem necessary to comply with our legal obligations, such as anti-money laundering laws."
+    },
+    "2": {
+      "title": "How Do We Collect Personal Data?",
+      "0": "Personal Data is collected from your use of Services, as well as from trusted service providers who provide us with financial services, know-your-customer services and financial intelligence services We may combine the information that we collect about you from these various sources.",
+      "list": {
+        "0": "apply to use our services;",
+        "1": "create a profile on our Platform;",
+        "2": "make exchange transactions;",
+        "3": "give us some feedback or lodge a query."
+      },
+      "1": "Data We Collect Automatically",
+      "2": "When you use the Platform, our servers automatically record information using cookies and other tracking technologies, including information that your browser sends whenever you visit the Platform or your mobile application sends when you are using it. This log data may include your Internet Protocol address, the address of the web page you visited before coming to the Platform, your browser type and settings, the date and time of your request, information about your browser configuration and plug-ins, language preferences, and cookie data.",
+      "3": "In addition to log data, we may also collect information about the device you use for the Platform, including what type of device it is, what operating system you are using, device settings, unique device identifiers, and crash data. Whether we collect some or all this information may depend on what type of device you are using and its settings.",
+      "4": "We may combine this information with other information that we have collected about you, including, where applicable, your full name, username, email address, and other Personal Data.",
+      "5": "We collect information about your current IP address to determine general location data, such as city or region. We do not collect precise physical location information (e.g., GPS coordinates). If you have any questions about how IP-based location data is used, feel free to contact us.",
+      "6": "Information from Third Parties or publicly available sources",
+      "7": "In some cases, we may receive Personal Data about you from a third party, such as a data provider, credit reference agency, or other trusted source. This Personal Data may be used to verify your identity, address, or creditworthiness, and to improve the quality of our services.",
+      "8": "The third parties we receive Personal Data from are carefully selected and are bound by strict confidentiality agreements to protect your Personal Data. They are also subject to applicable data protection laws and regulations, such as the GDPR.",
+      "9": "We may receive Personal Data about you from various third parties and public sources as set out below:",
+      "list2": {
+        "0": "Our partner who shares your Personal Data with us so that (a) you can use our services on their behalf; and (b) they can pay money to you (for example, your salary if you are their employee or payment for goods and/or services if you are their supplier);",
+        "1": "analytics providers such as Google based outside the EU;",
+        "2": "advertising networks such as Google based inside OR outside the EU; and",
+        "3": "search information providers Google based inside OR outside the EU;",
+        "4": "Electronic Identity Verification providers from data brokers or aggregators based inside or outside the EU;",
+        "5": "We may also record and verify personal identity documents such as passports electronically including screen grabs;",
+        "6": "Identity data and contact data from publicly availably sources based inside the EU;"
+      },
+      "10": "In order to provide contracted services, we may need verify details with Credit Reference agencies, anti-Fraud agencies, Sanction screening and politically exposed persons (PEP) listings."
+    },
+    "3": {
+      "title": "What Are the Purposes of the Collection and Processing of Data?",
+      "0": "We collect and process your Personal Data for the following purposes:",
+      "list": {
+        "0": "To provide and improve our services: We use your Personal Data to provide and improve the Services we offer, including processing transactions and providing customer support.",
+        "1": "To process transactions – to allow you to make the purchase order transactions by using your payment devices and through the Platform;",
+        "2": "To verify your identity - to verify your identity, perform transactions you instruct on us or for the purposes of fraud detection or protection, or in other situations involving suspicious or illegal activities we use and share your data with credit-checking/reference agencies and fraud prevention agencies. We may as well perform a search of your credit file, if this is necessary and/or required to deliver our services to you;",
+        "3": "To perform our services and payments – we use and share your data with banking, including Electronic Money Institutions, crypto liquidity exchanges and financial service partners such as banking intermediaries, international payment services providers and regulated distribution agents;",
+        "4": "To communicate with you: We use your Personal Data to communicate with you, such as sending you updates about your profile with us or our services, responding to your inquiries, and sending you promotional materials. For more information about opting out of certain communications, please see the “Your rights and choices in relation to your Personal Data” section below.",
+        "5": "To comply with legal obligations: We may use your Personal Data to comply with legal obligations, such as to comply with tax laws or to respond to subpoenas and other legal requests.",
+        "6": "To protect our rights and interests: We may use your Personal Data to protect our rights and interests, such as to enforce our terms of service, to prevent fraud and abuse, and to protect the security of our services.",
+        "7": "To personalize your experience: We may use your Personal Data to personalize your experience, such as to provide recommendations and advertisements that are more relevant to you.",
+        "8": "To personalize your experience. We may use your Personal Data to analyze how you interact with the Service; to monitor and analyze usage and activity trends; and for other research, analytical, and statistical purposes.",
+        "9": "Carry out any other purpose described to you at the time the information was collected."
+      }
+    },
+    "4": {
+      "title": "Lawful Basis to Processing",
+      "0": "When we process your Personal Data, we will only do so using one of the following legal basis:",
+      "list": {
+        "0": "Consent: We have your consent to do so. When consent is the legal basis for our processing, you may withdraw such consent at any time.",
+        "1": "Performance of a Contract: We may process your Personal Data to perform our obligations under a contract with you, such as to deliver the services you have requested or to take steps at your request before entering into such a contract.",
+        "2": "Legal Obligation: We may process your Personal Data to comply with legal obligations, such as to comply with tax laws or to respond to subpoenas and other legal requests.",
+        "3": "Legitimate Interest: We may process your Personal Data for our legitimate interests, such as to improve our services, to communicate with you, and to protect our rights and interests, enforce our Terms of Use and legal notices and for the establishment, exercise and defence of legal claims, conclude corporate transactions (e.g., corporate restructuring, sale or assignment of assets, merger), share your information with third party marketplaces and service providers for adverting purposes, enforce our Terms of Use and prevent fraud illegal activity and/or any violation of our intellectual property rights."
+      },
+      "1": "Note that we may process your Personal Data for more than one lawful ground depending on the specific purpose for which we are using your data. Please contact us if you need details about the specific legal ground, we are relying on to process your Personal Data.",
+      "2": "Generally, we do not rely on consent as a legal basis for processing your Personal Data other than in relation to sending third party direct marketing communications to you via email or text message. You have the right to withdraw consent to marketing at any time by contacting us."
+    },
+    "5": {
+      "title": "Sharing Personal Data with Third Parties",
+      "0": "We respect your privacy and will not disclose, share, rent, or sell your Personal Data to any third party unless the sharing of your Personal Data is made upon performance of the contract, your specific and explicit request or due to compliance with regulatory requirements or legitimate interest, as set out below.",
+      "list": {
+        "0": "Affiliates. We may disclose the information we collect from you to our affiliates or subsidiaries solely for the purpose of providing the Services and the Platform available  to you; however, if we do so, their use and disclosure of your personally identifiable information will be maintained by such affiliates and subsidiaries in accordance with this Policy.",
+        "1": "Service Providers. We may disclose the information we collect from you to third-party vendors, service providers, contractors or agents who perform functions on our behalf (e.g. auditors, accountants, lawyers, credit-checking/reference agencies and fraud prevention agencies, banking institutions, AML and KYC providers), provided such third parties have agreed to only use such information to provide services to us. These third parties will be subject to appropriate data protection obligations and they will only use your Personal Data as described in this Privacy Policy;",
+        "2": "Business Transfers. If we are in negotiations with, or are acquired by or merged with another company or entity, if substantially all of our assets are transferred to another company or entity, or as part of a bankruptcy proceeding, we may transfer the information we have collected from you to the other company or entity.",
+        "3": "In Response to Legal Process. We also may disclose the information we collect from you in order to comply with the law, a judicial proceeding, court order, or other legal process, such as in response to a subpoena.",
+        "4": "To Protect Us and Others. We also may disclose the information we collect from you if we believe it is necessary to investigate, prevent, or take action regarding illegal activities, suspected fraud, situations involving potential threats to the safety of any person, violations of our Service Agreement or this Policy, or as evidence in litigation in which we are involved.",
+        "5": "Aggregate and De-Identified Data. We may collect, process, analyse and share aggregate or de-identified information about Users with third parties and publicly for product development, marketing, advertising, research or similar purposes."
+      },
+      "1": "This list is non-exhaustive and there may be circumstances where we need to share Personal Data with other third parties, unless prohibited under law from doing so.",
+      "2": "Where necessary (such as when we transfer data to service providers), we put in place appropriate contractual arrangements and security mechanisms to protect the Personal Data shared and to comply with our data protection, confidentiality and security standards and obligations.",
+      "3": "Note that we may also disclose data to comply with authorized data requests from governmental agencies or judicial warrants. Unless prohibited under law from doing so, we shall notify you about such request."
+    },
+    "6": {
+      "title": "Your Personal Data Rights",
+      "0": "You have certain individual rights regarding the Personal Data that we collect and process about you through the Platform.",
+      "1": "Pursuant to applicable data protection laws, you may have certain legal rights in respect of the Personal Data which is processed by us including the right to:",
+      "list": {
+        "0": "Request access to your Personal Data (commonly known as a “data subject access request”). This enables you to receive a copy of the Personal Data we hold about you and to check that we are lawfully processing it.",
+        "1": "Request correction of the Personal Data that we hold about you. This enables you to have any incomplete or inaccurate data we hold about you corrected, though we may need to verify the accuracy of the new data you provide to us.",
+        "2": "Request erasure of your Personal Data. This enables you to ask us to delete or remove Personal Data where there is no good reason for us continuing to process it. You also have the right to ask us to delete or remove your Personal Data where you have successfully exercised your right to object to processing (see below), where we may have processed your information unlawfully or where we are required to erase your Personal Data to comply with local law. Note, however, that we may not always be able to comply with your request of erasure for specific legal reasons which will be notified to you, if applicable, at the time of your request.",
+        "3": "Object to processing of your Personal Data where we are relying on a legitimate interest (or those of a third party) and there is something about your situation which makes you want to object to processing on this ground as you feel it impacts on your fundamental rights and freedoms. You also have the right to object where we are processing your Personal Data for direct marketing purposes. In some cases, we may demonstrate that we have compelling legitimate interest to process your information which override your rights and freedoms.",
+        "4": "Request restriction of processing of your Personal Data. This enables you to ask us to suspend the processing of your Personal Data in the following scenarios: (a) if you want us to establish the data’s accuracy; (b) where our use of the data is unlawful but you do not want us to erase it; (c) where you need us to hold the data even if we no longer require it as you need it to establish, exercise or defend legal claims; or (d) you have objected to our use of your data but we need to verify whether we have overriding legitimate grounds to use it.",
+        "5": "Request the transfer of your Personal Data to you or to a third party. We will provide to you, or a third party you have chosen, your Personal Data in a structured, commonly used, machine-readable format. Note that this right only applies to automated information which you initially provided consent for us to use or where we used the information to perform a contract with you.",
+        "6": "Withdraw consent at any time where we are relying on consent to process your Personal Data. However, this will not affect the lawfulness of any processing carried out before you withdraw your consent. If you withdraw your consent, we may not be able to provide certain products or services to you. We will advise you if this is the case at the time you withdraw your consent;",
+        "7": "Not to be the subject only to automated processing, including profiling. You have a right to demand that processing of your Personal Data would be reviewed by a real person and to object to the decision made by automated means.",
+        "8": "To submit an appeal on the actions or inactions of us, related to the implementation of the data subject's rights to the Data Protection authority that is located in member state of the European Union where you reside; and",
+        "9": "You are entitled to compensation, which you must apply for to the competent court that is located in member state of the European Union where you reside, if you have suffered damage as a result of a violation of the data subject's rights."
+      },
+      "2": "Please note that notwithstanding the foregoing, there may be circumstances in which we are unable to accommodate a request to edit, update, access, or delete an account profile or Personal Data. This includes but is not limited to:",
+      "list2": {
+        "0": "any basis where such request can be denied under applicable law;",
+        "1": "where we need to retain the information to comply with international or national laws or for accounting or tax purposes;",
+        "2": "where we need to comply with a civil, criminal, or regulatory inquiry, investigation, subpoena, or summons by state, or local authorities;",
+        "3": "where we need to cooperate with law enforcement agencies concerning conduct or activity that the business, service provider, or third party reasonably and in good faith believes may violate laws;",
+        "4": "where we need to retain information to exercise or defend legal claims;",
+        "5": "where the information contains legal privilege or proprietary information of another party; or where complying with the request would compromise others’ privacy or other legitimate rights."
+      }
+    },
+    "7": {
+      "title": "Exercising Your Rights",
+      "0": "We acknowledge your right to access and change the Personal Data we collect and process. If you wish to access or to correct, amend, or delete Personal Data, please send us an email to dpo@coinsdot.io",
+      "1": "You may also designate an authorized agent to make a request on your behalf by verifying your identity and providing the agent with a written permission to make the request on your behalf.",
+      "2": "Subject to applicable law, you can freely exercise these rights and choices. We will not charge you different prices or provide different quality of services unless those differences are related to your information or otherwise permitted by law. Once we receive your request from you, we may need to request additional information from you to verify your identity or process your request.",
+      "3": "If we determine that we cannot respond to any request in any particular instance, we will provide you with an explanation of why that determination has been made and a contact point for any further inquiries. To protect your privacy, we will take commercially reasonable steps to verify your identity before responding to any request under this provision, including complying with any applicable legal requirement for verifying your identity.",
+      "4": "We will respond to your requests without undue delay and in any event within one month of receipt of the request. However, period may be extended up to two months as per circumstances designated by GDPR.",
+      "5": "You can also complain to the State Data Protection Inspectorate (Valstybinė duomenų apsaugos inspekcija) if you are unhappy with how we have used your data. We would, however, appreciate the chance to deal with your concerns before you approach the State Data Protection Inspectorate so, please contact us in the first instance.",
+      "6": "The State Data Protection Inspectorate’s address:",
+      "7": "Budova Park One,",
+      "8": "Námestie 1. mája 18,",
+      "9": "811 06 Bratislava, Slovakia",
+      "10": "Email: statny.dozor@pdp.gov.sk",
+      "11": "Website: https://dataprotection.gov.sk/ "
+    },
+    "8": {
+      "title": "Links to Other Websites",
+      "0": "The Services may contain links to other websites. Please note that we are not responsible for the privacy or information security practices of other websites. These other websites and applications maintain their own policies regarding cookies and the collection and use of Personal Data. We encourage you to review and assess the provisions of those policies yourself."
+    },
+    "9": {
+      "title": "Transfer of Your Personal Data",
+      "0": "We may transfer your personal data to recipients located outside the European Economic Area (EEA) or outside your country of residence. The countries to which we may transfer your Personal Data may not have the same level of data protection as your country of residence.",
+      "1": "We ensure that appropriate safeguards are in place to protect your Personal Data, including the use of Standard Contractual Clauses approved by the European Commission, and Binding Corporate Rules for our group companies, where required by law.",
+      "2": "If you would like to receive more information about the safeguards we have in place for international transfers, or if you have any concerns about the transfer of your Personal Data, please contact us.",
+      "3": "International Data Transfers",
+      "4": "We may transfer your Personal Data to recipients located outside the European Economic Area (EEA), including to countries that do not offer the same level of data protection as your home jurisdiction. In such cases, we ensure that appropriate safeguards are in place, as required by Chapter V of the General Data Protection Regulation (GDPR).",
+      "5": "These safeguards may include:",
+      "6": "Transfers to countries deemed by the European Commission to provide an adequate level of data protection (adequacy decisions);",
+      "7": "The use of Standard Contractual Clauses (SCCs) adopted by the European Commission to ensure data protection obligations are met;",
+      "8": "Where applicable, Binding Corporate Rules (BCRs) for intra-group transfers;",
+      "9": "Your explicit consent, provided you are informed of the possible risks;",
+      "10": "Transfers necessary for the performance of a contract with you or in your interest (e.g. payment processing, customer support).",
+      "11": "We conduct transfer impact assessments (TIAs) where required to evaluate the laws and practices of the destination country in relation to EU data protection standards. In cases where additional technical or organizational measures are needed to supplement SCCs, we will implement them accordingly.",
+      "12": "If you would like more information on the specific mechanism used for international transfers of your Personal Data, or if you would like to request a copy of the applicable safeguards (e.g., SCCs), please contact us at: dpo@coinsdot.io."
+    },
+    "10": {
+      "title": "Use of Cookies",
+      "0": "When you access or use our Website, we may use industry standard technologies such as “cookies” or similar technologies, which store certain information on your computer and which will allow us to enable automatic activation of certain features, thereby improving the overall user experience. You may restrict the use of certain cookies by modifying your preferences through the Website's cookie settings link. Most web browsers provide the option to erase cookies from your device, block their acceptance, or receive a warning prior to storage. However, blocking or erasing cookies may limit your online experience.",
+      "1": "If you do not wish your browser to allow us to use trackers, please use your browser’s “Do Not Track” option. Our system is set to respond to such signals.",
+      "2": "Further information on how We use cookies and other tracking mechanisms is laid out in our Cookie Policy."
+    },
+    "11": {
+      "title": "Security",
+      "0": "We take appropriate organizational and technical security measures to maintain the security and integrity of our service and prevent unauthorized access to it or use thereof through generally accepted industry standard technologies and internal procedures.",
+      "1": "Please note, however, that there are inherent risks in transmission of information over the Internet or other methods of electronic storage, and we cannot guarantee that unauthorized access or use will never occur.",
+      "2": "We will comply with applicable law in the event of any breach of the security, confidentiality, or integrity of your Personal Data and will inform you of such breach if required by applicable law.",
+      "3": "To the extent that we implement the required security measures under applicable law, we shall not be responsible or liable for unauthorized access, hacking, or other security intrusions or failure to store or the theft, deletion, corruption, destruction, damage, or loss of any data or information included in the Personal Data."
+    },
+    "12": {
+      "title": "Data protection of using digital assets and blockchains",
+      "0": "Your use of digital assets may be recorded on a public blockchain. Public blockchains are distributed ledgers, intended to immutably record transactions across wide networks of computer systems. Many blockchains are open to forensic analysis which can lead to re-identification of transacting individuals and the revelation of Personal Data, especially when blockchain data is combined with other data.",
+      "1": "As blockchains are decentralized or third-party networks which are not controlled or operated by the Company, we are not able to erase, modify, or alter Personal Data on such networks."
+    },
+    "13": {
+      "title": "Data Retention",
+      "0": "We retain your Personal Data as long as required under applicable law and as long as you use our Services. We will cease to retain your Personal Data, or remove the means by which the Personal Data can be associated with particular individuals, as soon as it is reasonable to assume that:",
+      "list": {
+        "0": "the purpose for which that Personal Data was collected is no longer being served by its retention; and",
+        "1": "retention is no longer necessary for legal, accounting or business purposes."
+      },
+      "1": "Please note that certain laws may require us to retain records of transactions or profile for a certain period of time, for example The Law on the Prevention of Money Laundering and Terrorist Financing of the Republic of Slovakia",
+      "2": "To determine the appropriate retention period for Personal Data, we consider the amount, nature, and sensitivity of the Personal Data, the potential risk of harm from unauthorized use or disclosure of your Personal Data, the purposes for which we process your Personal Data and whether we can achieve those purposes through other means, and the applicable legal requirements and recommendations.",
+      "3": "How long do we store your information?",
+      "4": "We will not retain your information longer than necessary for the purposes of processing, except as required by law, which may mandate a longer retention period:",
+      "list2": {
+        "0": "We store copies of documents confirming the client’s identity (e.g., identity documents, beneficiary identity data, documentation of accounts and agreements, and other information related to the customer application and due diligence process), correspondence related to business relations, and records of monetary or crypto transactions (e.g., documents, data, and other legally valid information confirming or relating to monetary or crypto transactions) for up to 8 years from the date of the end of the business relationship with the client.",
+        "1": "Recruitment Data: We process and retain Personal Data obtained through our recruitment processes only for as long as necessary to assess your application, in accordance with applicable data protection laws and regulations. With your explicit consent, we may retain your information for a longer period in order to consider you for future employment opportunities.",
+        "2": "Marketing Communications: We will process your Personal Data for marketing purposes for the duration of your relationship with us and for a period of up to three (3) years thereafter, based on our legitimate interest or your prior consent, unless you opt out of receiving such communications at any time."
+      },
+      "5": "Additional information on the data retention period below",
+      "6": "Join Now",
+      "7": "Contact Us"
+    },
+    "14": {
+      "title": "Marketing And Online Communication",
+      "0": "We may process your Personal Data to send you marketing communications (e.g., email marketing, exclusive offers, etc.). In some cases, we will obtain your explicit consent to do so. In other instances, we may rely on legitimate business interests to send you such communications, in accordance with applicable data protection laws.",
+      "1": "If you are a new customer, we will contact you by electronic means (email or SMS) for marketing purposes only if you have consented to such communication. If you are a current customer, we will only contact you by electronic means with information about our Services that are similar to those which were the subject of a previous sale or negotiations of a sale to you.",
+      "2": "If you do not want us to use your Personal Data for direct marketing purposes or to pass your Personal Data on to third parties for marketing purposes, you can withdraw your consent by logging into your account or by contacting us at dpo@coinsdot.io. Direct marketing includes any communications to you that are only based on advertising or promoting products and services"
+    },
+    "15": {
+      "title": "Children under 18",
+      "0": "Our Services are not intended for individuals under the age of 18. We do not knowingly collect or process personal data from individuals under 18 without appropriate legal basis, such as parental consent where required. If we become aware that we have collected personal data from a child without the necessary legal basis, we will delete such information in accordance with applicable law.",
+      "1": "If you have reasons to suspect that we collected Personal Data from children under the age of eighteen (18), please notify us at dpo@coinsdot.io."
+    },
+    "16": {
+      "title": "How to Contact Us",
+      "0": "If you have questions or concerns regarding this Policy or if you have a complaint, please contact us by our appointed Data Protection Officer (DPO) at dpo@coinsdot.io. If we are unable to satisfactorily address your concerns, you have the right to communicate with a relevant supervisory authority. We can direct you to the relevant supervisory authority in your jurisdiction.",
+      "1": "If you have any additional questions or concerns, you can also contact us via:",
+      "2": "Phone number: +421233058122",
+      "3": "Address: Černyševského 1287/10, 851 01 Bratislava – Petržalka, Slovak Republic",
+      "4": "Business Hours:",
+      "5": "Weekdays: GMT 06:00 – 23:00 | EST 01:00 – 18:00",
+      "6": "Weekends: Closed"
+    },
+    "17": {
+      "title": "Updates to the Privacy Policy",
+      "0": "We reserve the right to alter, amend or modify this Policy from time to time, in our sole discretion. We will provide you with notice of such changes by sending you an email, providing notice on the homepage of the Website and/or by posting the amended Policy on the Platform and updating the “Last Updated” date at the bottom of the Policy. The amended Policy will be deemed effective immediately upon posting on the Platform. Your continued use of the Platform and/or our Services constitutes your agreement to be bound by any such changes to this Policy. If you do not agree with this Policy or any amendment to it, you should discontinue access and use of the Platform and our Services."
+    },
+    "18": {
+      "title": "Last updated 9 September 2025."
+    }
+  },
+  "additionalInfoTable": {
+    "typeOfData": "Type of Data",
+    "fromDate": "Start of Retention Period",
+    "retention": "Storage Duration",
+    "8years": "8 years",
+    "0": {
+      "typeOfData": "Registers data",
+      "fromDate": "From date of termination of transaction or business relationship"
+    },
+    "1": {
+      "typeOfData": "Copies of identity documents, data received during identification, account/ agreement documentation, other supporting documents obtained from Customer",
+      "fromDate": "From date of termination of transaction or business relationship",
+      "retention": "8 years"
+    },
+    "2": {
+      "typeOfData": "Documents confirming operations/transactions, other related legal documents/data related to the execution of operations or conclusion of transactions",
+      "fromDate": "From date of execution or conclusion of transaction"
+    },
+    "3": {
+      "typeOfData": "Information linking crypto-asset address to owner identity",
+      "fromDate": "From date of termination of transactions or business relationship"
+    },
+    "4": {
+      "typeOfData": "Business correspondence with the Customer",
+      "fromDate": "From date of termination of transactions or business relationship",
+      "retention": "5 years"
+    },
+    "5": {
+      "typeOfData": "Extension for all above data for the protection of our legal interests",
+      "fromDate": "",
+      "retention": "Up to 2 additional years"
+    }
+  },
+  "amlPolicy": {
+    "title": "Anti-Money Laundering (AML) & Counter-Terrorist Financing (CTF) Policy",
+    "lastUpdated": "Last updated: 15.09.2025",
+    "0": {
+      "title": "About the Company",
+      "0": "Coinsdot.io is owned and operated by Limitless Technologies s.r.o. (hereinafter – the Company), a virtual currency exchange, acting in accordance with the laws of the Republic of Slovakia. The Company provides crypto-asset services in line with applicable national and European Union legislation."
+    },
+    "1": {
+      "title": "AML/CTF Commitment",
+      "0": "Money laundering (ML) and terrorist financing (TF) continue to pose substantial challenges to the integrity and stability of the crypto-asset sector. Coinsdot acknowledges the serious risks that ML and TF activities present to its business operations, reputation, and the wider financial ecosystem. In alignment with the Markets in Crypto-Assets Regulation (MiCA) and other relevant legislative frameworks of the European Union, the company has developed and implemented a robust Anti-Money Laundering (AML) and Counter-Terrorist Financing (CTF) Policy.",
+      "1": "This Policy is grounded in binding legal obligations, supervisory expectations, and internationally recognised standards and best practices. Through this framework, Coinsdot ensures that effective controls, monitoring mechanisms, and risk-based measures are in place to detect, prevent, and report any suspicious activities. The company remains firmly committed to maintaining the highest standards of transparency, accountability, and regulatory compliance in the provision of its crypto-asset services."
+    },
+    "2": {
+      "title": "Legal and Regulatory Framework",
+      "0": "The Company conducts its business in accordance with the provisions of Act No. 297/2008 Coll. on the Prevention of Money Laundering and Terrorist Financing, Act No. 566/2001 Coll. on Securities and Investment Services, and other applicable legislation of the Slovak Republic. In addition, the Company adheres to the requirements of Regulation (EU) 2023/1114 of the European Parliament and of the Council on Markets in Crypto-assets (MiCA), as well as the provisions of Directive (EU) 2015/849 and its subsequent amendments (4th and 5th AML Directives). The Company is subject to the supervision of the Financial Intelligence Unit of the Slovak Republic and maintains internal policies, procedures, and controls designed to ensure full compliance with anti-money laundering (AML), counter-terrorist financing (CTF), and international sanctions obligations applicable within the European Union."
+    },
+    "3": {
+      "title": "AML/CTF Policy Overview",
+      "0": "The AML/CTF Policy establishes internal procedures and control measures for identifying, assessing, managing, and mitigating ML/TF risks. It includes client due diligence (CDD), enhanced due diligence (EDD), ongoing due dilligence (ODD), sanctions screening,  transaction monitoring, and reporting of suspicious activities."
+    },
+    "4": {
+      "title": "Customer Responsibilities and Obligations",
+      "0": "Coinsdot is committed to ensuring a secure and compliant buy and sell services environment in line with Anti-Money Laundering (AML) and Counter-Terrorist Financing (CTF) regulations. To maintain the integrity of our services, all customers must adhere to the following operational rules:",
+      "1": "– No Cash Purchases or Sales: Coinsdot does not accept cash for performing the exchnage Order. All transactions must be conducted using digital means to ensure traceability and transparency.",
+      "2": "– No Third-Party Transactions: Coinsdot does not accept deposits from third parties into a user’s profile, nor does it allow profile management by third parties. Additionally, we do not support joint or shared profiles, ensuring that all accounts remain strictly personal and private.",
+      "3": "– Service Restrictions to Personal Wallets Only: Coinsdot provides buy and sell services exclusively to customers’ personal wallet addresses. Transactions to or from third-party wallets are prohibited, ensuring that each transaction is conducted by the account holder themselves.",
+      "4": "– Documentation Requirements: Coinsdot maintains strict documentation standards. We do not allow exceptions regarding the documents required from users. All customers are required to provide accurate and legitimate identification and supporting documents for verification purposes.",
+      "5": "– Right to Refuse Transactions: Coinsdot reserves the right to refuse any transaction if there is any suspicion of involvement in Money Laundering (ML) or Terrorist Financing (TF).",
+      "6": "– Transactions will be monitored for suspicious activity, and the company retains the right to act in accordance with its regulatory obligations to protect the system from illicit activity.",
+      "7": "- Suspicious Activity Reporting: In accordance with international law and regulatory guidelines, Coinsdot is not obligated to inform customers if their behavior is reported as suspicious to the relevant authorities. As part of our compliance framework, any suspicious activity may be reported to the appropriate authorities, and actions may be taken without prior customer notification."
+    },
+    "5": {
+      "title": "Customer Identification (KYC)",
+      "0": "Prior to establishing any business relationship, the Company conducts a Know Your Customer (KYC) process.",
+      "1": "Coinsdot applies a structured and risk-based KYC process for all clients, in accordance with MiCAR and relevant AML/CFT regulations. We are required to verify the identity of every individual authorized to transact on our platform beyond a reasonable doubt.",
+      "2": "To ensure this, customers must complete an automated identity verification process, which includes biometric checks comparing the ID photo to a live image. This process is supported by trusted external providers. If the verification is inconclusive, our compliance or support team may conduct a manual review and request additional information.",
+      "3": "If we are unable to confirm the authenticity and ownership of submitted documents, access to services will be restricted.",
+      "4": "Enhanced Due Diligence (EDD) is applied in cases that present elevated risk, including but not limited to Politically Exposed Persons (PEPs), adverse media findings, and high-risk jurisdictions. Business relationships shall not be established or continued where the risk level is deemed unacceptable. This approach ensures the integrity and compliance of our operations.",
+      "5": "Anonymous or fictitious accounts are strictly prohibited. Customers from prohibited countries or under sanctions are not accepted."
+    },
+    "6": {
+      "title": "Ongoing Monitoring",
+      "0": "All customer transactions are monitored in real time and retrospectively. Monitoring ensures that transactions are consistent with the customer’s profile and legitimate purpose. Where higher risks are identified, enhanced due diligence is applied.",
+      "1": "Any activity that raises suspicion is escalated to the Money Laundering Reporting Officer (MLRO) and, if required, reported to the Financial Intelligence Unit (FIU) of Slovakia."
+    },
+    "7": {
+      "title": "Sanctioned Countries and High-Risk Jurisdictions",
+      "0": "Sanctions Compliance: The Company adheres to all applicable international sanctions, including those imposed by the European Union, United Nations, and other relevant authorities. As part of our AML/CTF compliance, we do not process transactions from countries subject to sanctions or jurisdictions identified as high risk for money laundering or terrorist financing.",
+      "1": "High-Risk Jurisdictions: We also take into consideration countries with significant AML/CTF risks, such as those identified by FATF, European Commission, and those with weak regulatory frameworks. Customers from such jurisdictions may be subject to enhanced due diligence, or their access to services may be restricted.",
+      "2": "Suspicious Activity and Transactions: Transactions flagged as suspicious or those originating from high-risk jurisdictions will be subject to further scrutiny and, if necessary, suspended or reported to relevant authorities"
+    },
+    "8": {
+      "title": "Transaction Monitoring",
+      "0": "As part of its Anti-Money Laundering (AML) and Counter-Terrorist Financing (CTF) framework, the Company actively monitors customer activity to detect and assess any potentially suspicious behavior or transactions. In accordance with regulatory requirements, any identified suspicions are promptly reported to the relevant authorities.",
+      "1": "The Company complies with mandatory reporting thresholds and implements safeguards to prevent tipping off or compromising any ongoing investigations. All processes are handled in line with internal procedures and applicable laws to ensure full regulatory compliance."
+    },
+    "9": {
+      "title": "Reporting Obligations",
+      "0": "In compliance with the applicable legal and regulatory requirements, any identified suspicious activity is promptly reported to the Financial Intelligence Unit (FIU) of the Slovak Republic. The Company shall monitor transactions to detect unusual or suspicious activity. The MLRO is responsible for assessing the report and, where appropriate, filing a Suspicious Transaction Report (STR) with the relevant authority, in accordance with applicable laws and reporting obligations. This includes any transactions or operations that raise concerns related to potential money laundering (ML) or terrorist financing (TF).",
+      "1": "The Company ensures that reports are submitted without undue delay, and no later than within one business day of detecting such suspicious activity. Additionally, should any transactions meet the threshold defined by relevant regulations, further detailed reports, including customer identity data and transaction details, are provided to the FCIS. These measures are in place to ensure full adherence to anti-money laundering (AML) and counter-terrorist financing (CTF) obligations and to help prevent illegal activities.",
+      "2": "The Company also cooperates fully with regulatory authorities in the investigation and analysis of suspicious transactions to mitigate risks and ensure a secure financial ecosystem."
+    },
+    "10": {
+      "title": "Customer Obligations",
+      "0": "Customers are required to:",
+      "1": {
+        "0": "Provide accurate, complete, and up-to-date information when requested.",
+        "1": "Cooperate with any AML/CTF checks or requests for documentation.",
+        "2": "Refrain from using the Company’s services for any unlawful, fraudulent, or prohibited activities."
+      }
+    },
+    "11": {
+      "title": "Record Keeping & Confidentiality",
+      "0": "The Company retains customer identification records, transaction data, and due diligence information for the period required by law. All data is stored securely and processed in compliance with the General Data Protection Regulation (GDPR) and local data protection laws."
+    },
+    "12": {
+      "title": "Governance and Training",
+      "0": "A designated Money Laundering Reporting Officer (MLRO) is responsible for implementing AML/CTF obligations and acting as the contact point with competent authorities.",
+      "1": "To ensure that all employees and individuals acting on behalf of the Company are equipped with the knowledge to meet the regulatory requirements, the Company conducts regular training on Anti-Money Laundering (AML), Counter-Terrorist Financing (CTF), and Sanctions compliance. This training ensures that all staff members who interact with customers or monitor transactions understand their responsibilities in customer identification, reporting suspicious activity, and maintaining accurate records. The Company is committed to maintaining a well-informed workforce to uphold the highest standards of compliance and security.",
+      "2": "The Company conducts periodic internal audits and reviews of its AML/CTF framework to ensure effectiveness."
+    },
+    "13": {
+      "title": "Policy Review and Updates",
+      "0": "The Company’s AML/CTF Policy is subject to regular review to ensure its continued effectiveness and compliance with applicable laws and regulations. The policy is reviewed at least annually and updated as needed to reflect any changes in relevant legislation, regulatory requirements, business operations, or emerging risks. In addition, any significant developments within the company, such as new products, services, or market expansions, are considered during the review process. The updates are implemented to maintain the highest standards of compliance and to mitigate the risk of money laundering and terrorist financing effectively. This ongoing process ensures that the Company remains fully aligned with evolving regulatory frameworks and industry best practices.",
+      "1": "Contact Information for Compliance Inquiries",
+      "2": "For compliance-related inquiries, please contact our AML Department at: support@сoinsdot.io"
+    }
+  },
+  "returnAndCancellationPolicy": {
+    "title": "Return and Cancellation Policy",
+    "lastUpdated": "Last updated: 15.09.2025",
+    "0": {
+      "title": "1. Refunds",
+      "0": {
+        "title": "No Refunds",
+        "0": "All order execution operations, including sales and purchases of Crypto-assets via the Website, are final and non-refundable.",
+        "1": "Coinsdot does not accept returns and will not provide refunds unless explicitly stated otherwise in our Terms of Use. Transactions involving Crypto-assets are conducted on a public blockchain and are therefore irreversible.",
+        "2": "You are solely responsible for ensuring the accuracy of transaction details, including wallet addresses. Coinsdot shall not be liable for any loss due to user error or incorrect transaction data."
+      }
+    },
+    "1": {
+      "title": "2. Order Cancellations (Buying/Selling)",
+      "0": {
+        "title": "Cancellation of Orders",
+        "0": "You may cancel an order placed through the transaction order form only if the cancellation request is received before Coinsdot begins execution of the order.",
+        "1": "Once Coinsdot has executed your order, you may not amend or cancel your authorization to complete the transaction.",
+        "2": "If your order has been partially filled, you may cancel the unfilled portion.",
+        "3": "If an order cannot be executed due to insufficient payment of funds, Coinsdot reserves the right to cancel the entire order.",
+        "4": "Coinsdot shall not be held liable for delays or failed order execution caused by network congestion, third-party provider issues, force majeure events, or unforeseen technical failures beyond its control.",
+        "5": "Coinsdot reserves the right to withhold, cancel, delay or refuse to execute any order if required to comply with AML, KYC, or other regulatory obligations."
+      }
+    }
+  },
+  "complaintsProcedure": {
+    "title": "Complaints Handling Procedures",
+    "lastUpdated": "Effective from September 9, 2025",
+    "0": {
+      "title": "1. INTRODUCTION",
+      "0": "Limitless Technologies s.r.o. (“Limitless” or “Company”, “we”, “us”, “our”) is a crypto-asset service provider based in the Slovak Republic. We provide high-quality crypto-assets exchange services focusing on crypto-asset wallets, enabling the exchange between fiat currency and crypto-assets, as well as among different crypto-assets (“Services”). We give top priority to your experience, and we are committed to paying due regard to the interests and needs of each and all of you, including fair, clear and not misleading communication. Our complaints handling procedure adheres (where relevant) to the Markets in Crypto-Assets (MiCA) Regulation (EU) 2023/1114, effective January 1, 2025, as well as to the Company’s Terms and Conditions, which are governed by and shall be interpreted in accordance with:",
+      "list": {
+        "0": "the Civil Code of the Slovak Republic (Act No. 40/1964 Coll.),",
+        "1": "the Act on Consumer Protection (Act No. 250/2007 Coll.),",
+        "2": "the Act on the Prevention of Money Laundering and Terrorist Financing (Act No. 297/2008 Coll.),",
+        "3": "the Act on Payment Services (Act No. 492/2009 Coll.),",
+        "4": "resolutions and instructions of the National Bank of Slovakia (Národná banka Slovenska – NBS),",
+        "5": "the Financial Intelligence Unit of the Slovak Republic (Finančná spravodajská jednotka – FSJ),",
+        "6": "the Tax authorities of the Slovak Republic (Finančná správa SR),",
+        "7": "as well as any other applicable legal acts and regulatory requirements updated from time to time."
+      },
+      "1": "As part of these arrangements, we employed complaints handling procedures to ensure that any complaints are resolved as quickly as possible and, where necessary, trigger an internal review into the quality of Service being provided and whether or not it can be improved.",
+      "2": "Below you will find a procedure, that indicates main principles and guidance to be followed in the event you are not satisfied with our Services and would like to file a complaint to us."
+    },
+    "1": {
+      "title": "2. INITIATION OF COMPLAINT",
+      "0": "We consider a Complaint as an expression of dissatisfaction of our Services, irrespective of whether it is justified or not, related to our products / Services or the complaints handling process itself, where a response or resolution is explicitly or implicitly expected.",
+      "1": "An eligible Complaint may be made by any person who is directly affected by the way we have provided our Services and who can make a complaint in respect thereof. Therefore, you may file the complaint respectively to us, if you are:",
+      "2": "individual client (natural person/consumer) that uses our Services, or",
+      "3": "a legal representative of any individual client (of consumer) of ours.",
+      "4": "Our employees are always conscious that, although an ineligible complaint may be made, the issue raised may still have an impact on the quality of our Services, therefore on such a Complaint and, our respective employees will still seek to review and to respond to all of such Complaints on a case-by-case basis."
+    },
+    "2": {
+      "title": "3. COMPLAINTS HANDLING PROCEDURE",
+      "0": "File a complaint",
+      "1": "If such situation would occur under which you find yourself dissatisfied with our Services, at all times you are able to express your Complaints via the following means:",
+      "2": "Via E-mail: as a first instance for simple daily and / or operational questions / issues via e-mail: complaints@coinsdot.io. The complaints received in this instance are addressed by our Customer Support Team Lead. If the Customer Support Team Lead cannot assist you with a variety of issues quickly and efficiently or, on the rare occasions they are not able to assist directly, the complaint you filed will be able to escalated to our Chief Compliance Officer / Compliance Officer;",
+      "3": "Via the Customer service portal on the web  ticketing system;",
+      "4": "Via post by sending the complaint in paper form to our address at: Černyševského 1287/10, 851 01 Bratislava, Slovak Republic",
+      "5": "If You have questions or concerns regarding data protection or Privacy Policy or if you have a related Complaint, please contact us by our appointed Data Protection Officer (DPO) at dpo@coinsdot.io or via the standard contact methods listed above. When handling complaints related to data protection, we act in accordance with both the GDPR and the applicable national legal acts enforced by supervisory authorities in the field of data protection. Therefore, our handling of data protection-related complaints (including the outcomes of such reviews) may also change in line with best market practices and the requirements of supervisory authorities.",
+      "6": "To help us investigate and resolve Complaints effectively, competently, diligently and impartially, you will be instructed to provide the following information:",
+      "7": "Fill the Complaint Form.",
+      "8": "your full name, address, e-mail address and contact phone number(s);",
+      "9": "a description of the Complaint (i.e., a description of the issue, the date and time that the issue occurred, your willingness on how it would consider the Complaint would have to be resolved, etc.);",
+      "10": "full reference of the crypto-asset service or agreement to which the Complaint relates (i.e. name of the crypto-asset service provider, crypto-asset service reference number (if any), or other references of the relevant transactions",
+      "11": "any additional documentation, facts or information that may support the complaint;",
+      "12": "Description of damage, loss or detriment caused (where relevant);",
+      "13": "personal data of the legal representative (if applicable) (a power of attorney or other official document as proof of the appointment of the representative)",
+      "14": {
+        "0": "Aiming for the most efficient Complaint handling procedure, we recommend submitting your Complaint using the complaint form, which can be accessed",
+        "1": "here.",
+        "2": "However, we may also accept other form for complaints purposes as it may be deemed convenient for you. In such case, please make sure that you indicate all circumstance in detail, as specified in the Complaint form, for you to understand the subject matter and other key details as well as the main problem(s) of the complaint, aiming to provide feedback to you."
+      },
+      "15": "Your complaint will be communicated to our Customer Support Team Lead and the Chief Compliance Officer immediately or as soon as practicable, upon receipt of the complaint. If the Complaint is related to data protection or concerns our Privacy Policy, it will be communicated additionally to our  Data Protection Officer.",
+      "16": "You may file the complaint in Slovakian, English or in any official language of the European Union, which is also an official language of the Member State of the European Union where our Services are provided.",
+      "17": "Filing of the Complaint is free of charge. Should you require assistance in making / filing the complaint, reasonable assistance may be provided from our side free of charge and in a timely manner by our Customer Support Team.",
+      "18": "Send acknowledgement to the complaint",
+      "19": "Upon receipt of any complaint, our respective department will be responsible for acknowledging your complaint within 5 business days. You will receive a written acknowledgment of the complaint received. Such acknowledgment will include information about estimated timeframes for our response to your complaint also the contact details of the Company representative to be contacted for any queries related to the Complaint. Where a complaint has been found to be inadmissible, the Company should inform You of its decision and provide the You with the reasons for the inadmissibility. By informing You about the acknowledged Complaint, the Company ensures that the received Complaints are recorded in the Complaints Registry",
+      "20": "Reviewing / Assessment of complaint",
+      "21": "We will carefully evaluate the Complaint along with related departments, if any, to ensure a high-quality response within an appropriate time, which will include the consideration of the Complaint and whether this can be resolved immediately or whether an investigation is required.",
+      "22": "When reviewing your Complaint, we will pay due regard to the interests of yours and treat you fairly, assessing the following matters:",
+      "23": "whether Complaint is clear and contains all relevant information necessary for the handling;",
+      "24": "subject of the Complaint;",
+      "25": "whether the Complaint should be upheld;",
+      "26": "that remedial action and / or redress may be appropriate for you;",
+      "27": "the root cause of the Complaint; and",
+      "28": "whether the Complaint could have been prevented.",
+      "29": "If the investigation results shows that the root cause of the Complaint is because of our system or operational flaws, this should be identified and acknowledged and, where appropriate, a restitution may be offered to You.",
+      "30": "If the investigation concludes that the subject matter of the Complaint was not caused by any negligence, willful misconduct or default of ours or it was caused by inevitable and unpredictable factors, we will explain this to you by providing You with the relevant information or facts on which the investigation conclusion has based.",
+      "31": "Prioritization of complaints",
+      "32": "To ensure a structured and effective complaint handling process, we prioritize complaints based on their potential impact on our Services, You and our regulatory obligations. Complaints that pose a higher risk, such as legal violations, data breaches, fraud or significant financial losses, are handled with urgency, while lower-risk complaints follow our standard complaint resolution process.",
+      "33": "Communication with you",
+      "34": "After assessing the complaint and / or conduction of an investigation against the complaint, we will issue a final response with its findings and the proposed solutions (if any) to you via the same communication channel that you used to submit the complaint, unless you will request us to use a different method (form) of response.",
+      "35": "Notably, you will always be answered in writing. We aim to provide a response to your Complaint within 15 business days starting from the date of receiving the complaint. However, if your complaint relates to a potential fraud case, it will be prioritized, and a response will be provided within soon as possible, if feasible, within 10 (ten) business days or 15 business days. In exceptional cases, where the Complaint cannot be resolved within the standard timeframes as indicated earlier, we will notify you thereof and indicate the circumstances of the delay in submitting the complaint, as well as the term by which the complaint will be examined and provided to you. In any event, the total resolution period will not exceed 35 business days from the date of submission your complaint.",
+      "36": "In case when the resolution provided and your Complaint is rejected or partially satisfied, we oblige to state the reasons for the refusal to satisfy the Complaint, indicate other means of protection of the interests of your, if possible, including but not limited to possible means of dispute settlement and courts.",
+      "37": "Although a transitional period for obtaining a MICA-related license is currently in effect in Slovakia, in the interest of maximum transparency, we inform you that in certain cases National Bank of Slovakia also provides opinions/answers on matters related to cryptocurrencies. You therefore have the right to contact the National Bank of Slovakia; however, during the transitional period, National Bank of Slovakia, acting in accordance with applicable legislation, may determine that such a complaint does not meet its admissibility criteria. Please be informed, that Customers, who are not satisfied with the Company’s response, may report their Complaint to the local governmental authority, which acts as a supervisory authority of the Company according MICA, i.e., National Bank of Slovakia. The Complainant may submit a complaint to National Bank of Slovakia, in Slovakian or English language, by filling in the application form as specified in the website of the National Bank of Slovakia and sending it in writing or by electronic means to National Bank of Slovakia to this address: Imricha Karvaša 1, 813 25 Bratislava, or via email: nbs@nbs.sk. Therefore, this information is provided for transparency purposes only, and we cannot guarantee that National Bank of Slovakia will accept your complaint or dispute as falling within its competence. Nevertheless, you may, in all cases, address National Bank of Slovakia with general inquiries.",
+      "38": "However, you should be aware that depending on the background of the complaint, different governmental authorities may be responsible for handling such complaints (i.e., Slovak Trade Inspection (SOI) – consumer protection, Address: Prievozská 32, 827 99 Bratislava 27; Email: info@soi.sk.).",
+      "39": "If the Complaint is related to Data Protection / GDPR, please be informed that Customers who are not satisfied with the Company’s response are entitled to report their Complaint to theOffice for Personal Data Protection (ÚOOÚ SR). The following contact details shall be provided to the Customer: Hraničná 12, 820 07 Bratislava 27; Email: statny.dozor@pdp.gov.sk; website: https://dataprotection.gov.sk. When handling complaints related to data protection, we act in accordance with both the GDPR and the applicable national legal acts enforced by supervisory authorities in the field of data protection. Therefore, our handling of data protection-related complaints (including the outcomes of such reviews) may also change in line with best market practices and the requirements of supervisory authorities.",
+      "40": "Closing the Complaint & Record keeping",
+      "41": "We will consider a complaint as resolved, when:",
+      "42": "we have sent a final response; or",
+      "43": "you have accepted any redress offered, in writing;",
+      "44": "The Supervisory Authority has provided a final decision regarding the specific complaint; or",
+      "45": "The court has issued a final decision regarding the specific complaint.",
+      "46": "We keep and maintain a complaint registry each complaint received. The information kept on record includes:",
+      "47": "your name;",
+      "48": "date and description of the complaint;",
+      "49": "email address associated with you and your user profile;",
+      "50": "in certain  cases, your user profile ID number and phone number associated with your user’s profile;",
+      "51": "when applicable, personal data of your legal representative;",
+      "52": "date and method of receipt of the complaint;",
+      "53": "date of the reply to you;",
+      "54": "ongoing status report;",
+      "55": "general information about the complaint, with short content;",
+      "56": "Service or products addressed in the complaint;",
+      "57": "any redress offered by us;",
+      "58": "final decision; and",
+      "59": "the  copies of documentation(s) and all relevant communication with you.",
+      "60": "We will resolve the complaint and will ensure to keep copies of relevant electronic correspondence in our record keeping system, the material related to the complaint and its examination, the document indicating the specific result of the examination of the complaint and the answer provided to you. Such records shall be kept within our date base for at least 5 (five) years from the date of submission of the final answer to you,  unless longer time limits are required under the applicable legal acts, or in order to properly protect the Company's legitimate interests.",
+      "61": "Learning from experience",
+      "62": "Any specific findings from Complaints which can be directly addressed and used to increase your satisfaction will be considered. Root cause analysis, correction and enhancement will be implemented, where applicable,into system products and / or operational procedures to prevent future errors and increase your satisfaction. Where complaints involve personal data or data protection matters, we will ensure that all corrective and preventive actions are carried out in full compliance with applicable data protection laws and, where relevant, include the implementation of additional safeguards, particularly in the case of international data transfers."
+    },
+    "3": {
+      "title": "4. REDRESS AND COMPENSATION",
+      "0": "In cases where complaint is upheld, we acknowledge our responsibility and we may issue an apology as an appropriate redress, in accordance with applicable legal acts."
+    },
+    "4": {
+      "title": "5. OTHER",
+      "0": "In case any questions arise, you can always contact us via email support@coinsdot.io,   or on our web https://coinsdot.io/.",
+      "1": "The Company shall not be held liable for the actions, omissions, or decisions of third parties that are not directly related to the provision of our services, unless otherwise expressly required by applicable laws or explicitly stipulated in a contractual agreement between the parties. This exclusion of liability applies, without limitation, to the acts or negligence of third-party service providers, business partners, intermediaries, or other external entities whose activities fall outside the scope of our direct control. Clients acknowledge and accept that the use of such third-party services is at their own risk, and that any disputes, claims, or losses arising from such third-party activities should be addressed directly with the respective third party, unless binding legislation or a contractual obligation provides otherwise."
+    }
+  },
+  "cookiePolicy": {
+    "title": "Cookie Policy",
+    "lastUpdated": "Last updated: 15.09.2025",
+    "0": {
+      "0": "This Cookie Policy outlines the use of cookies and similar technologies on the Coinsdot website",
+      "1": "by the General Data Protection Regulation (EU) 2016/679 (“GDPR”), the ePrivacy Directive (Directive 2002/58/EC), and other applicable data protection laws.",
+      "2": "By accessing or using the Coinsdot website, you consent to cookies unless you modify your preferences via the cookie management interface or browser settings."
+    },
+    "1": {
+      "title": "Scope and Purpose",
+      "0": "Coinsdot uses cookies to enable technical functionality, optimize performance, ensure regulatory compliance, and provide analytics essential for its digital infrastructure’s secure and efficient operation. This policy applies exclusively to cookies placed via the Coinsdot domain and does not cover third-party domains or services linked to our platform."
+    },
+    "categoriesOfCookies": "Categories of Cookies",
+    "2": {
+      "title": "Strictly Necessary Cookies",
+      "0": "These cookies are essential to ensure uninterrupted access to core services, such as session management, identity verification, and protection against unauthorized access. Without these, certain site functions would be degraded or non-operational.",
+      "list": {
+        "0": "Examples: session identifiers, authentication tokens, load balancer state"
+      }
+    },
+    "3": {
+      "title": "Functional Cookies",
+      "text": "Used to store user-specific parameters such as language, regional settings, or interface preferences. These are stored to enhance UX continuity without compromising privacy or data minimization principles."
+    },
+    "4": {
+      "title": "Analytical & Measurement Cookies",
+      "0": "Deployed for non-identifying telemetry and behavioral analysis. Coinsdot applies aggregation and pseudonymization to all metrics gathered. Data is used solely to optimize platform responsiveness, reduce friction in user flows, and identify systemic performance issues.",
+      "list": {
+        "0": "Data points may include device type, time-on-page, and navigation pathing.",
+        "1": "Providers: Google Analytics (with IP anonymization enabled), internal diagnostic tools"
+      }
+    },
+    "5": {
+      "title": "Regulatory and Risk Controls",
+      "0": "Certain cookies assist in upholding Coinsdot’s regulatory obligations, such as behavioral monitoring related to anti-money laundering (AML) checks, fraud detection, or enhanced due diligence workflows. These cookies operate within the scope of applicable financial compliance frameworks."
+    },
+    "6": {
+      "title": "Legal Basis for Processing",
+      "0": "Deploying non-essential cookies is subject to explicit user consent under Art. 6(1)(a) GDPR. Consent is obtained via a granular cookie banner with real-time opt-in functionality. Strictly necessary cookies operate under Art. 6(1)(f) GDPR (legitimate interest), aligned with the platform’s technical and regulatory obligations."
+    },
+    "7": {
+      "title": "Retention Periods",
+      "0": "Cookie lifespans vary based on category:",
+      "list": {
+        "0": "Session cookies expire upon browser termination.",
+        "1": "Persistent cookies have fixed expiry durations, typically between 30 and 365 days.",
+        "2": "Diagnostic and compliance-related cookies are retained only as long as strictly necessary to fulfill their operational or legal function."
+      },
+      "1": "Users may revoke consent or delete cookies via browser controls without impacting necessary services."
+    },
+    "8": {
+      "title": "Third-party access and Cross-Border Transfers",
+      "0": "Where third-party service providers are employed (e.g., analytics, infrastructure monitoring), Coinsdot ensures contractual safeguards are in place, including:",
+      "list": {
+        "0": "Standard Contractual Clauses (SCCs) where applicable",
+        "1": "Data Processing Agreements (DPAs)",
+        "2": "Encryption, access control, and minimization protocols"
+      },
+      "1": "No personal identifiers are shared without legal basis or beyond technical necessity."
+    },
+    "9": {
+      "title": "User Controls",
+      "0": "Users may manage their cookie preferences through:",
+      "list": {
+        "0": "Coinsdot’s on-site cookie consent tool (accessible via footer link)",
+        "1": "Browser-level cookie management",
+        "2": "Opt-out modules for third-party cookies (e.g., via Google’s opt-out tools)"
+      },
+      "1": "Note: Disabling certain categories may reduce platform functionality, particularly those reliant on persistent session validation."
+    },
+    "10": {
+      "title": "Amendments",
+      "0": "Coinsdot reserves the right to update this policy to reflect legal or technological changes. Material modifications will be communicated via on-site notifications or via email where applicable."
+    },
+    "11": {
+      "title": "Contact",
+      "0": "For further information or to exercise your data rights under the GDPR or applicable laws, contact:",
+      "website": "Website:",
+      "email": "Email:",
+      "phone": "Phone:"
+    }
+  },
+  "riskDisclosure": {
+    "disclaimer": {
+      "title": "Disclaimer",
+      "0": "Coinsdot is owned and operated by Limitless Technologies s.r.o, identification number 55165451, authorised to provide virtual currency service, with registered and operational address at Černyševského 1287/10, Bratislava, 851 01, Slovak Republic."
+    },
+    "title": "RISKS DISCLOSURE",
+    "subtitle": "You agree that you are free to choose whether or not to use the service provided to you by Coinsdot and that you do so at your sole discretion and risk. Digital currency exchange is considered a risky transaction with highly speculative outcomes. Coinsdot does not guarantee any profit from any activity associated with its services.",
+    "0": "– You agree that you are free to choose whether or not to use the service provided to you by Coinsdot and do so at your sole discretion and risk. You confirm that you understand and agree that the risks associated with the Services are acceptable to you, considering your objectives and financial capabilities.",
+    "1": "– You acknowledge that purchasing or selling Cryptocurrency carries significant risk. Prices can fluctuate on any given day. Because of such fluctuations, Cryptocurrency may gain or lose value at any time. Cryptocurrency may be subject to large swings in value and may even become worthless. Cryptocurrency trading has unique risks not generally shared with official currencies, goods, or commodities in a market. Unlike most currencies, backed by governments or other legal entities, or commodities such as gold or silver, Cryptocurrency is a unique kind of currency, backed by technology and trust. No central bank can take corrective measures to protect the value of Cryptocurrency in a crisis or issue more currency.",
+    "2": "– You should consider whether holding digital currency suits your financial circumstances. Dealing and exchanging in cryptocurrencies involves significant risk. The value of virtual assets/currencies has high volatility (value can increase and decrease significantly in a very short period and at any given moment). Such price fluctuations bring uncertainty. The value of a virtual currency and collapse in demand may be influenced by many factors, including irrational (or rational) bubbles, loss of confidence in the currency, changes in software development, government decisions, creation of a competitive currency, technical problems, political or non-political statements, statements of influencers and news and hacker-attacks.",
+    "3": "– Virtual currencies have special risks that are not generally shared with the official currencies because they are not issued by governments or with tangible commodities or goods or registered in the official registry. Virtual currencies are intangible, decentralised digital assets backed by technology and trust. No central bank or other institution can take any measures to protect the value of a virtual currency. Virtual currencies are autonomous and largely unregulated systems of firms and individuals issuing currencies. The risk of loss in buying, selling, or holding virtual assets/currencies can be substantial. You should, therefore, carefully consider whether exchanging virtual assets is suitable for you in light of your financial condition. Coinsdot uses payment providers for transfers of fiat money for rendering exchange services and operating with the fiat money, whereas assisting banks do not, by any means, represent a medium of exchange, transfer, withdrawal, deposit, or other transaction in connection to virtual currencies.",
+    "4": "– Your virtual assets may be lost by losing your password, private key, or other security code. Be careful to keep your private keys, passwords, security codes, and words to yourself and change them regularly. You are responsible for creating a solid password and maintaining security and control of any and all electronic devices, IDs, passwords, hints, personal identification numbers, or any other codes that you use to access the Coinsdot Services and your wallet addresses that you enter during your buy/sell order flow. Any loss or compromise of the preceding information and/or your personal information may result in third parties' unauthorised access to your Coinsdot Profile or your wallet address and the loss or theft of your assets.",
+    "5": "You are responsible for keeping your email address and telephone number up to date in your Profile to receive any notices or alerts we may send you. You should never allow remote access or share your computer and/or computer screen with someone else when logged on to your Coinsdot Profile. Coinsdot will never ask you for your passwords or 2-factor authentication codes. We assume no responsibility for any loss you may sustain due to the compromise of profile login credentials due to no fault of Coinsdot.",
+    "6": "We take no responsibility for your failure to follow or act on any notices or alerts we may send you. In the event you believe your Coinsdot Profile information has been compromised, contact Coinsdot Support immediately at",
+    "7": "– You acknowledge and agree that Coinsdot does not act as a financial advisor, does not provide investment advisory services or guidance, and any communication between you and Coinsdot cannot be considered investment advice. Without prejudice to our preceding obligations, in asking us to enter into any transaction, you represent that you have been solely responsible for making your independent appraisal and investigations into the risks of the transaction.",
+    "8": "You represent that you have sufficient knowledge, market sophistication, and experience to evaluate the merits and threats of any transaction and that you received professional advice thereon. We give you no warranty as to the suitability of the Services and assume no fiduciary duty in our relations with you. We may provide information on the price, range, volatility of the digital currency and events that have affected the price of digital currency, but this is not considered investment advice and should not be construed as such. Any decision to purchase or sell digital currency is your entire decision at your own risk, and Coinsdot will not be liable for any loss suffered.",
+    "9": "– To the full extent permitted by the applicable law, you, as a result of this agreement to indemnify Coinsdot and its partners against any action, liability, cost, claim, loss, damage, proceeding, or expense suffered or incurred if direct or not directly arising from your use of our website, your use of the service or your violation of our terms and conditions.",
+    "10": "– Coinsdot is not liable for any price fluctuations in Cryptocurrency. In the event of a market disruption, Coinsdot may suspend the Services at its discretion and in addition to any other right and remedy. Coinsdot will not be liable for any loss you suffer resulting from such action. Following any such event, when Services resume, you acknowledge that prevailing market rates may differ significantly from those available before."
   }
 }

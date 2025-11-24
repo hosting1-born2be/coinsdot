@@ -24,6 +24,7 @@ const textVariants = cva('transition duration-300 ease-in-out', {
       black: 'text-black',
       grey: 'text-grey-95',
       danger: 'text-danger',
+      azure71: 'text-[#789BF3]',
     },
     weight: {
       200: 'font-extralight',
