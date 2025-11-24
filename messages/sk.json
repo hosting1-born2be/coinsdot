@@ -709,7 +709,7 @@
       "2": {
         "text": {
           "0": "Po schválení vášho KYC môžete bez prerušenia vymieňať kryptografické a fiat meny. Každá transakcia je zaznamenaná priamo v blockchaine, pričom Coinsdot zabezpečuje, aby bolo všetko v súlade s požiadavkami na dodržiavanie predpisov.",
-          "1": "Dôležité je, že Coinsmax funguje ako služba bez zadržiavania: nikdy nedržíme vaše finančné prostriedky. KYC na tom nič nemení - jednoducho vám poskytuje overený prístup k výmennému kanálu, kde sa kryptopeňaženka presúva priamo z vašej peňaženky cez proces konverzie a späť na vami zvolený účet."
+          "1": "Dôležité je, že Coinsdot funguje ako služba bez zadržiavania: nikdy nedržíme vaše finančné prostriedky. KYC na tom nič nemení - jednoducho vám poskytuje overený prístup k výmennému kanálu, kde sa kryptopeňaženka presúva priamo z vašej peňaženky cez proces konverzie a späť na vami zvolený účet."
         },
         "title": "Výsledok: Hladká, kompatibilná výmena"
       },
@@ -724,6 +724,13 @@
     "hero": {
       "description": "Ak ste si niekedy zaregistrovali finančnú službu, je pravdepodobné, že ste prešli procedúrou KYC (Know Your Customer). Vo svete kryptomien ho niektorí používatelia vnímajú ako prekážku, ale v skutočnosti ide o ochranný prvok, ktorý zabezpečuje, aby burzy fungovali bezpečne a v súlade s medzinárodnými predpismi. V spoločnosti Coinsdot je KYC neoddeliteľnou súčasťou hladkého a spoľahlivého fungovania výmeny kryptomien.",
       "title": "Prečo je KYC dôležité na krypto burze"
+    }
+  },
+  "notice": {
+    "title": "Upozornenie",
+    "text": {
+      "0": "Služby Coinsdot.io nie sú dostupné používateľom so sídlom v Spojenom kráľovstve. Ak pristupujete na túto webovú lokalitu zo Spojeného kráľovstva, opustite ju.",
+      "1": "V súčasnosti nie sú naše služby prístupné pre retailových klientov so sídlom v Spojenom kráľovstve."
     }
   }
 }
