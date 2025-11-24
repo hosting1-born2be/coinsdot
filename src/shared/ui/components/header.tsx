@@ -14,110 +14,124 @@ import { ThreeLinesIcon } from '@/shared/ui/icons/three-lines';
 import { Button } from '@/shared/ui/kit/button';
 import { Text } from '@/shared/ui/kit/text';
 
+import { Notice } from './notice';
+
 export const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   const t = useTranslations('header');
 
   return (
-    <header className="fixed top-0 left-0 z-50 w-full bg-[rgba(7,13,25,0.16)] pb-8 backdrop-blur-lg max-md:px-4!">
-      <div className="container flex flex-col">
-        <div className="flex items-center justify-between py-4">
-          <Text size="lg">Logo</Text>
-          <section className="flex items-center gap-5">
-            <div className="flex items-center gap-10 max-md:hidden">
-              <NavButton>English</NavButton>
-              <div className="flex items-center gap-5 max-md:hidden">
-                <Text size="lg">{t('signUp', { fallback: 'sign up' })}</Text>
-                <Text size="lg">{t('logIn', { fallback: 'log in' })}</Text>
-              </div>
-            </div>
-            <Button
-              size="sm"
-              variant="solid"
-              onClick={() => setIsOpen(!isOpen)}
-            >
-              {isOpen
-                ? t('close', { fallback: 'close' })
-                : t('menu', { fallback: 'menu' })}
-              {isOpen ? <CloseIcon /> : <ThreeLinesIcon />}
-            </Button>
-          </section>
-        </div>
-        <Activity mode={isOpen ? 'visible' : 'hidden'}>
-          <div className="flex flex-col gap-9">
-            <section className="flex max-md:flex-col max-md:gap-4">
-              <div className="flex w-1/2 flex-col gap-4 max-md:w-full">
-                <Link href="/inside-coinsdot" onClick={() => setIsOpen(false)}>
-                  <Text className="text-[36px] leading-[120%] tracking-[-0.54px]">
-                    {t('insideCoinsdot', { fallback: 'Inside Coinsdot' })}
-                  </Text>
-                </Link>
-                <Link href="/user-essentials" onClick={() => setIsOpen(false)}>
-                  <Text className="text-[36px] leading-[120%] tracking-[-0.54px]">
-                    {t('userEssentials', { fallback: 'User Essentials' })}
-                  </Text>
-                </Link>
-                <Link href="/partnership" onClick={() => setIsOpen(false)}>
-                  <Text className="text-[36px] leading-[120%] tracking-[-0.54px]">
-                    {t('partnerships', { fallback: 'Partnerships' })}
-                  </Text>
-                </Link>
-              </div>
-              <div className="flex w-1/2 flex-col gap-4 max-md:w-full">
-                <Link href="/qa" onClick={() => setIsOpen(false)}>
-                  <Text className="text-[36px] leading-[120%] tracking-[-0.54px]">
-                    {t('qa', { fallback: 'Q&A' })}
-                  </Text>
-                </Link>
-                <Link href="/crypto-insights" onClick={() => setIsOpen(false)}>
-                  <Text className="text-[36px] leading-[120%] tracking-[-0.54px]">
-                    {t('cryptoInsights', { fallback: 'Crypto Insights' })}
-                  </Text>
-                </Link>
-                <Link href="/contacts" onClick={() => setIsOpen(false)}>
-                  <Text className="text-[36px] leading-[120%] tracking-[-0.54px]">
-                    {t('contactUs', { fallback: 'Contact Us' })}
-                  </Text>
-                </Link>
-              </div>
-            </section>
-            <section className="hidden flex-col gap-10 max-md:flex">
-              <div className="flex gap-5 border-t border-t-white/15 py-2">
-                <Text
-                  size="lg"
-                  className="flex-1 text-[36px] leading-[120%] tracking-[-0.54px]"
-                >
-                  {t('signUp', { fallback: 'sign up' })}
-                </Text>
-                <Text
-                  size="lg"
-                  className="flex-1 text-[36px] leading-[120%] tracking-[-0.54px]"
-                >
-                  {t('logIn', { fallback: 'log in' })}
-                </Text>
-              </div>
-              <div className="flex flex-col gap-2">
-                <div className="flex gap-2">
-                  <NavButton>
-                    <FacebookIcon />
-                  </NavButton>
-                  <NavButton>
-                    <LinkedInIcon />
-                  </NavButton>
-                  <NavButton>
-                    <InstagramIcon />
-                  </NavButton>
-                </div>
-                <div>
-                  <NavButton>English</NavButton>
+    <>
+      <Notice />
+      <header className="sticky top-0 left-0 z-50 w-full bg-[rgba(7,13,25,0.16)] pb-2 backdrop-blur-lg max-md:pb-4">
+        <div className="container flex flex-col max-md:px-4!">
+          <div className="flex items-center justify-between py-4">
+            <Text size="lg">Logo</Text>
+            <section className="flex items-center gap-5">
+              <div className="flex items-center gap-10 max-md:hidden">
+                <NavButton>English</NavButton>
+                <div className="flex items-center gap-5 max-md:hidden">
+                  <Text size="lg">{t('signUp', { fallback: 'sign up' })}</Text>
+                  <Text size="lg">{t('logIn', { fallback: 'log in' })}</Text>
                 </div>
               </div>
+              <Button
+                size="sm"
+                variant="solid"
+                onClick={() => setIsOpen(!isOpen)}
+              >
+                {isOpen
+                  ? t('close', { fallback: 'close' })
+                  : t('menu', { fallback: 'menu' })}
+                {isOpen ? <CloseIcon /> : <ThreeLinesIcon />}
+              </Button>
             </section>
           </div>
-        </Activity>
-      </div>
-    </header>
+          <Activity mode={isOpen ? 'visible' : 'hidden'}>
+            <div className="flex flex-col gap-9">
+              <section className="flex max-md:flex-col max-md:gap-4">
+                <div className="flex w-1/2 flex-col gap-4 max-md:w-full">
+                  <Link
+                    href="/inside-coinsdot"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    <Text className="text-[36px] leading-[120%] tracking-[-0.54px]">
+                      {t('insideCoinsdot', { fallback: 'Inside Coinsdot' })}
+                    </Text>
+                  </Link>
+                  <Link
+                    href="/user-essentials"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    <Text className="text-[36px] leading-[120%] tracking-[-0.54px]">
+                      {t('userEssentials', { fallback: 'User Essentials' })}
+                    </Text>
+                  </Link>
+                  <Link href="/partnership" onClick={() => setIsOpen(false)}>
+                    <Text className="text-[36px] leading-[120%] tracking-[-0.54px]">
+                      {t('partnerships', { fallback: 'Partnerships' })}
+                    </Text>
+                  </Link>
+                </div>
+                <div className="flex w-1/2 flex-col gap-4 max-md:w-full">
+                  <Link href="/qa" onClick={() => setIsOpen(false)}>
+                    <Text className="text-[36px] leading-[120%] tracking-[-0.54px]">
+                      {t('qa', { fallback: 'Q&A' })}
+                    </Text>
+                  </Link>
+                  <Link
+                    href="/crypto-insights"
+                    onClick={() => setIsOpen(false)}
+                  >
+                    <Text className="text-[36px] leading-[120%] tracking-[-0.54px]">
+                      {t('cryptoInsights', { fallback: 'Crypto Insights' })}
+                    </Text>
+                  </Link>
+                  <Link href="/contacts" onClick={() => setIsOpen(false)}>
+                    <Text className="text-[36px] leading-[120%] tracking-[-0.54px]">
+                      {t('contactUs', { fallback: 'Contact Us' })}
+                    </Text>
+                  </Link>
+                </div>
+              </section>
+              <section className="hidden flex-col gap-10 max-md:flex">
+                <div className="flex gap-5 border-t border-t-white/15 py-2">
+                  <Text
+                    size="lg"
+                    className="flex-1 text-[36px] leading-[120%] tracking-[-0.54px]"
+                  >
+                    {t('signUp', { fallback: 'sign up' })}
+                  </Text>
+                  <Text
+                    size="lg"
+                    className="flex-1 text-[36px] leading-[120%] tracking-[-0.54px]"
+                  >
+                    {t('logIn', { fallback: 'log in' })}
+                  </Text>
+                </div>
+                <div className="flex flex-col gap-2">
+                  <div className="flex gap-2">
+                    <NavButton>
+                      <FacebookIcon />
+                    </NavButton>
+                    <NavButton>
+                      <LinkedInIcon />
+                    </NavButton>
+                    <NavButton>
+                      <InstagramIcon />
+                    </NavButton>
+                  </div>
+                  <div>
+                    <NavButton>English</NavButton>
+                  </div>
+                </div>
+              </section>
+            </div>
+          </Activity>
+        </div>
+      </header>
+    </>
   );
 };
 
