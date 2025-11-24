@@ -1,9 +1,24 @@
+import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 
 import { PolicyHero } from '@/features/policies/ui/policy-hero';
 import { PolicyRender } from '@/features/policies/ui/policy-render';
 import { PolicySectionLayout } from '@/features/policies/ui/policy-section-layout';
 import { PolicyText } from '@/features/policies/ui/policy-text';
+
+export const metadata: Metadata = {
+  title: 'Return Policy | Coinsdot',
+  openGraph: {
+    title: 'Return Policy | Coinsdot',
+  },
+  twitter: {
+    title: 'Return Policy | Coinsdot',
+  },
+  robots: {
+    index: false,
+    follow: false,
+  },
+};
 
 export default async function ReturnPolicyPage() {
   const t = await getTranslations('returnAndCancellationPolicy');

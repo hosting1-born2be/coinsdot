@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
 
@@ -10,6 +11,20 @@ import { PolicyText } from '@/features/policies/ui/policy-text';
 import { Button } from '@/shared/ui/kit/button';
 import { List } from '@/shared/ui/kit/list';
 import { Text } from '@/shared/ui/kit/text';
+
+export const metadata: Metadata = {
+  title: 'Privacy Policy | Coinsdot',
+  openGraph: {
+    title: 'Privacy Policy | Coinsdot',
+  },
+  twitter: {
+    title: 'Privacy Policy | Coinsdot',
+  },
+  robots: {
+    index: false,
+    follow: false,
+  },
+};
 
 export default async function PrivacyPolicyPage() {
   const t = await getTranslations('privacyPolicy');

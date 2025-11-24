@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 
 import { PolicyHero } from '@/features/policies/ui/policy-hero';
@@ -8,6 +9,20 @@ import { PolicyText } from '@/features/policies/ui/policy-text';
 import { Link } from '@/i18n/navigation';
 
 import { List } from '@/shared/ui/kit/list';
+
+export const metadata: Metadata = {
+  title: 'Complains Procedure | Coinsdot',
+  openGraph: {
+    title: 'Complains Procedure | Coinsdot',
+  },
+  twitter: {
+    title: 'Complains Procedure | Coinsdot',
+  },
+  robots: {
+    index: false,
+    follow: false,
+  },
+};
 
 export default async function ComplainsProcedurePage() {
   const t = await getTranslations('complaintsProcedure');

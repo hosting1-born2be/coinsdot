@@ -1,3 +1,4 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import { getTranslations } from 'next-intl/server';
 
@@ -8,6 +9,20 @@ import { PolicyText } from '@/features/policies/ui/policy-text';
 
 import { List } from '@/shared/ui/kit/list';
 import { Title } from '@/shared/ui/kit/title';
+
+export const metadata: Metadata = {
+  title: 'Cookie Policy | Coinsdot',
+  openGraph: {
+    title: 'Cookie Policy | Coinsdot',
+  },
+  twitter: {
+    title: 'Cookie Policy | Coinsdot',
+  },
+  robots: {
+    index: false,
+    follow: false,
+  },
+};
 
 export default async function CookiePolicyPage() {
   const t = await getTranslations('cookiePolicy');
