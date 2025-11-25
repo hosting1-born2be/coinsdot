@@ -10,11 +10,13 @@ export const metadata: Metadata = {
     title: 'Crypto Insights | Coinsdot',
     description:
       'Explore the latest articles on cryptocurrency, blockchain, and everyday usage of crypto. Learn, discover, and stay informed with Coinsdot.',
+    images: ['https://coinsdot.io/meta.jpg'],
   },
   twitter: {
     title: 'Crypto Insights | Coinsdot',
     description:
       'Explore the latest articles on cryptocurrency, blockchain, and everyday usage of crypto. Learn, discover, and stay informed with Coinsdot.',
+    images: ['https://coinsdot.io/meta.jpg'],
   },
 };
 

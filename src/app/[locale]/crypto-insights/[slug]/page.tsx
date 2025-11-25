@@ -19,10 +19,12 @@ export async function generateMetadata({
     openGraph: {
       title: data.title,
       description: data.description,
+      images: ['https://coinsdot.io/meta.jpg'],
     },
     twitter: {
       title: data.title,
       description: data.description,
+      images: ['https://coinsdot.io/meta.jpg'],
     },
   };
 }
