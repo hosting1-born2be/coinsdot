@@ -26,7 +26,12 @@ export const Header = () => {
   return (
     <>
       <Notice className={cn('hidden max-md:block', isOpen && 'hidden!')} />
-      <header className="fixed top-0 left-0 z-50 w-full bg-[rgba(7,13,25,0.16)] pb-2 backdrop-blur-lg max-md:sticky max-md:pb-4">
+      <header
+        className={cn(
+          'fixed top-0 left-0 z-50 w-full bg-[rgba(7,13,25,0.16)] pb-2 backdrop-blur-lg max-md:sticky max-md:pb-4',
+          isOpen && 'pb-4',
+        )}
+      >
         <Notice className="max-md:hidden" />
         <div className="container flex flex-col max-md:px-4!">
           <div className="flex items-center justify-between py-4">
@@ -91,7 +96,7 @@ export const Header = () => {
                       {t('cryptoInsights', { fallback: 'Crypto Insights' })}
                     </Text>
                   </Link>
-                  <Link href="/contacts" onClick={() => setIsOpen(false)}>
+                  <Link href="/contact-us" onClick={() => setIsOpen(false)}>
                     <Text className="text-[36px] leading-[120%] tracking-[-0.54px] max-md:text-[24px] max-md:leading-[120%] max-md:tracking-[-0.48px]">
                       {t('contactUs', { fallback: 'Contact Us' })}
                     </Text>
