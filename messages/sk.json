@@ -15,8 +15,36 @@
     "sending": "Odoslanie..."
   },
   "contacts": {
-    "description": "Máte otázky alebo problémy? Obráťte sa na nás. Sme vám k dispozícii len na jednu správu!",
-    "heading": "Vždy tu na pomoc"
+    "hero": {
+      "description": "Máte otázky alebo problémy? Obráťte sa na nás. Sme vám k dispozícii len na jednu správu!",
+      "heading": "Vždy tu na pomoc",
+      "button": "Otevriť Helpdesk"
+    },
+    "resourceHub": {
+      "title": {
+        "0": "Váš",
+        "1": "zdrojový centrum"
+      },
+      "text": {
+        "0": "Od krokov na registrácii po prehľad výmeny",
+        "1": "mnoho odpovedí už tu je"
+      },
+      "button": {
+        "0": "Vpogledi",
+        "1": "OTÁZKY A ODPOVEDE"
+      },
+      "title2": {
+        "0": "Aktualizácie, tipy a oznámenia:",
+        "1": "Pridajte sa k nám online"
+      },
+      "text2": "Sledujte nás pre aktualizácie produktu, praktické vysvetlenia a informácie o fungovaní za zábradlí."
+    },
+    "cryptoJourney": {
+      "title": {
+        "0": "Sme tu pre váš krypto cestu!",
+        "1": "Každým krokom."
+      }
+    }
   },
   "cryptoInsights": {
     "articles": {

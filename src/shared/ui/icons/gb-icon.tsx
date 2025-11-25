@@ -8,11 +8,11 @@ export const GbIcon = () => (
     viewBox="0 0 27 20"
     fill="none"
   >
-    <g clip-path="url(#clip0_291_3401)">
+    <g clipPath="url(#clip0_291_3401)">
       <rect width="27" height="20" rx="2" fill="#1A47B8" />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M2.87225 0H0V3.33333L24.1122 20L27 20V16.6667L2.87225 0Z"
         fill="white"
       />
@@ -21,8 +21,8 @@ export const GbIcon = () => (
         fill="#F93939"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M24.4287 0H27.0001V3.33333C27.0001 3.33333 10.2984 14.4374 2.57155 20H0.00012207V16.6667L24.4287 0Z"
         fill="white"
       />
@@ -31,14 +31,14 @@ export const GbIcon = () => (
         fill="#F93939"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M9.8191 0H17.2034V6.16909H27V13.8268H17.2034V20H9.8191V13.8268H0V6.16909H9.8191V0Z"
         fill="white"
       />
       <path
-        fill-rule="evenodd"
-        clip-rule="evenodd"
+        fillRule="evenodd"
+        clipRule="evenodd"
         d="M11.3684 0H15.6316V7.69231H27V12.3077H15.6316V20H11.3684V12.3077H0V7.69231H11.3684V0Z"
         fill="#F93939"
       />

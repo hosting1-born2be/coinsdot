@@ -6,6 +6,7 @@ import { useTranslations } from 'next-intl';
 
 import { Link } from '@/i18n/navigation';
 
+import { cn } from '@/shared/lib/utils/cn';
 import { CloseIcon } from '@/shared/ui/icons/close';
 import { FacebookIcon } from '@/shared/ui/icons/facebook';
 import { InstagramIcon } from '@/shared/ui/icons/instagram';
@@ -24,8 +25,9 @@ export const Header = () => {
 
   return (
     <>
-      <Notice />
-      <header className="sticky top-0 left-0 z-50 w-full bg-[rgba(7,13,25,0.16)] pb-2 backdrop-blur-lg max-md:pb-4">
+      <Notice className={cn('hidden max-md:block', isOpen && 'hidden!')} />
+      <header className="fixed top-0 left-0 z-50 w-full bg-[rgba(7,13,25,0.16)] pb-2 backdrop-blur-lg max-md:sticky max-md:pb-4">
+        <Notice className="max-md:hidden" />
         <div className="container flex flex-col max-md:px-4!">
           <div className="flex items-center justify-between py-4">
             <Text size="lg">Logo</Text>
@@ -50,14 +52,14 @@ export const Header = () => {
             </section>
           </div>
           <Activity mode={isOpen ? 'visible' : 'hidden'}>
-            <div className="flex flex-col gap-9">
-              <section className="flex max-md:flex-col max-md:gap-4">
+            <div className="flex flex-col gap-9 max-md:h-screen">
+              <section className="flex max-md:flex-col max-md:justify-between max-md:gap-4">
                 <div className="flex w-1/2 flex-col gap-4 max-md:w-full">
                   <Link
                     href="/inside-coinsdot"
                     onClick={() => setIsOpen(false)}
                   >
-                    <Text className="text-[36px] leading-[120%] tracking-[-0.54px]">
+                    <Text className="text-[36px] leading-[120%] tracking-[-0.54px] max-md:text-[24px] max-md:leading-[120%] max-md:tracking-[-0.48px]">
                       {t('insideCoinsdot', { fallback: 'Inside Coinsdot' })}
                     </Text>
                   </Link>
@@ -65,19 +67,19 @@ export const Header = () => {
                     href="/user-essentials"
                     onClick={() => setIsOpen(false)}
                   >
-                    <Text className="text-[36px] leading-[120%] tracking-[-0.54px]">
+                    <Text className="text-[36px] leading-[120%] tracking-[-0.54px] max-md:text-[24px] max-md:leading-[120%] max-md:tracking-[-0.48px]">
                       {t('userEssentials', { fallback: 'User Essentials' })}
                     </Text>
                   </Link>
                   <Link href="/partnership" onClick={() => setIsOpen(false)}>
-                    <Text className="text-[36px] leading-[120%] tracking-[-0.54px]">
+                    <Text className="text-[36px] leading-[120%] tracking-[-0.54px] max-md:text-[24px] max-md:leading-[120%] max-md:tracking-[-0.48px]">
                       {t('partnerships', { fallback: 'Partnerships' })}
                     </Text>
                   </Link>
                 </div>
                 <div className="flex w-1/2 flex-col gap-4 max-md:w-full">
                   <Link href="/qa" onClick={() => setIsOpen(false)}>
-                    <Text className="text-[36px] leading-[120%] tracking-[-0.54px]">
+                    <Text className="text-[36px] leading-[120%] tracking-[-0.54px] max-md:text-[24px] max-md:leading-[120%] max-md:tracking-[-0.48px]">
                       {t('qa', { fallback: 'Q&A' })}
                     </Text>
                   </Link>
@@ -85,12 +87,12 @@ export const Header = () => {
                     href="/crypto-insights"
                     onClick={() => setIsOpen(false)}
                   >
-                    <Text className="text-[36px] leading-[120%] tracking-[-0.54px]">
+                    <Text className="text-[36px] leading-[120%] tracking-[-0.54px] max-md:text-[24px] max-md:leading-[120%] max-md:tracking-[-0.48px]">
                       {t('cryptoInsights', { fallback: 'Crypto Insights' })}
                     </Text>
                   </Link>
                   <Link href="/contacts" onClick={() => setIsOpen(false)}>
-                    <Text className="text-[36px] leading-[120%] tracking-[-0.54px]">
+                    <Text className="text-[36px] leading-[120%] tracking-[-0.54px] max-md:text-[24px] max-md:leading-[120%] max-md:tracking-[-0.48px]">
                       {t('contactUs', { fallback: 'Contact Us' })}
                     </Text>
                   </Link>
@@ -100,13 +102,13 @@ export const Header = () => {
                 <div className="flex gap-5 border-t border-t-white/15 py-2">
                   <Text
                     size="lg"
-                    className="flex-1 text-[36px] leading-[120%] tracking-[-0.54px]"
+                    className="flex-1 text-[36px] leading-[120%] tracking-[-0.54px] max-md:text-[24px] max-md:leading-[120%] max-md:tracking-[-0.48px]"
                   >
                     {t('signUp', { fallback: 'sign up' })}
                   </Text>
                   <Text
                     size="lg"
-                    className="flex-1 text-[36px] leading-[120%] tracking-[-0.54px]"
+                    className="flex-1 text-[36px] leading-[120%] tracking-[-0.54px] max-md:text-[24px] max-md:leading-[120%] max-md:tracking-[-0.48px]"
                   >
                     {t('logIn', { fallback: 'log in' })}
                   </Text>
