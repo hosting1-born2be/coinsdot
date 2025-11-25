@@ -10,7 +10,7 @@ export const ArticleHero = ({
   title: string;
   description: string;
 }) => (
-  <section className="container mx-10 flex flex-col gap-2.5 py-[112px] pb-10">
+  <section className="container mx-10 flex flex-col gap-2.5 pt-[140px] pb-10 max-md:pt-[112px]">
     <Title className="text-[96px] leading-[96px] tracking-[-1.44px] max-md:text-[36px] max-md:leading-[120%] max-md:tracking-[-0.72px]">
       {title}
     </Title>

@@ -75,7 +75,7 @@ const Card = ({ text, children }: { text: string; children: ReactNode }) => {
 
 const LinkBtn = () => (
   <Link href="/inside-coinsdot">
-    <IconLayout>
+    <IconLayout className="hover:bg-[#060606] hover:[&>svg>path]:stroke-white">
       <PlusIcon />
     </IconLayout>
   </Link>

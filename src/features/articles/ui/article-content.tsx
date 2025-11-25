@@ -4,6 +4,8 @@ import type { ReactNode } from 'react';
 import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 
+import { Link } from '@/i18n/navigation';
+
 import { cn } from '@/shared/lib/utils/cn';
 import { Button } from '@/shared/ui/kit/button';
 
@@ -45,9 +47,11 @@ const EndButtons = () => {
       <Button size="xl" variant="primary" className="w-[205px] font-bold">
         {t('joinNow', { fallback: 'Join Now' })}
       </Button>
-      <Button size="xl" variant="faded" className="w-[225px] font-bold">
-        {t('contactUs', { fallback: 'Contact Us' })}
-      </Button>
+      <Link href="/contact-us">
+        <Button size="xl" variant="faded" className="w-[225px] font-bold">
+          {t('contactUs', { fallback: 'Contact Us' })}
+        </Button>
+      </Link>
     </div>
   );
 };
