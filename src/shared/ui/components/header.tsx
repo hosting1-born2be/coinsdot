@@ -2,6 +2,7 @@
 
 import type { ReactNode } from 'react';
 import { Activity, useState } from 'react';
+import Image from 'next/image';
 import { useTranslations } from 'next-intl';
 
 import { Link } from '@/i18n/navigation';
@@ -35,7 +36,12 @@ export const Header = () => {
         <Notice className="max-md:hidden" />
         <div className="container flex flex-col max-md:px-4!">
           <div className="flex items-center justify-between py-4">
-            <Text size="lg">Logo</Text>
+            <Image
+              src="/logo.svg"
+              alt="Coinsdot Logo"
+              width={170}
+              height={70}
+            />
             <section className="flex items-center gap-5">
               <div className="flex items-center gap-10 max-md:hidden">
                 <LangSwitcher />
