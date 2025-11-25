@@ -164,8 +164,36 @@
     }
   },
   "contacts": {
-    "heading": "Always Here to Help",
-    "description": "Have questions or issues? Reach out. We’re just a message away!"
+    "hero": {
+      "heading": "Always Here to Help",
+      "description": "Have questions or issues? Reach out. We’re just a message away!",
+      "button": "Open Helpdesk"
+    },
+    "resourceHub": {
+      "title": {
+        "0": "Your Go-To",
+        "1": "Resource Hub"
+      },
+      "text": {
+        "0": "From onboarding steps to exchange walkthroughs",
+        "1": "many answers are already here"
+      },
+      "button": {
+        "0": "Insights",
+        "1": "Q&A"
+      },
+      "title2": {
+        "0": "Updates, Tips & Announcements:",
+        "1": "Join Us Online"
+      },
+      "text2": "Follow us for product updates, practical explanations, and behind-the-scenes information."
+    },
+    "cryptoJourney": {
+      "title": {
+        "0": "We are here for your crypto journey!",
+        "1": "Every step of the way."
+      }
+    }
   },
   "insideCoinsdot": {
     "hero": {
