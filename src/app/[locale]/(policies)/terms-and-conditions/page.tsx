@@ -1822,10 +1822,10 @@ export default async function TermsAndConditionsPage() {
                 fallback: 'Send your complaint by email to:',
               })}{' '}
               <Link
-                href="mailto:complaints@coinsmax.io"
+                href="mailto:complaints@coinsdot.io"
                 className="text-warning font-semibold underline"
               >
-                complaints@coinsmax.io
+                complaints@coinsdot.io
               </Link>
               .{' '}
               {t('10.11.1', {

@@ -91,8 +91,8 @@ export default async function RiskDisclosurePage() {
               fallback:
                 'We take no responsibility for your failure to follow or act on any notices or alerts we may send you. In the event you believe your Coinsmax Profile information has been compromised, contact Coinsmax Support immediately at support@coinsmax.io.',
             })}{' '}
-            <Link href="mailto:support@coinsmax.io" className="underline">
-              support@coinsmax.io.
+            <Link href="mailto:support@coinsdot.io" className="underline">
+              support@coinsdot.io.
             </Link>
           </PolicyText>
           <PolicyText>
