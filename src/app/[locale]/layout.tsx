@@ -14,15 +14,6 @@ const manrope = Manrope({
   weight: ['200', '300', '400', '500', '600', '700', '800'],
 });
 
-export const metadata: Metadata = {
-  openGraph: {
-    images: ['https://coinsdot.io/meta.jpg'],
-  },
-  twitter: {
-    images: ['https://coinsdot.io/meta.jpg'],
-  },
-};
-
 export default function RootLayout({
   children,
 }: Readonly<{
