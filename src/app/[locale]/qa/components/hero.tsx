@@ -10,7 +10,7 @@ export const Hero = () => {
   const t = useTranslations('qa.hero');
 
   return (
-    <section className="relative container flex flex-col gap-2.5 overflow-hidden pt-[120px] pb-10 max-md:h-[350px] max-md:justify-end max-md:pt-0">
+    <section className="relative container flex flex-col gap-2.5 overflow-hidden pt-[150px] pb-10 max-md:h-[350px] max-md:justify-end max-md:pt-0">
       <div className="absolute -top-[34%] -left-[86%] h-[300%] w-[300%] max-md:top-[36%] max-md:left-[20%] max-md:h-full max-md:w-full">
         <Image
           className="object-contain"

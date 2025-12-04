@@ -10,7 +10,7 @@ export const Hero = () => {
   const t = useTranslations('partnership.hero');
 
   return (
-    <section className="relative flex h-[429px] flex-col justify-end overflow-hidden max-md:h-[650px]">
+    <section className="relative mt-20 flex h-[429px] flex-col justify-end overflow-hidden max-md:mt-0 max-md:h-[650px]">
       <div className="absolute -top-[120%] -left-[70%] h-[300%] w-[300%] max-md:-top-[140%] max-md:-left-full">
         <Image
           className="object-contain max-md:z-20"

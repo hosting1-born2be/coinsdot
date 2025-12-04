@@ -1033,7 +1033,7 @@ export default async function PrivacyPolicyPage() {
             </PolicyText>
             <PolicyText>
               <Link href="mailto:support@coinsdot.io">
-                Email: support@coinsdot.io.
+                Email: support@coinsdot.io
               </Link>
               <br />
               <Link href="tel:+421233058122">

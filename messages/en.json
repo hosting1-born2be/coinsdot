@@ -130,7 +130,7 @@
     "banner": {
       "title": "Coinsdot",
       "text": "Coinsdot: Your Gateway to Crypto and Fiat.",
-      "description": "Coinsdot is owned and operated by Company Name, identification number Registration Number, authorised to provide virtual currency service, with registered and operational address at Registered Address."
+      "description": "Coinsdot is owned and operated by Limitless Technologies s.r.o., identification number 5516545, authorised to provide virtual currency service, with registered and operational address at Černyševského 1287/10, 851 01 Bratislava – Petržalka, Slovak Republic."
     }
   },
   "contactForm": {
@@ -901,7 +901,7 @@
       "47": "If Coinsdot is unable, for any reason, to return your Funds to your External Account after a reasonable period of inactivity, Coinsdot may report and remit such Funds in accordance with applicable unclaimed property laws."
     },
     "5": {
-      "title": "5. Exchange Terms.",
+      "title": "5. Exchange Terms",
       "0": "Definition of Service.",
       "1": "By submitting an order via the Website, you authorise Coinsdot to execute an order on your behalf with the liquidity provider we use and to charge you all applicable fees.",
       "2": "If we execute an order for You, we will be required to provide the best execution. We always aim at taking all steps necessary to obtain, while executing orders of yours, the best possible result considering factors of price, costs, speed, likelihood of execution and settlement, size, nature, or any other consideration relevant to the execution of the order.",
@@ -970,7 +970,7 @@
       "22": "You acknowledge that the Company has full discretion over these decisions and is not obligated to explain or disclose the specific reasons behind the outcome of such reviews."
     },
     "7": {
-      "title": "7. Risk Disclosure Statement.",
+      "title": "7. Risk Disclosure Statement",
       "0": "You agree that you shall access and use the Service at your own risk.",
       "1": "Please note that this brief statement cannot disclose all the risks associated with the Crypto-asset market. The list outlined in these Terms is aimed to provide general information regarding the risks associated with the Services and the use of them. However, it is not intended to provide an exhaustive disclosure of all the risks associated with using the Services and there may be additional risk factors that are not disclosed in this section because they are either unknown or considered insignificant at the time of publication. Additionally, this information does not address how these risks may relate to the personal circumstances, financial status, or risk tolerance of yours. It should not be construed as a definitive evaluation of the risks associated with the Services, therefore, the decision to use our Services should not be made solely on the basis of the indicated risk factors.",
       "2": "Any operation in Crypto-assets involves a high degree of risk and the potential for significant losses. You, therefore, should carefully consider whether using the Services is suitable for you, in view of your financial resources and other circumstances.",
@@ -1047,7 +1047,7 @@
       "16": "Although a transitional period for obtaining a MICA-related license is currently in effect in Slovakia, in the interest of maximum transparency, we inform you that in certain cases the National Bank of Slovakia also provides opinions/answers on matters related to cryptocurrencies. You therefore have the right to contact the National Bank of Slovakia; however, during the transitional period, the National Bank of Slovakia, acting in accordance with applicable legislation, may determine that such a complaint does not meet its admissibility criteria. Please be informed, that Customers, who are not satisfied with the Company’s response, may report to the National Bank of Slovakia. The Complainant may submit a complaint to the National Bank of Slovakia, in Slovak or English language, by filling in the application form as specified in the website of the National Bank of Slovakia and sending it in writing or by electronic means to the National Bank of Slovakia to this address: Imricha Karvaša 1 813 25 Bratislava, Slovakia, or via email: info@nbs.sk."
     },
     "11": {
-      "title": "11. Discontinuance of Service, Suspension and Termination.",
+      "title": "11. Discontinuance of Service, Suspension and Termination",
       "1": "Coinsdot may, in its sole discretion, without liability to you, at any time and without prior notice, discontinue, temporarily or permanently, access to any Coinsdot Services, unless otherwise required by applicable law.",
       "2": "In the event of any breach of these Terms by you, the Force Majeure Event, or any other event that would make provision of the Services commercially unreasonable for the Coinsdot, the Coinsdot may, in its sole discretion and without liability to you, without prior notice, suspend your access to the Services.",
       "3": "Following such an event, the Coinsdot may terminate your access to the Services, deactivate your Coinsdot Profile and delete all related information."
