@@ -25,7 +25,7 @@ export const HowGetStarted = () => {
       <Title as="h2" className="text-center">
         {t('title', { fallback: 'How to get started' })}
       </Title>
-      <ul className="flex border-y border-y-white/50 max-md:flex-col max-md:gap-8">
+      <ul className="flex w-full border-y border-y-white/50 max-md:flex-col max-md:gap-8">
         {steps.map((step, index) => (
           <Step key={index} step={step} number={`0${++index}`} />
         ))}
@@ -42,7 +42,7 @@ export const HowGetStarted = () => {
 };
 
 const Step = ({ step, number }: { step: string; number: string }) => (
-  <li className="flex flex-col gap-4 border-r border-r-white/50 py-5 pl-8 max-md:mx-10 max-md:px-0">
+  <li className="flex flex-1 flex-col gap-4 border-r border-r-white/50 py-5 pl-8 max-md:mx-10 max-md:px-0">
     <Text
       className="text-[100px] tracking-(--letter-spacing--2,-2px)"
       weight={200}

@@ -36,12 +36,14 @@ export const Header = () => {
         <Notice className="max-md:hidden" />
         <div className="container flex flex-col max-md:px-4!">
           <div className="flex items-center justify-between py-4">
-            <Image
-              src="/logo.svg"
-              alt="Coinsdot Logo"
-              width={170}
-              height={70}
-            />
+            <Link href="/">
+              <Image
+                src="/logo.svg"
+                alt="Coinsdot Logo"
+                width={170}
+                height={70}
+              />
+            </Link>
             <section className="flex items-center gap-5">
               <div className="flex items-center gap-10 max-md:hidden">
                 <LangSwitcher />

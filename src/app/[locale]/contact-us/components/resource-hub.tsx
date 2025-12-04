@@ -62,7 +62,7 @@ export const ResourceHub = () => {
             height={700}
           />
         </section>
-        <section className="flex flex-col gap-[64px] rounded-2xl bg-[#F0F2F7] p-8 max-md:px-4 max-md:py-8">
+        {/* <section className="flex flex-col gap-[64px] rounded-2xl bg-[#F0F2F7] p-8 max-md:px-4 max-md:py-8">
           <div className="flex flex-col gap-5">
             <Title
               color="black"
@@ -92,7 +92,7 @@ export const ResourceHub = () => {
               <InstIcon />
             </SocialLayout>
           </div>
-        </section>
+        </section> */}
       </div>
     </section>
   );
